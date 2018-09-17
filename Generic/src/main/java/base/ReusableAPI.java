@@ -22,6 +22,4 @@ public class ReusableAPI {
     public void closeTest(){
         driver.close();
     }
-
-
 }
