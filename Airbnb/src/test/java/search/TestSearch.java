@@ -11,8 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestSearch extends ReusableAPI{
-
+public class TestSearch extends ReusableAPI{ //inherited from ReusableAPI
 
     @Test
     public void search (){

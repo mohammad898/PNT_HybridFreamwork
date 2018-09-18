@@ -1,4 +1,4 @@
-package base;
+package search;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class searchPage {
+public class breakdownMethod4search { //independent ; not inherited from ReusableAPI
     private WebDriver driver;
     @BeforeClass
     public void setUp() {
