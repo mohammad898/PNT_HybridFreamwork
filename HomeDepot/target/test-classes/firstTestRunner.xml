@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HomeDepot API Automation Script " parallel="false">
+    <test name = "HomeDepot Services">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="Mac"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="68.0"/>
+    <parameter name="url" value="https://www.homedepot.com"/>
+
+
+        <classes>
+        <class name ="base.firstTest" />
+        </classes>
+    </test>
+
+</suite>
