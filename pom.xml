@@ -13,6 +13,7 @@
         <module>SantanderBank</module>
         <module>Geico</module>
         <module>HomeDepot</module>
+        <module>CUNY</module>
     </modules>
     <dependencyManagement>
         <dependencies>
