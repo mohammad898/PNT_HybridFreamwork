@@ -11,10 +11,15 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestSearch extends ReusableAPI{ //inherited from ReusableAPI
+public class TestSearch extends breakdownMethod4search{ //inherited from ReusableAPI
 
-    @Test
+  /*  @Test
     public void search (){
        driver.findElement(By.id("Koan-magic-carpet-koan-search-bar__input")).sendKeys("Queens", Keys.ENTER);
+    }*/
+ @Test
+    public void  click(){
+        driver.findElement(By.xpath("/html/body/div[5]/div/div/header/div/div/div[3]/div/div/nav/ul/li[2]/div/div/button/div/div")).click();
     }
+
 }

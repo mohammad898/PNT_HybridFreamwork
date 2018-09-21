@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Geico API Automation Script " parallel="false">
-
+    <test name = "Geico Services">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Mac"/>
@@ -11,7 +11,7 @@
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>
 
-    <test name = "Geico Services">
+
         <classes>
         <class name ="base.firstTest" />
         </classes>
