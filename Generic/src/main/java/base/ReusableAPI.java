@@ -14,16 +14,15 @@ import java.util.concurrent.TimeUnit;
 public class ReusableAPI { //Remember this class is not reading from that TestRunner.xml.
 
     public static WebDriver driver = null;
-
+    @Parameters({"url"})
     @BeforeMethod
-    public void setDriver(String os,String url) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Generic\\DriversForBrowser\\chromedriver.exe");
+    public void setDriver(String url) {
+         System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Generic\\DriversForBrowser\\chromedriver.exe");
         driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-
-        driver.get("https://www.airbnb.com/");
+        //driver.get("https://www.airbnb.com/");
     }
     /*public static void setDriverForOS(String os){
         if(os.equalsIgnoreCase("Windows")){
