@@ -8,12 +8,12 @@
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="60.0"/>
+    <parameter name="browserVersion" value="69.0"/>
     <parameter name="url" value="https://www.airbnb.com"/>
 
     <test name = "Search Test">
         <classes>
-            <class name="search.TestSearch"/>
+            <class name="search.searchForPlaces"/>
             <!--<class name="menu.MenuPage"/>-->
         </classes>
     </test>
