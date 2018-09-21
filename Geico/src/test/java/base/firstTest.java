@@ -10,6 +10,7 @@ public class firstTest extends BeforeNAfterMethods{
     public void firstTest() {
         WebElement information = ((ChromeDriver) driver).findElementByCssSelector("ul.desktop-links > li:nth-child(2)>a");
         information.click();
+
      }
 
 }

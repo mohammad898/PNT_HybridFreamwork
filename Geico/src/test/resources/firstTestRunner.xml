@@ -13,7 +13,7 @@
 
 
         <classes>
-        <class name ="base.firstTest" />
+        <class name ="navigationBar.NavigationBar" />
         </classes>
     </test>
 
