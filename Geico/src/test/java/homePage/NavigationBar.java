@@ -23,7 +23,7 @@ public class NavigationBar extends BeforeNAfterMethods {
         builder.moveToElement(location).click().pause(3000);
         builder.moveToElement(login).click().pause(3000);
         builder.moveToElement(searchIcon).click().pause(3000);
-        //builder.moveToElement(geicoLogo).click().pause(3000);
+        builder.moveToElement(geicoLogo).click().pause(3000);
 
         builder.build().perform();
     }
