@@ -1,3 +1,5 @@
+package homePage;
+
 import base.CommonClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -35,6 +37,10 @@ public class NavigationBarOptionMethod extends CommonClass{
     }
     public void clickOnLocationIcon(){
         builder.moveToElement(locationIcon).pause(2000);
+        builder.perform();
+    }
+    public void clickLogin(){
+        builder.moveToElement(login).pause(2000);
         builder.perform();
     }
     public void clickOnSearchIcon(){

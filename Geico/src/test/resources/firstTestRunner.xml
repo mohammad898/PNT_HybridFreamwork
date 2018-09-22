@@ -13,9 +13,10 @@
 
         <classes>
         <class name ="homePage.NavigationBar" />
-        <class name="homePage.AutoInsurance"/>
-        <class name="homePage.AccessYourPolicy"/>
-        <class name="homePage.InformationMenu"/>
+            <class name="homePage.AutoInsurance"/>
+            <class name="homePage.AccessYourPolicy"/>
+            <class name="homePage.InformationMenu"/>
+
         </classes>
     </test>
 

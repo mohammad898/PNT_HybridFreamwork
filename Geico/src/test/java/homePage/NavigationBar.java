@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class NavigationBar {
+public class NavigationBar extends NavigationBarOptionMethod{
 
     /*public void testNavigationBar() {
 
@@ -29,6 +29,29 @@ public class NavigationBar {
 
         builder.build().perform();
     }*/
-
+   @Test
+    public void clickInsurance(){
+       clickOnInsurance();
+   }
+    @Test
+    public void clickInformation(){
+        clickOnInformation();
+    }
+    @Test
+    public void clickLocation(){
+        clickOnLocationIcon();
+    }
+    @Test
+    public void clickLogin(){
+        clickLogin();
+    }
+    @Test
+    public void clickSearchIcon(){
+        clickOnSearchIcon();
+    }
+    @Test
+    public void clickOnGeicoLogo(){
+       clickOnGeicoLogo();
+    }
 
 }
