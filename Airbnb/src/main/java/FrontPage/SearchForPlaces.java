@@ -1,26 +1,21 @@
 package FrontPage;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import util.breakdownMethodToSetUp;
+import Elements.FrontPage;
+import org.openqa.selenium.*;
 
-public class SearchForPlaces extends breakdownMethodToSetUp {  //
-
-    @FindBy(id = "Koan-magic-carpet-koan-search-bar__input")
-    public static WebElement inputID;
-    @FindBy(xpath = "//*[@id=\"Koan-via-Page0__input\"]")
-    public static WebElement inputXpath;
+public class SearchForPlaces extends FrontPage {
 
     public void inputPlaces (){
-        //WebElement e = searchID;
         try{
-            driver.findElement(By.xpath("//*[@id=\"Koan-via-Page0__input\"]")).sendKeys("Queens", Keys.ENTER);}
+            inputXpath.sendKeys("Queens", Keys.ENTER);}
         catch(NoSuchElementException ex){
-            driver.findElement(By.id("Koan-magic-carpet-koan-search-bar__input")).sendKeys("Queens", Keys.ENTER);
+            inputID.sendKeys("Queens", Keys.ENTER);
         }
+    }
+
+    public void searchClick(){
+        searchClick.click();
+
     }
 
 }

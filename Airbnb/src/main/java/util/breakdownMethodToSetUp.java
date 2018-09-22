@@ -6,7 +6,7 @@ import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 
-public class breakdownMethodToSetUp { //independent ; not inherited from ReusableAPI
+public class breakdownMethodToSetUp {
     public static WebDriver driver;
 
     @BeforeClass

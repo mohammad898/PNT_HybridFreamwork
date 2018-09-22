@@ -3,6 +3,8 @@
 
 <suite name="Airbnb API Automation Script" parallel="false">
 
+    <test name = "Search Test">
+
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
@@ -11,9 +13,8 @@
     <parameter name="browserVersion" value="69.0"/>
     <parameter name="url" value="https://www.airbnb.com"/>
 
-    <test name = "Search Test">
         <classes>
-            <class name="search.searchForPlaces"/>
+            <class name="search.searchForPlacesTest"/>
             <!--<class name="menu.MenuPage"/>-->
         </classes>
     </test>
