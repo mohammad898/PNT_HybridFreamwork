@@ -21,18 +21,12 @@ public class NavigationBar extends BeforeNAfterMethods {
         WebElement searchIcon = driver.findElement(By.cssSelector("#header-right-links > ul > li:nth-child(3) > a > span"));
 
         Actions builder = new Actions(driver);
-        builder.moveByOffset(information.getLocation().getX()+1, information.getLocation().getY()+1).click();
-        builder.pause(3000);
-        builder.moveToElement(insurance).click();
-        builder.pause(3000);
-        builder.moveToElement(location).click();
-        builder.pause(3000);
-        builder.moveToElement(login).click();
-        builder.pause(3000);
-        builder.moveToElement(searchIcon).click();
-        builder.pause(3000);
-        builder.moveToElement(geicoLogo).click();
-        builder.pause(3000);
+        builder.moveByOffset(information.getLocation().getX()+1, information.getLocation().getY()+1).click().pause(3000);
+        builder.moveToElement(insurance).click().pause(3000);
+        builder.moveToElement(location).click().pause(3000);
+        builder.moveToElement(login).click().pause(3000);
+        builder.moveToElement(searchIcon).click().pause(3000);
+        builder.moveToElement(geicoLogo).click().pause(3000);
 
         builder.build().perform();
     }
