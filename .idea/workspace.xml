@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/navigationBar/InformationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/navigationBar/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/navigationBar/Information.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/navigationBar/NavigationBar.class" beforeDir="false" />
-    </list>
+    <list default="true" id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -106,7 +97,7 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
@@ -200,12 +191,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -341,9 +330,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="990" />
+    <option name="x" value="635" />
     <option name="y" value="23" />
-    <option name="width" value="450" />
+    <option name="width" value="805" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -423,7 +412,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537588490705" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537589677917" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -455,7 +444,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml">
+  <component name="RunManager" selected="TestNG.AccessYourPolicy.DropDownTest">
+    <configuration name="AccessYourPolicy.DropDownTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.AccessYourPolicy" />
+      <option name="METHOD_NAME" value="DropDownTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Airbnb" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
@@ -492,24 +499,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchForPlaces.click" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Airbnb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.searchForPlaces" />
-      <option name="METHOD_NAME" value="click" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="searchForPlaces.search" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Airbnb" />
       <extension name="coverage">
@@ -531,17 +520,17 @@
     <list>
       <item itemvalue="TestNG.C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
       <item itemvalue="TestNG.searchForPlaces" />
-      <item itemvalue="TestNG.searchForPlaces.click" />
       <item itemvalue="TestNG.searchForPlaces.search" />
       <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
+      <item itemvalue="TestNG.AccessYourPolicy.DropDownTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AccessYourPolicy.DropDownTest" />
         <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
         <item itemvalue="TestNG.searchForPlaces" />
         <item itemvalue="TestNG.searchForPlaces.search" />
-        <item itemvalue="TestNG.searchForPlaces.click" />
       </list>
     </recent_temporary>
   </component>
@@ -573,14 +562,11 @@
       <workItem from="1537495174617" duration="57000" />
       <workItem from="1537509998143" duration="672000" />
       <workItem from="1537585035074" duration="505000" />
-      <workItem from="1537586875200" duration="1613000" />
+      <workItem from="1537586875200" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Information_clickOnInformation - 2018.09.19 at 12h 56m 45s.xml">
-      <configuration name="Information.clickOnInformation" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="test_testy - 2018.09.20 at 19h 55m 15s.xml">
       <configuration name="test.testy" configurationId="TestNG" />
     </history-entry>
@@ -723,14 +709,18 @@
     <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 54m 46s.xml">
       <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 55m 38s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13726000" />
+    <option name="totallyTimeSpent" value="13840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="990" y="23" width="450" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.51960784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -740,12 +730,12 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.5401274" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32611465" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.30843374" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48407644" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -757,7 +747,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.29411766" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.08583691" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
     <layout-to-restore>
@@ -1043,12 +1033,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
           </folding>
         </state>
       </provider>
