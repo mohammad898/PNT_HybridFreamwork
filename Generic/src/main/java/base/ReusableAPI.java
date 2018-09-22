@@ -24,15 +24,28 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
 
          driver.get("https://www.airbnb.com/");
      }*/
+<<<<<<< HEAD
    @Parameters({"os", "url"})
    @BeforeMethod
     public void setDriver(String os, String url) {
         setDriverForOS(os);
+=======
+    @Parameters({"url"})
+   @BeforeMethod
+    public void setDriver(String url) {
+         System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Generic\\DriversForBrowser\\chromedriver.exe");
+        driver = new ChromeDriver();
+
+>>>>>>> 2639d7e66cdfd64498ee6176fcae1d2f2d926b45
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.get(url);
     }
+<<<<<<< HEAD
     public static void setDriverForOS(String os){
+=======
+    /*public static void setDriverForOS(String os){
+>>>>>>> 2639d7e66cdfd64498ee6176fcae1d2f2d926b45
         if(os.equalsIgnoreCase("Windows")){
           System.setProperty("webdriver.chrome.driver", "..\\Generic\\DriversForBrowser\\chromedriver.exe");
           driver = new ChromeDriver();
@@ -55,5 +68,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         WebElement e = driver.findElement(By.linkText("Who we are"));
         Actions ac = new Actions(driver);
         ac.moveToElement(e).build().perform();
+
     }
+    */
 }

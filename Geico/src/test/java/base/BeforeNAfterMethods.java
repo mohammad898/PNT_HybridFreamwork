@@ -7,6 +7,8 @@ import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
+import static java.lang.Thread.sleep;
+
 public class BeforeNAfterMethods {
     public static WebDriver driver = null;
     @BeforeTest
@@ -16,8 +18,8 @@ public class BeforeNAfterMethods {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
     }
-    /*@AfterMethod
-    public void close(){
+    @AfterMethod
+    public void end(){
         driver.close();
-    }*/
+    }
 }

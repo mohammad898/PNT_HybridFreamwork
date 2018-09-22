@@ -11,9 +11,11 @@
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>
 
-
         <classes>
-        <class name ="navigationBar.NavigationBar" />
+        <class name ="homePage.NavigationBar" />
+        <class name="homePage.AutoInsurance"/>
+        <class name="homePage.AccessYourPolicy"/>
+        <class name="homePage.InformationMenu"/>
         </classes>
     </test>
 
