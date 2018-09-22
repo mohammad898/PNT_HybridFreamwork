@@ -296,11 +296,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="y" value="21" />
-    <option name="width" value="728" />
-    <option name="height" value="879" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="531" />
+    <option name="y" value="23" />
+    <option name="width" value="909" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -463,8 +463,6 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537558597130" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.IdeaIC2018.2/system/temp-testng-customsuite.xml" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537510670819" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -497,10 +495,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.searchForPlaces">
+  <component name="RunManager" selected="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml">
     <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Airbnb" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -560,22 +568,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.hoverover" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.test.hoverover" />
       <item itemvalue="TestNG.C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
       <item itemvalue="TestNG.searchForPlaces" />
       <item itemvalue="TestNG.searchForPlaces.click" />
       <item itemvalue="TestNG.searchForPlaces.search" />
+      <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
         <item itemvalue="TestNG.searchForPlaces" />
         <item itemvalue="TestNG.C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
         <item itemvalue="TestNG.searchForPlaces.search" />
