@@ -13,8 +13,9 @@
 
 
         <classes>
-        <class name ="navigationBar.NavigationBar" />
-            <class name="navigationBar.InformationMenu"/>
+        <class name ="homePage.NavigationBar" />
+        <class name="homePage.AutoInsurance"/>
+        <class name="homePage.InformationMenu"/>
         </classes>
     </test>
 

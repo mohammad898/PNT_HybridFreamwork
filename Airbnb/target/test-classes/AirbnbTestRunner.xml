@@ -13,7 +13,7 @@
 
     <test name = "Search Test">
         <classes>
-            <class name="search.TestSearch"/>
+            <class name="search.searchForPlaces"/>
             <!--<class name="menu.MenuPage"/>-->
         </classes>
     </test>

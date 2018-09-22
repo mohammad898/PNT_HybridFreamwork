@@ -1,4 +1,4 @@
-package navigationBar;
+package homePage;
 
 import base.BeforeNAfterMethods;
 import org.openqa.selenium.By;

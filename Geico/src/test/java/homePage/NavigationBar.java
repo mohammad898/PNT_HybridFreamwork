@@ -1,14 +1,11 @@
-package navigationBar;
+package homePage;
 
 import base.BeforeNAfterMethods;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 public class NavigationBar extends BeforeNAfterMethods {
     @Test
@@ -26,7 +23,7 @@ public class NavigationBar extends BeforeNAfterMethods {
         builder.moveToElement(location).click().pause(3000);
         builder.moveToElement(login).click().pause(3000);
         builder.moveToElement(searchIcon).click().pause(3000);
-        builder.moveToElement(geicoLogo).click().pause(3000);
+        //builder.moveToElement(geicoLogo).click().pause(3000);
 
         builder.build().perform();
     }
