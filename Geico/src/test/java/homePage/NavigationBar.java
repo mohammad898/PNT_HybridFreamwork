@@ -1,15 +1,16 @@
 package homePage;
 
 import base.BeforeNAfterMethods;
+import base.CommonClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class NavigationBar extends BeforeNAfterMethods {
-    @Test
-    public void testNavigationBar() {
+public class NavigationBar {
+
+    /*public void testNavigationBar() {
 
         WebElement information = ((ChromeDriver) driver).findElementByCssSelector("ul.desktop-links > li:nth-child(2)>a");
         WebElement insurance = driver.findElement(By.cssSelector("#header-left-links > ul> li > a"));
@@ -27,5 +28,7 @@ public class NavigationBar extends BeforeNAfterMethods {
         builder.moveToElement(geicoLogo).click().pause(3000);
 
         builder.build().perform();
-    }
+    }*/
+
+
 }
