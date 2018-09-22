@@ -10,7 +10,6 @@
         <module name="Geico" />
         <module name="Generic" />
         <module name="HomeDepot" />
-        <module name="SantanderBank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

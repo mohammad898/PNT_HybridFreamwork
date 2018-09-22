@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 public class NavigationBar extends BeforeNAfterMethods {
     @Test
     public void testNavigationBar() {
+
         WebElement information = ((ChromeDriver) driver).findElementByCssSelector("ul.desktop-links > li:nth-child(2)>a");
         WebElement insurance = driver.findElement(By.cssSelector("#header-left-links > ul> li > a"));
         WebElement geicoLogo = driver.findElement(By.cssSelector("#header-middle-links > a"));
