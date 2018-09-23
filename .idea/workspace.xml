@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/AccessYourPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/AccessYourPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InformationMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InformationMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,20 +88,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1705" />
+          <entry key="java" value="1742" />
           <entry key="xml" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1705" />
+          <entry key="JAVA" value="1742" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
@@ -173,8 +163,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="233">
+              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="345">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#730#731#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
@@ -316,9 +310,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="292" />
     <option name="y" value="23" />
-    <option name="width" value="1375" />
+    <option name="width" value="1148" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -449,7 +443,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537673654442" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537674122232" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -483,10 +477,16 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.InformationMenu.clickOnInformationMenu">
-    <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Airbnb" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="InformationMenu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.InformationMenu" />
       <properties />
       <listeners />
       <method v="2">
@@ -555,19 +555,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
       <item itemvalue="TestNG.searchForPlacesTest" />
       <item itemvalue="TestNG.searchForPlacesTest.inputPlaces" />
       <item itemvalue="TestNG.searchForPlacesTest.inputPlacesTest" />
       <item itemvalue="TestNG.InformationMenu.clickOnInformationMenu" />
+      <item itemvalue="TestNG.InformationMenu" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.InformationMenu.clickOnInformationMenu" />
+        <item itemvalue="TestNG.InformationMenu" />
         <item itemvalue="TestNG.searchForPlacesTest.inputPlacesTest" />
         <item itemvalue="TestNG.searchForPlacesTest.inputPlaces" />
         <item itemvalue="TestNG.searchForPlacesTest" />
-        <item itemvalue="TestNG.C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -607,35 +607,11 @@
       <workItem from="1537657320243" duration="214000" />
       <workItem from="1537667209279" duration="3000" />
       <workItem from="1537670487771" duration="1543000" />
-      <workItem from="1537672536988" duration="988000" />
+      <workItem from="1537672536988" duration="1602000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 02h 13m 22s.xml">
-      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 02h 15m 32s.xml">
-      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlaces - 2018.09.21 at 21h 06m 45s.xml">
-      <configuration name="searchForPlacesTest.inputPlaces" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlaces - 2018.09.21 at 21h 08m 26s.xml">
-      <configuration name="searchForPlacesTest.inputPlaces" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 21h 10m 54s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 21h 11m 24s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 21h 12m 31s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 21h 13m 07s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 21h 31m 31s.xml">
       <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
     </history-entry>
@@ -819,15 +795,39 @@
     <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 27m 47s.xml">
       <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 32m 26s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 34m 14s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 37m 19s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu - 2018.09.22 at 23h 38m 20s.xml">
+      <configuration name="InformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu - 2018.09.22 at 23h 38m 54s.xml">
+      <configuration name="InformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 39m 29s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu - 2018.09.22 at 23h 40m 23s.xml">
+      <configuration name="InformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 42m 02s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20936000" />
+    <option name="totallyTimeSpent" value="21550000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="559" y="23" width="881" height="877" extended-state="0" />
+    <frame x="292" y="23" width="1148" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10488677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14556962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -837,12 +837,12 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.5401274" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.39617833" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.025477707" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.04968153" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -854,7 +854,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.06436234" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.048824593" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
     <layout-to-restore>
@@ -1131,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="345">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
@@ -1142,8 +1142,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="233">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -39,24 +39,13 @@ public class InformationMenu extends CommonClass {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//a[@href='/account/'])[1]")));
         List<WebElement> ele = driver.findElements(By.xpath("//a[@href='/account/']"));
        //WebElement myAccount = driver.findElement(By.xpath("(//a[@href='/account/'])[1]"));
-        WebElement myAccount= ele.get(0);
-        myAccount.click();
+        WebElement myAccount= ele.get(1);
+        builder.moveToElement(myAccount).click().perform();
+
         /*WebElement claims = driver.findElement(By.xpath("(//a[@href = '/claims/'])[1]"));
-        claims.click();*/
+        claims.click();
 
-           /*examining the xpath for a search
-    box*/
-
-        // driver.manage().wait(20);
-
-
-
-
-
-
-
-
-        /*WebDriverWait wait = new WebDriverWait(driver,10);
+         WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("iframe-applicationname_ModalDialog_0"));
         WebElement myAccount = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"primary-navigation\"]/div[3]/ul/li[1]/a/span[2]")));
 
