@@ -1,8 +1,16 @@
 package homePage;
 
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class InsuranceProductTest extends InsuranceProducts{
+    InsuranceProducts insuranceProducts;
+    @BeforeMethod
+    public void init(){
+        insuranceProducts = PageFactory.initElements(driver, InsuranceProducts.class);
+    }
+
     @Test
     public void testHomeOwnerInsuranceIconClick(){
         clickOnHomeOwnersInsuranceIcon();
