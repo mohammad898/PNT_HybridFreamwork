@@ -1,13 +1,11 @@
 package homePage;
 
+
 import base.CommonClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class NavigationBarOptionMethod extends CommonClass{
+public class NavigationBarOptionMethod extends CommonClass {
     @FindBy(css = "ul.desktop-links > li:nth-child(2)>a")
     public static WebElement information;
     @FindBy(css = "#header-left-links > ul> li > a")
@@ -21,31 +19,23 @@ public class NavigationBarOptionMethod extends CommonClass{
     @FindBy(css = "#header-right-links > ul > li:nth-child(3) > a > span")
     public static WebElement searchIcon;
 
-    public static Actions builder = new Actions(driver);
-
     public void clickOnInsurance(){
-        builder.moveToElement(insurance).pause(2000);
-        builder.perform();
+        insurance.click();
     }
     public void clickOnInformation(){
-        builder.moveToElement(information).pause(2000);
-        builder.perform();
+        information.click();
     }
     public void clickOnGeicoLogo(){
-        builder.moveToElement(geicoLogo).pause(2000);
-        builder.perform();
+        geicoLogo.click();
     }
     public void clickOnLocationIcon(){
-        builder.moveToElement(locationIcon).pause(2000);
-        builder.perform();
+        locationIcon.click();
     }
     public void clickLogin(){
-        builder.moveToElement(login).pause(2000);
-        builder.perform();
+        locationIcon.click();
     }
     public void clickOnSearchIcon(){
-        builder.moveToElement(searchIcon).pause(2000);
-        builder.perform();
+        searchIcon.click();
     }
 
 

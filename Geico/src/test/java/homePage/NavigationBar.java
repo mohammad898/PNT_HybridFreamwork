@@ -35,22 +35,26 @@ public class NavigationBar extends NavigationBarOptionMethod{
    }
     @Test
     public void clickInformation(){
-        clickOnInformation();
+
+       clickOnInformation();
     }
     @Test
-    public void clickLocation(){
+    public void clickLocation() {
         clickOnLocationIcon();
     }
     @Test
     public void clickLogin(){
-        clickLogin();
+
+       clickLogin();
     }
     @Test
     public void clickSearchIcon(){
-        clickOnSearchIcon();
+
+       clickOnSearchIcon();
     }
     @Test
     public void clickOnGeicoLogo(){
+
        clickOnGeicoLogo();
     }
 

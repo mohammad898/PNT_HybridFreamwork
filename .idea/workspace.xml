@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/NavigationBarOptionMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/NavigationBarOptionMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,43 +79,44 @@
         <counts>
           <entry key="AirbnbTestRunner" value="4" />
           <entry key="class" value="10" />
-          <entry key="java" value="31" />
-          <entry key="xml" value="11" />
+          <entry key="java" value="44" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="44" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1742" />
+          <entry key="java" value="2811" />
           <entry key="xml" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1742" />
+          <entry key="JAVA" value="2811" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="10" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -160,33 +167,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="420">
+              <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
               <folding>
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2514#2515#0" expanded="true" />
+                <element signature="e#2548#2549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="90">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="e#730#731#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
@@ -196,13 +237,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="720">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -223,9 +301,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java" />
-        <option value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Airbnb/src/test/java/Enquiry/Locations.java" />
         <option value="$PROJECT_DIR$/Airbnb/src/main/java/EnquiryMain/Condition_ranges.java" />
         <option value="$PROJECT_DIR$/Airbnb/src/main/java/Enquiry2/SearchResponse.java" />
         <option value="$PROJECT_DIR$/Airbnb/src/main/java/airbnbModels/User.java" />
@@ -261,7 +336,6 @@
         <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
         <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java" />
-        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/NavigationOption.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
@@ -272,8 +346,12 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java" />
       </list>
     </option>
   </component>
@@ -309,11 +387,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="23" />
-    <option name="width" value="1148" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -321,8 +397,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,6 +410,17 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Geico" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -387,63 +475,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537674122232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537688663401" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -476,23 +519,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InformationMenu.clickOnInformationMenu">
-    <configuration name="InformationMenu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homePage" />
-      <option name="MAIN_CLASS_NAME" value="homePage.InformationMenu" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.InsuranceProductTest.testHomeOwnerInsuranceIconClick">
     <configuration name="InformationMenu.clickOnInformationMenu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
       <extension name="coverage">
@@ -511,24 +538,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchForPlacesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="searchForPlacesTest.inputPlaces" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Airbnb" />
+    <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="homePage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.searchForPlaces" />
-      <option name="METHOD_NAME" value="inputPlaces" />
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
+      <option name="METHOD_NAME" value="testHomeOwnerInsuranceIconClick" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -536,17 +556,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchForPlacesTest.inputPlacesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Airbnb" />
+    <configuration name="NavigationBar" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="homePage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.searchForPlacesTest" />
-      <option name="METHOD_NAME" value="inputPlacesTest" />
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.NavigationBar" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationBar.clickInsurance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.NavigationBar" />
+      <option name="METHOD_NAME" value="clickInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationBar.clickSearchIcon" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.NavigationBar" />
+      <option name="METHOD_NAME" value="clickSearchIcon" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -555,19 +609,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.searchForPlacesTest" />
-      <item itemvalue="TestNG.searchForPlacesTest.inputPlaces" />
-      <item itemvalue="TestNG.searchForPlacesTest.inputPlacesTest" />
       <item itemvalue="TestNG.InformationMenu.clickOnInformationMenu" />
-      <item itemvalue="TestNG.InformationMenu" />
+      <item itemvalue="TestNG.NavigationBar" />
+      <item itemvalue="TestNG.NavigationBar.clickInsurance" />
+      <item itemvalue="TestNG.NavigationBar.clickSearchIcon" />
+      <item itemvalue="TestNG.InsuranceProductTest.testHomeOwnerInsuranceIconClick" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.InsuranceProductTest.testHomeOwnerInsuranceIconClick" />
+        <item itemvalue="TestNG.NavigationBar.clickSearchIcon" />
+        <item itemvalue="TestNG.NavigationBar.clickInsurance" />
+        <item itemvalue="TestNG.NavigationBar" />
         <item itemvalue="TestNG.InformationMenu.clickOnInformationMenu" />
-        <item itemvalue="TestNG.InformationMenu" />
-        <item itemvalue="TestNG.searchForPlacesTest.inputPlacesTest" />
-        <item itemvalue="TestNG.searchForPlacesTest.inputPlaces" />
-        <item itemvalue="TestNG.searchForPlacesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -608,25 +662,12 @@
       <workItem from="1537667209279" duration="3000" />
       <workItem from="1537670487771" duration="1543000" />
       <workItem from="1537672536988" duration="1602000" />
+      <workItem from="1537685371950" duration="1788000" />
+      <workItem from="1537687188837" duration="1312000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 21h 31m 31s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 22h 16m 27s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.21 at 22h 17m 32s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.22 at 00h 55m 23s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.22 at 00h 57m 13s.xml">
-      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.22 at 01h 36m 53s.xml">
       <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
     </history-entry>
@@ -819,15 +860,30 @@
     <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 42m 02s.xml">
       <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="NavigationBar - 2018.09.23 at 02h 51m 05s.xml">
+      <configuration name="NavigationBar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar - 2018.09.23 at 02h 55m 08s.xml">
+      <configuration name="NavigationBar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar_clickInsurance - 2018.09.23 at 02h 56m 42s.xml">
+      <configuration name="NavigationBar.clickInsurance" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar_clickSearchIcon - 2018.09.23 at 02h 57m 14s.xml">
+      <configuration name="NavigationBar.clickSearchIcon" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.23 at 03h 34m 47s.xml">
+      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21550000" />
+    <option name="totallyTimeSpent" value="24650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="23" width="1148" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14556962" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -837,12 +893,12 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.5401274" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.025477707" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.1879518" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.0669145" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -854,7 +910,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.048824593" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.03862661" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
     <layout-to-restore>
@@ -912,31 +968,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IdeaIC2018.2/system/temp-testng-customsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/breakdownMethod4search.java" />
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/TestSearch.java" />
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Enquiry/Statistics.java" />
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Enquiry/Common.java" />
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Enquiry/Locations.java" />
     <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/EnquiryMain/PriceInformation.java" />
@@ -1003,20 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1025,13 +1042,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java" />
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/main/java/NavigationOption.java" />
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1040,31 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/base/firstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AccessYourPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1095,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1122,17 +1104,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AccessYourPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="90">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
@@ -1140,13 +1216,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java">
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="420">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
           <folding>
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,8 +22,9 @@ public class CommonClass {
     public void fullScreen(){
         driver.manage().window().fullscreen();
     }
-    /*@AfterMethod
-    public void end(){
+    @AfterMethod
+    public void end() throws InterruptedException {
+        Thread.sleep(2000);
         driver.close();
-    }*/
+    }
 }
