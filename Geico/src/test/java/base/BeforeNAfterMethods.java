@@ -18,8 +18,8 @@ public class BeforeNAfterMethods {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
     }
-    @AfterMethod
+    /*@AfterMethod
     public void end(){
         driver.close();
-    }
+    }*/
 }
