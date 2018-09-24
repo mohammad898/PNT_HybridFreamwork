@@ -37,6 +37,4 @@ public class NavigationBarOptionMethod extends CommonClass {
     public void clickOnSearchIcon(){
         searchIcon.click();
     }
-
-
 }
