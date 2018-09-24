@@ -1,11 +1,11 @@
 package home;
 
-import ApiCollection.CollectionApi;
+import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class AboutTextOptionPage extends CollectionApi {
+public class AboutTextOptionPage extends ReusableAPI {
     //find elements for Who We Are hover option
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/a/span")
     public static WebElement WhoWeAre;

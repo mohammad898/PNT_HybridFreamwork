@@ -1,11 +1,11 @@
 package home;
 
-import ApiCollection.CollectionApi;
+import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class PersonalTextOptionPage extends CollectionApi {
+public class PersonalTextOptionPage extends ReusableAPI {
 
     // define elements for Banking hover option
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[1]/ul/li[1]/a/span")

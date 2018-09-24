@@ -32,8 +32,6 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         setDriverForOS(os);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.get(url);
     }
     public static void setDriverForOS(String os){
@@ -47,14 +45,14 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         }
     }
 
-    @BeforeMethod
+ /*   @BeforeMethod
     public void fullScr() {
         driver.manage().window().fullscreen();
-    }
+    }*/
 
     @AfterMethod
     public void closeTest(){
-        driver.close();
+        driver.quit();
     }
 
     //ExtentReport

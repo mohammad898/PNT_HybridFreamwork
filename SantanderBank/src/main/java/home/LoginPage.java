@@ -1,12 +1,11 @@
 package home;
 
-import ApiCollection.CollectionApi;
-import org.openqa.selenium.By;
+import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-public class LoginPage extends CollectionApi {
+public class LoginPage extends ReusableAPI {
     //find elements for login page
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/div/div/p/button")
     public static WebElement Close;
