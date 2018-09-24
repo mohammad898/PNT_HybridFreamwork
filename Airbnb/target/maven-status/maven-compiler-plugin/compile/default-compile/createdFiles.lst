@@ -1,0 +1,8 @@
+Elements\FrontPageElements.class
+FrontPage\SearchForPlaces.class
+util\breakdownMethodToSetUp.class
+FrontPage\BecomeAHost.class
+FrontPage\Booking.class
+DatabaseConnection\House.class
+DatabaseConnection\User.class
+DatabaseConnection\DBConnection.class
