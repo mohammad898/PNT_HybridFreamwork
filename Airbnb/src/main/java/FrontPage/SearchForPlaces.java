@@ -1,8 +1,8 @@
 package FrontPage;
 
-import Elements.FrontPage;
+import Elements.FrontPageElements;
 
-public class SearchForPlaces extends FrontPage {
+public class SearchForPlaces extends FrontPageElements {
 
     public void searchClick(){
         searchClick.click();

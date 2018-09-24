@@ -6,7 +6,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class FrontPage extends ReusableAPI {
+public class FrontPageElements extends ReusableAPI {
 
     @FindBy(id = "checkin_input")
     public static WebElement checkingDate;

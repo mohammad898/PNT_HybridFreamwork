@@ -1,8 +1,8 @@
 package FrontPage;
 
-import Elements.FrontPage;
+import Elements.FrontPageElements;
 
-public class BecomeAHost extends FrontPage {
+public class BecomeAHost extends FrontPageElements {
 
     public void clickHost(){
         becomeAHost.click();
