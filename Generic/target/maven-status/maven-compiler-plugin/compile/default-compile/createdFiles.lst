@@ -1,1 +1,6 @@
+base\GoogleSheetTReader.class
+reporting\TestLogger.class
+reporting\ExtentManager.class
 base\ReusableAPI.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class

@@ -1,12 +1,12 @@
 package Elements;
 
+import base.ReusableAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import util.breakdownMethodToSetUp;
 
-public class FrontPage extends breakdownMethodToSetUp {
+public class FrontPage extends ReusableAPI {
 
     @FindBy(id = "checkin_input")
     public static WebElement checkingDate;

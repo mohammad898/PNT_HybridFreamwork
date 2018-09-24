@@ -15,22 +15,12 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
 
     public static WebDriver driver = null;
 
-    /* public void setDriver(String os,String url) {
-         System.setProperty("webdriver.chrome.driver", "C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Generic\\DriversForBrowser\\chromedriver.exe");
-         driver = new ChromeDriver();
-
-         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-
-         driver.get("https://www.airbnb.com/");
-     }*/
    @Parameters({"os", "url"})
    @BeforeMethod
     public void setDriver(String os, String url) {
         setDriverForOS(os);
-
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         driver.get(url);
     }
     public static void setDriverForOS(String os){
