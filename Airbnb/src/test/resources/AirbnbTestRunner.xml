@@ -14,7 +14,7 @@
     <test name = "Search Test">
         <classes>
             <class name="search.searchForPlacesTest"/>
-            <!--<class name="menu.MenuPage"/>-->
+            <class name="Bookings.BookingTest"/>
         </classes>
     </test>
 

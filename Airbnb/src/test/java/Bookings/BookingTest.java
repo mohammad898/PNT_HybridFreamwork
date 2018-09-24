@@ -16,7 +16,7 @@ public class BookingTest extends Booking {
     }
 
     @Test
-    public void bookingAHous(){
+    public void bookingAHous() throws InterruptedException {
         inputPlaces();
         selectCheckingDate();
         selectChekoutDate();

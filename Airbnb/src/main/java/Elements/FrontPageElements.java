@@ -5,13 +5,15 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import util.breakdownMethodToSetUp;
 
 public class FrontPageElements extends ReusableAPI {
 
+
+    @FindBy(className = "_17u98ky")
+    public static WebElement dateButton;
     @FindBy(id = "checkin_input")
-    public static WebElement checkingDate;
-    @FindBy(name = "checkout")
+    public static WebElement checkinDate;
+    @FindBy(id = "checkout_input")
     public static WebElement checkoutDate;
     @FindBy(className = "_cgr7tc7")
     public static WebElement searchClick;

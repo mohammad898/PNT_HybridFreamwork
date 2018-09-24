@@ -59,7 +59,6 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
-        ExtentManager.setOutputDirectory(context);
         extent = ExtentManager.getInstance();
     }
     @BeforeMethod
