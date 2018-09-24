@@ -72,7 +72,7 @@ public class HomePage extends CollectionApi {
     public void Corporate_Textoption(){Corporate_Textoption.click();}
     public void About_Textoption(){About_Textoption.click();}
     public void ATM_BranchLocation(){ATM_BranchLocation.click();}
-    public void Search_input(){Search_input.click();Search_input.sendKeys("debit card");Search_button.click();}
+    public void Shttps://github.com/Jahidul2543/PageObjectModelFrameworkearch_input(){Search_input.click();Search_input.sendKeys("debit card");Search_button.click();}
     public void Login(){Login.click();}
     public void ULT_cash_back_creditcard_grouplink(){ULT_cash_back_creditcard_grouplink.click();}
     public void STU_VALUE_CHEK(){STU_VALUE_CHEK.click();}
