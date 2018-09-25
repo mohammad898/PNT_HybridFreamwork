@@ -10,6 +10,7 @@ public class ExtentTestManager {
     static Map<Integer, ExtentTest> extentTestMap = new HashMap<Integer, ExtentTest>();
     private static ExtentReports extent = ExtentManager.getInstance();
     private static ExtentReports extentUpdate = ExtentManager.getInstance();
+
     public static synchronized ExtentTest getTest() {
         return extentTestMap.get((int) (long) (Thread.currentThread().getId()));
     }

@@ -24,17 +24,17 @@ import java.util.concurrent.TimeUnit;
 
 public class ReusableAPI { //Remember this class is not reading from that TestRunner.xml.
 
-    public static WebDriver driver = null;
+    public WebDriver driver = null;
 
    @Parameters({"os", "url"})
    @BeforeMethod
     public void setDriver(String os, String url) {
         setDriverForOS(os);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         driver.get(url);
     }
-    public static void setDriverForOS(String os){
+    public void setDriverForOS(String os){
         if(os.equalsIgnoreCase("Windows")){
           System.setProperty("webdriver.chrome.driver", "..\\Generic\\DriversForBrowser\\chromedriver.exe");
           driver = new ChromeDriver();
@@ -50,10 +50,10 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         driver.manage().window().fullscreen();
     }*/
 
-    @AfterMethod
+  /*  @AfterMethod(alwaysRun = true)
     public void closeTest(){
         driver.quit();
-    }
+    }*/
 
     //ExtentReport
     public static ExtentReports extent;
@@ -85,6 +85,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
 
         if (result.getStatus() == 1) {
             ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+//            System.out.println();
         } else if (result.getStatus() == 2) {
             ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
         } else if (result.getStatus() == 3) {
