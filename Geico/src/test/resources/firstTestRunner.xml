@@ -14,7 +14,7 @@
         <classes>
             <class name="homePage.AccessYourPolicy"/>
             <class name="homePage.AutoInsurance"/>
-            <class name="homePage.InformationAndInsuranceHoverTest"/>
+            <class name="DataDrivenTests.InformationAndInsuranceHoverTest"/>
             <class name="homePage.InformationMenu"/>
             <class name="homePage.InsuranceProductTest"/>
             <class name ="homePage.NavigationBar" />

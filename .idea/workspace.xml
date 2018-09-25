@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/homePage/InformationAndInsuranceHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationAndInsuranceHoverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/InformationAndInsuranceHover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/AccessYourPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/AccessYourPolicy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InformationAndInsuranceHoverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/Airbnb/target/" />
+    <ignored path="$PROJECT_DIR$/SantanderBank/target/" />
+    <ignored path="$PROJECT_DIR$/Geico/target/" />
+    <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
+    <ignored path="$PROJECT_DIR$/CUNY/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1082762428">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="AirbnbTestRunner" value="50" />
+          <entry key="dummy" value="42" />
+          <entry key="java" value="3466" />
+          <entry key="xml" value="124" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3466" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="XML" value="174" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="AirbnbTestRunner" value="6" />
+          <entry key="class" value="5" />
+          <entry key="java" value="45" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="17" />
+          <entry key="xsl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="45" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+    <session id="98477560">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="AirbnbTestRunner" value="4" />
+          <entry key="class" value="10" />
+          <entry key="java" value="51" />
+          <entry key="xml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="51" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="3359" />
+          <entry key="xml" value="139" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3359" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="139" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="10" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="29" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1969813969">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11" />
+          <entry key="xml" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11" />
+          <entry key="XML" value="39" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1349505766">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              <folding>
+                <element signature="e#1693#1694#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AccessYourPolicy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/Xls_Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/House.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/util/breakdownMethodToSetUp.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingAHouse.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPage.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
+        <option value="$USER_HOME$/.IdeaIC2018.2/system/temp-testng-customsuite.xml" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/breakdownMethod4search.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/util/breakdownMethod4search.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/util/breakdownMethodToSetUp.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/TestSearch.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/TestSearch.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/base/firstTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/base/firstTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/navigationBar/NavigationBar.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/navigationBar/Information.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/navigationBar/InformationMenu.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/NavigationOption.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/InformationAndInsuranceHover.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Airbnb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Airbnb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="637" />
+    <option name="y" value="23" />
+    <option name="width" value="803" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataDrivenClass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataDrivenTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537899769051" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\main\java" />
+      <recent name="C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\main\java\Enquiry2" />
+      <recent name="C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\main\java\EnquiryMain" />
+      <recent name="C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\test\java\Enquiry" />
+      <recent name="$PROJECT_DIR$/Generic/DriversForBrowser" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.InformationAndInsuranceHoverTest.testMenuItems">
+    <configuration name="InformationAndInsuranceHoverTest.testMenuItems" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDrivenTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataDrivenTests" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenTests.InformationAndInsuranceHoverTest" />
+      <option name="METHOD_NAME" value="testMenuItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDrivenTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
+      <option name="METHOD_NAME" value="testHomeOwnerInsuranceIconClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationBar" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDrivenTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.NavigationBar" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationBar.clickInsurance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDrivenTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.NavigationBar" />
+      <option name="METHOD_NAME" value="clickInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationBar.clickSearchIcon" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDrivenTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homePage" />
+      <option name="MAIN_CLASS_NAME" value="homePage.NavigationBar" />
+      <option name="METHOD_NAME" value="clickSearchIcon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.NavigationBar" />
+      <item itemvalue="TestNG.NavigationBar.clickInsurance" />
+      <item itemvalue="TestNG.NavigationBar.clickSearchIcon" />
+      <item itemvalue="TestNG.InsuranceProductTest.testHomeOwnerInsuranceIconClick" />
+      <item itemvalue="TestNG.InformationAndInsuranceHoverTest.testMenuItems" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.InformationAndInsuranceHoverTest.testMenuItems" />
+        <item itemvalue="TestNG.InsuranceProductTest.testHomeOwnerInsuranceIconClick" />
+        <item itemvalue="TestNG.NavigationBar.clickSearchIcon" />
+        <item itemvalue="TestNG.NavigationBar.clickInsurance" />
+        <item itemvalue="TestNG.NavigationBar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="" />
+      <created>1537140928602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537140928602</updated>
+      <workItem from="1537311360018" duration="230000" />
+      <workItem from="1537311594203" duration="209000" />
+      <workItem from="1537313181032" duration="3000" />
+      <workItem from="1537313509586" duration="43000" />
+      <workItem from="1537315081146" duration="19000" />
+      <workItem from="1537372151032" duration="965000" />
+      <workItem from="1537373256300" duration="1735000" />
+      <workItem from="1537375080523" duration="172000" />
+      <workItem from="1537375331991" duration="828000" />
+      <workItem from="1537376228407" duration="15000" />
+      <workItem from="1537401229463" duration="45000" />
+      <workItem from="1537423427513" duration="473000" />
+      <workItem from="1537463335647" duration="158000" />
+      <workItem from="1537488942405" duration="94000" />
+      <workItem from="1537490581355" duration="207000" />
+      <workItem from="1537495174617" duration="57000" />
+      <workItem from="1537509998143" duration="672000" />
+      <workItem from="1537585035074" duration="505000" />
+      <workItem from="1537586875200" duration="1727000" />
+      <workItem from="1537626694014" duration="95000" />
+      <workItem from="1537626941811" duration="196000" />
+      <workItem from="1537654099790" duration="1757000" />
+      <workItem from="1537655927368" duration="915000" />
+      <workItem from="1537657320243" duration="214000" />
+      <workItem from="1537667209279" duration="3000" />
+      <workItem from="1537670487771" duration="1543000" />
+      <workItem from="1537672536988" duration="1602000" />
+      <workItem from="1537685371950" duration="1788000" />
+      <workItem from="1537687188837" duration="1618000" />
+      <workItem from="1537727400952" duration="766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.22 at 11h 04m 18s.xml">
+      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="searchForPlacesTest_inputPlacesTest - 2018.09.22 at 11h 18m 00s.xml">
+      <configuration name="searchForPlacesTest.inputPlacesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 04m 49s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.21 at 23h 31m 50s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 35m 08s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 39m 44s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 43m 02s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 45m 18s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 47m 53s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 49m 47s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 51m 48s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 54m 46s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.21 at 23h 55m 38s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 17h 57m 06s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 17h 58m 40s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 01m 16s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 06m 16s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 06m 48s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 07m 12s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 07m 40s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 08m 41s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 10m 41s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 10m 57s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 25m 35s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 26m 31s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 27m 28s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 29m 04s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 36m 01s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 36m 48s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 37m 40s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 41m 14s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 43m 38s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 44m 21s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 51m 21s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 18h 52m 16s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 22h 44m 14s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 22h 47m 31s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 22h 54m 45s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 02m 52s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 17m 54s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 19m 50s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 19m 52s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 21m 21s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 21m 48s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 22m 58s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 24m 02s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 25m 49s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 27m 08s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 27m 47s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 32m 26s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 34m 14s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 37m 19s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu - 2018.09.22 at 23h 38m 20s.xml">
+      <configuration name="InformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu - 2018.09.22 at 23h 38m 54s.xml">
+      <configuration name="InformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 39m 29s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu - 2018.09.22 at 23h 40m 23s.xml">
+      <configuration name="InformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationMenu_clickOnInformationMenu - 2018.09.22 at 23h 42m 02s.xml">
+      <configuration name="InformationMenu.clickOnInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar - 2018.09.23 at 02h 51m 05s.xml">
+      <configuration name="NavigationBar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar - 2018.09.23 at 02h 55m 08s.xml">
+      <configuration name="NavigationBar" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar_clickInsurance - 2018.09.23 at 02h 56m 42s.xml">
+      <configuration name="NavigationBar.clickInsurance" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationBar_clickSearchIcon - 2018.09.23 at 02h 57m 14s.xml">
+      <configuration name="NavigationBar.clickSearchIcon" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.23 at 03h 34m 47s.xml">
+      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.23 at 14h 42m 16s.xml">
+      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_HoverInformationMenu - 2018.09.25 at 13h 53m 24s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.HoverInformationMenu" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.25 at 14h 04m 18s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.25 at 14h 06m 36s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.25 at 14h 12m 35s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.25 at 14h 13m 21s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.25 at 14h 17m 26s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27320000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5401274" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.8060241" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.09681529" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.025751073" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30736545" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31082803" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.12600537" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Enquiry2/StatisticsController.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Enquiry2/BookingResponse.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Enquiry2/SearchResponse.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Enquiry2/App.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/EnquiryMain/BookingsInformation.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/EnquiryMain/Calendar_months.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/EnquiryMain/Condition_ranges.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/EnquiryMain/Conditions.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Enquiry/Bookings.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="453" selection-start-line="453" selection-end-line="453" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java" />
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/NavigationOption.java" />
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/base/firstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/util/breakdownMethodToSetUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPage.java" />
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java" />
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AccessYourPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" />
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="1297" column="10" selection-start-line="1297" selection-start-column="10" selection-end-line="1297" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Geico</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
