@@ -30,7 +30,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
    @BeforeMethod
     public void setDriver(String os, String url) {
         setDriverForOS(os);
-       // driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
         driver.get(url);
     }

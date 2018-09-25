@@ -1,13 +1,17 @@
 package Elements;
 
-import base.ReusableAPI;
+import PageObject.PageObject;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class FrontPageElements extends ReusableAPI {
+public class FrontPageElements extends PageObject {
 
+    public FrontPageElements(WebDriver driver) {
+        super(driver);
+    }
 
     @FindBy(className = "_17u98ky")
     public static WebElement dateButton;
@@ -15,7 +19,7 @@ public class FrontPageElements extends ReusableAPI {
     public static WebElement checkinDate;
     @FindBy(id = "checkout_input")
     public static WebElement checkoutDate;
-    @FindBy(className = "_cgr7tc7")
+    @FindBy(xpath = "//*[@id=\"lp-search-button\"]/div/button/span")
     public static WebElement searchClick;
     @FindBy(id = "Koan-magic-carpet-koan-search-bar__input")
     public static WebElement inputID;
@@ -25,13 +29,8 @@ public class FrontPageElements extends ReusableAPI {
     public static WebElement becomeAHost;
     @FindBy(className = "_1nhodd4u")
     public static WebElement hostingAHome;
+    @FindBy(className = "_1nil34o")
+    public static WebElement guestButton;
 
-    public void inputPlaces (){
-        try{
-            inputXpath.sendKeys("Queens", Keys.ENTER);}
-        catch(NoSuchElementException ex){
-            inputID.sendKeys("Queens", Keys.ENTER);
-        }
-    }
 
 }

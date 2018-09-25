@@ -2,17 +2,22 @@ package BecomeAHost;
 
 import Elements.FrontPageElements;
 import FrontPage.BecomeAHost;
-import org.openqa.selenium.support.PageFactory;
+import base.ReusableAPI;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BecomeAHostTest extends BecomeAHost {
+public class BecomeAHostTest extends ReusableAPI {
 
     FrontPageElements frontPageElements;
+    BecomeAHost becomeAHost;
 
+    @BeforeMethod
+    public void init(){
+    frontPageElements = new FrontPageElements(driver);
+    becomeAHost = new BecomeAHost(driver);}
     @Test
     public void HostingHouse(){
-        frontPageElements = PageFactory.initElements(driver, FrontPageElements.class);
-        clickHost();
-        hostingHouse();
+        becomeAHost.clickHost();
+        becomeAHost.hostingHouse();
     }
 }

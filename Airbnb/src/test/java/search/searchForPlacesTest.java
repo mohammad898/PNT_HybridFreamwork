@@ -1,23 +1,23 @@
 package search;
 
-import Elements.FrontPageElements;
 import FrontPage.SearchForPlaces;
-import org.openqa.selenium.support.PageFactory;
+import base.ReusableAPI;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class searchForPlacesTest extends SearchForPlaces {
+public class searchForPlacesTest extends ReusableAPI {
 
-    FrontPageElements frontPageElements;
+    SearchForPlaces searchForPlaces;
 
     @BeforeMethod
     public void init(){
-        frontPageElements = PageFactory.initElements(driver, FrontPageElements.class);
+        searchForPlaces = new SearchForPlaces(driver);
     }
 
     @Test
     public void inputPlacesTest () {
-        inputPlaces();
+        searchForPlaces.inputPlaces();
+        //searchForPlaces.searchClick();
     }
 
 }
