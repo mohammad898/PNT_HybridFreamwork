@@ -7,11 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Airbnb" />
-        <module name="CUNY" />
         <module name="Geico" />
         <module name="Generic" />
         <module name="HomeDepot" />
-        <module name="SantanderBank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
