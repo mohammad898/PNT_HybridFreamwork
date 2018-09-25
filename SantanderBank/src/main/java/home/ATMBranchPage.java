@@ -1,10 +1,14 @@
 package home;
 
+<<<<<<< HEAD
 import base.CollectionApi;
+=======
+import base.ReusableAPI;
+>>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ATMBranchPage extends CollectionApi {
+public class ATMBranchPage extends ReusableAPI {
     //find elements for ATM/Branch location
     @FindBy(xpath = "//*[@id=\"q\"]")
     public static WebElement TextInput;

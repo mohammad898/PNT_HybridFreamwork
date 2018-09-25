@@ -1,11 +1,15 @@
 package home;
 
+<<<<<<< HEAD
 import base.CollectionApi;
+=======
+import base.ReusableAPI;
+>>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class CorporateTextOptionPage extends CollectionApi {
+public class CorporateTextOptionPage extends ReusableAPI {
     //find elements for Corporate Business hover option
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[3]/ul/li[1]/a/span")
     public static WebElement CorporateBusiness;

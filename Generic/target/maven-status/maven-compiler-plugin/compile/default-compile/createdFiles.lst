@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 base/CollectionApi.class
+=======
+reporting\ExtentManager.class
+base\Xls_Reader.class
+reporting\ExtentTestManager.class
+base\GoogleSheetTReader.class
+reporting\TestLogger.class
+base\CommonClass.class
+base\XlsDataReaderUtil.class
+base\ReusableAPI.class
+>>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a

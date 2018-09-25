@@ -1,13 +1,17 @@
 package home;
 
+<<<<<<< HEAD
 import base.CollectionApi;
+=======
+import base.ReusableAPI;
+>>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
 
 
-public class HomePage extends CollectionApi {
+public class HomePage extends ReusableAPI {
     //HomePage Elements
     @FindBy(xpath = "//*[@id=\"_P001_Header_WAR_P001_Headerportlet__VIEW\"]/div/div/div[1]/p/a/img")
     public static WebElement Header_Taeget;
@@ -69,7 +73,7 @@ public class HomePage extends CollectionApi {
     public void Corporate_Textoption(){Corporate_Textoption.click();}
     public void About_Textoption(){About_Textoption.click();}
     public void ATM_BranchLocation(){ATM_BranchLocation.click();}
-    public void Search_input(){Search_input.click();Search_input.sendKeys("debit card");Search_button.click();}
+    //public void https://github.com/Jahidul2543/PageObjectModelFrameworkearch_input(){Search_input.click();Search_input.sendKeys("debit card");Search_button.click();}
     public void Login(){Login.click();}
     public void ULT_cash_back_creditcard_grouplink(){ULT_cash_back_creditcard_grouplink.click();}
     public void STU_VALUE_CHEK(){STU_VALUE_CHEK.click();}

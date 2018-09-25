@@ -1,2 +1,13 @@
+<<<<<<< HEAD
 /Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/CollectionApi.java
 /Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/ReusableAPI.java
+=======
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\reporting\ExtentManager.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\base\ReusableAPI.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\base\XlsDataReaderUtil.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\base\Xls_Reader.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\reporting\ExtentTestManager.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\base\CommonClass.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\reporting\TestLogger.java
+C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Generic\src\main\java\base\GoogleSheetTReader.java
+>>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a
