@@ -1,8 +1,11 @@
 package FrontPage;
 
 import Elements.FrontPageElements;
+import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 public class Booking extends FrontPageElements {
 
@@ -21,12 +24,20 @@ public class Booking extends FrontPageElements {
 
     public void selectChekoutDate(){
         if (checkinDate != null){
-        checkinDate.sendKeys("09/29/2018");
-        checkoutDate.sendKeys("10/02/2018");
+        checkinDate.click();
+        if (driver.findElements(By.tagName("<td")).contains("Choose")){
+            Actions action = new Actions(driver);
+            action.moveToElement(AcheckinDate).click().perform();
+        } else
+        checkoutDate.sendKeys("09/30/2018");
     }
         else{
-            checkoutDate.sendKeys("10/02/2018");}
+            checkoutDate.sendKeys("09/30/2018");}
     }
 
-    public void selectGuest(){}
+    public void selectGuest(){
+        guestButton.click();
+        increaseGuest.click();
+        applyButton.click();
+    }
 }

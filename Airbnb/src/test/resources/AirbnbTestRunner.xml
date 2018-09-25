@@ -14,7 +14,7 @@
         <parameter name="url" value="https://www.airbnb.com"/>
 
         <classes>
-            <class name="search.searchForPlacesTest"/>
+           <!-- <class name="search.searchForPlacesTest"/>-->
             <class name="Bookings.BookingTest"/>
         </classes>
     </test>

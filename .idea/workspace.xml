@@ -2,26 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4949a956-cdbc-42d5-9913-5036e9c1d4a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/PageObject/PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/Elements/FrontPageElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/Elements/FrontPageElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/BecomeAHost.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/BecomeAHost.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/BecomeAHost/BecomeAHostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/BecomeAHost/BecomeAHostTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/Bookings/BookingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/Bookings/BookingTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/search/searchForPlacesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/search/searchForPlacesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Geico/target/" />
@@ -38,13 +32,15 @@
     <session id="1082762428">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="class" value="1" />
+          <entry key="java" value="16" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="16" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -57,12 +53,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="468" />
+          <entry key="java" value="880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="468" />
+          <entry key="JAVA" value="880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -73,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="199">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
@@ -87,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+            <state relative-caret-position="204">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="181">
+              <caret line="19" selection-start-line="19" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
@@ -111,10 +107,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1520">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="316">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -125,10 +145,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+        <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="420">
+              <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,22 +157,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <state relative-caret-position="182">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -176,12 +184,13 @@
         <option value="$PROJECT_DIR$/Airbnb/src/main/java/PageObject/PageObject.java" />
         <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java" />
         <option value="$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java" />
-        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java" />
-        <option value="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
-        <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java" />
-        <option value="$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java" />
         <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java" />
       </list>
     </option>
   </component>
@@ -210,6 +219,64 @@
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +285,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537850652713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537895761986" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -284,34 +351,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 15m 54s.xml">
-      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 17m 17s.xml">
-      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 18m 48s.xml">
-      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 20m 02s.xml">
-      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 30m 24s.xml">
-      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 33m 36s.xml">
-      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 37m 13s.xml">
       <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 38m 42s.xml">
       <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 42m 30s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 00h 44m 30s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 12h 38m 40s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 12h 46m 57s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 12h 48m 31s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 12h 55m 08s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 13h 13m 47s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_mdnas_eclipse-workspace_GroupBlueFrameWork_Airbnb_src_test_resources_AirbnbTestRunner_xml - 2018.09.25 at 13h 16m 18s.xml">
+      <configuration name="C:/Users/mdnas/eclipse-workspace/GroupBlueFrameWork/Airbnb/src/test/resources/AirbnbTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16085792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -323,12 +395,12 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.53966004" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.5410765" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5410765" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26770538" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26770538" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -578,16 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="84" lean-forward="true" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/practice/geico.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -624,9 +686,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0-sources.jar!/org/openqa/selenium/support/ui/FluentWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="253" column="24" selection-start-line="253" selection-start-column="24" selection-end-line="253" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="-1520">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -634,22 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        <state relative-caret-position="199">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
@@ -660,30 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="204">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -692,8 +773,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="182">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
