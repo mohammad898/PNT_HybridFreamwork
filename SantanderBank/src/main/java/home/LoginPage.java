@@ -1,10 +1,8 @@
 package home;
 
-import ApiCollection.CollectionApi;
-import org.openqa.selenium.By;
+import base.CollectionApi;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 public class LoginPage extends CollectionApi {
     //find elements for login page
@@ -31,41 +29,45 @@ public class LoginPage extends CollectionApi {
     @FindBy(xpath = "//*[@id=\"yes\"]")
     public static WebElement Yes;
     //online Service Drop Down elements
-    @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_aditional_accounts")
+    @FindBy(xpath = "//*[@id=\"formSelect\"]/fieldset/div/div[1]")
     public static WebElement InputBox;
     @FindBy(xpath = "//*[@id=\"formSelect\"]/fieldset/div/div[1]/div/div/div")
     public static WebElement selectbox;
     @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_btnAlternativeUrl")
     public static WebElement ok;
+
     //Define methods for above elements
-    public void InvalidUsernameInput(){
+    public void InvalidUsernameInput() {
         LoginPage.click();
         UserInput.sendKeys("setu ");
         LoginButton.click();
     }
-    public void ValidUserInput(){
+
+    public void ValidUserInput() {
         LoginPage.click();
         UserInput.sendKeys("setubank01");
         LoginButton.click();
         PasswordInput.sendKeys("astonmartin1");
         LoginButton2.click();
     }
-    public void Enrollnow(){
+
+    public void Enrollnow() {
         LoginPage.click();
         FirstTimeUser.click();
     }
-    public void ForgetId(){
+
+    public void ForgetId() {
         LoginPage.click();
         ForgetId.click();
         Cancel.click();
         Yes.click();
 
     }
-    public void CheckDropDown(){
-        LoginPage.click();
-        Select select=new Select(InputBox);
-        select.selectByValue("Business Online Banking");
-        ok.click();
-    }
+
+
+
 
 }
+
+
+
