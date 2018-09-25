@@ -68,7 +68,6 @@
                 <version>3.14.0</version>
             </dependency>
 
-<<<<<<< HEAD
 
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -138,10 +137,16 @@
             <artifactId>openxml4j</artifactId>
             <version>1.0-beta</version>
         </dependency>
-    </dependencies>
-=======
+            <dependency>
+                <groupId>com.relevantcodes</groupId>
+                <artifactId>extentreports</artifactId>
+                <version>2.41.1</version>
+            </dependency>
+
+
         </dependencies>
->>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a
+
+
     </dependencyManagement>
 
     <build>

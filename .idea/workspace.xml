@@ -2,78 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86e86b1a-b377-45da-b086-944c19f10634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Airbnb/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/data/frameworktest.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/DatabaseConnection/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/Elements/FrontPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/BecomeAHost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/main/java/PageObject/PageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/test/java/Bookings/BookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/test/java/practice/geico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/Elements/FrontPageElements.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/BecomeAHost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/classes/PageObject/PageObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/BecomeAHost/BecomeAHostTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/Bookings/BookingTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/practice/bestbuy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/practice/geico.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/search/searchForPlacesTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CUNY/CUNY.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/data/DataFile2.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/InformationAndInsuranceHover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationAndInsuranceHoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/InformationAndInsuranceHover.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/InsuranceProducts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/NavigationBarOptionMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InformationAndInsuranceHoverTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InsuranceProductTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/SearchTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetTReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/XlsDataReaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/Xls_Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/base/GoogleSheetTReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/SantanderBank_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/SantanderBank_1_0_SNAPSHOT1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/SantanderBank_1_0_SNAPSHOT2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/src/main/java/util/breakdownMethodToSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/main/java/util/breakdownMethodToSetUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/Airbnb-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/Airbnb-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/util/breakdownMethodToSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/util/breakdownMethodToSetUp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-archiver/pom.properties" afterDir="false" />
@@ -81,35 +17,21 @@
       <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/search/searchForPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/search/searchForPlaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/practice/bestbuy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/practice/bestbuy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/search/searchForPlaces.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/InformationAndInsuranceHover.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/InformationAndInsuranceHover.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/AutoInsurance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InformationMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/base/BeforeNAfterMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/base/firstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeDepot/target/test-classes/firstTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/SantanderBank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/SantanderBank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/SantanderBank.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" afterDir="false" />
@@ -117,7 +39,15 @@
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/ATMBranchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/ATMBranchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/AboutTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/AboutTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/BusinessTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/BusinessTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/CorporateTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/CorporateTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/DragDrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/DragDrop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/PersonalTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/PersonalTextOptionPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -259,36 +189,36 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="95" />
-          <entry key="xml" value="26" />
+          <entry key="java" value="105" />
+          <entry key="xml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="95" />
-          <entry key="XML" value="26" />
+          <entry key="JAVA" value="105" />
+          <entry key="XML" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="296" />
-          <entry key="xml" value="55" />
+          <entry key="xml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="296" />
-          <entry key="XML" value="55" />
+          <entry key="XML" value="57" />
         </counts>
       </usages-collector>
     </session>
@@ -296,19 +226,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="139" column="21" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1796">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/DragDrop.java">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -332,8 +346,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/resources/firstTestRunner.xml" />
-        <option value="$PROJECT_DIR$/HomeDepot/src/test/java/base/BeforeNAfterMethods.java" />
         <option value="$PROJECT_DIR$/Airbnb/pom.xml" />
         <option value="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner" />
         <option value="$PROJECT_DIR$/Airbnb/src/test/java/test.java" />
@@ -358,31 +370,33 @@
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/PageSearch_optional_attempt.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/PersonalTextOptionPageTest.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/DrapDropTest.java" />
         <option value="$PROJECT_DIR$/SantanderBank/pom.xml" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CollectionApi.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/CorporateTextOptionPageTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/DragDrop.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -408,17 +422,7 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -436,9 +440,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="41" />
+    <option name="y" value="121" />
     <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
@@ -448,8 +452,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -497,6 +501,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -510,7 +523,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537851430098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537852556007" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -830,10 +843,10 @@
     <option name="totallyTimeSpent" value="13840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="23" width="1440" height="815" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -848,7 +861,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29045644" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29045644" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -860,7 +873,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.2732475" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.2732475" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
@@ -875,13 +888,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/base/Preconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="567" selection-start-line="567" selection-end-line="567" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/Hashing.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -948,20 +954,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InformationMenu.java" />
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/AutoInsurance.java" />
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -997,13 +991,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlaces.java" />
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/base/BeforeNAfterMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1013,13 +1001,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/SantanderBank.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/PageSearch_optional_attempt.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1032,13 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="66" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1056,16 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1076,13 +1040,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1107,13 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1134,31 +1084,10 @@
     <entry file="file://$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/CorporateTextOptionPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1176,10 +1105,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/DragDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CollectionApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#819#820#0" expanded="true" />
@@ -1188,30 +1130,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="194">
+          <caret line="139" column="12" selection-start-line="139" selection-start-column="12" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1796">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/practice/bestbuy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="139" column="21" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/DragDrop.java">
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1270,7 +1274,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Geico</last-edited>
+          <last-edited>SantanderBank</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

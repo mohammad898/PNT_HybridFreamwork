@@ -1,13 +1,2 @@
-<<<<<<< HEAD
 FrontPage/SearchForPlaces.class
 util/breakdownMethodToSetUp.class
-=======
-Elements\FrontPageElements.class
-FrontPage\SearchForPlaces.class
-util\breakdownMethodToSetUp.class
-FrontPage\BecomeAHost.class
-FrontPage\Booking.class
-DatabaseConnection\House.class
-DatabaseConnection\User.class
-DatabaseConnection\DBConnection.class
->>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a

@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-/Users/URMI/Desktop/GroupBlueFrameWork/Airbnb/src/test/java/search/searchForPlaces.java
-=======
-C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\test\java\search\searchForPlacesTest.java
-C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\test\java\BecomeAHost\BecomeAHostTest.java
-C:\Users\mdnas\eclipse-workspace\GroupBlueFrameWork\Airbnb\src\test\java\Bookings\BookingTest.java
->>>>>>> 9a08152c9d10b2db27537fbdb6b834ef6e515e1a
+/Users/URMI/Desktop/GroupBlueFrameWork/Airbnb/src/test/java/practice/bestbuy.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Airbnb/src/test/java/practice/geico.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Airbnb/src/test/java/BecomeAHost/BecomeAHostTest.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Airbnb/src/test/java/search/searchForPlacesTest.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Airbnb/src/test/java/Bookings/BookingTest.java

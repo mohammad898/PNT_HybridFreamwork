@@ -1,15 +1,11 @@
 package practice;
 
 import base.ReusableAPI;
-import com.microsoft.schemas.office.visio.x2012.main.impl.SectionTypeImpl;
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import reporting.ExtentTestManager;
-
-import java.util.NoSuchElementException;
-import java.util.Set;
 
 public class bestbuy extends ReusableAPI {
 
