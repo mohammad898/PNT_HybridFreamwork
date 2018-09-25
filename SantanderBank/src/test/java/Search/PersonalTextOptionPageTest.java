@@ -1,14 +1,13 @@
 package Search;
 
 import home.PersonalTextOptionPage;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class PersonalTextOptionPageTest extends PersonalTextOptionPage {
     @BeforeMethod
-            public void initelement() {
+        public void initelement() {
         PersonalTextOptionPage personalTextOptionPage = PageFactory.initElements(driver,PersonalTextOptionPage.class);
     }
     //Personal Page Elements
