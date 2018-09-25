@@ -12,5 +12,6 @@ public class DragDrop extends CollectionApi {
 public void drag(){
     Select select=new Select(driver.findElement(By.xpath("//*[@id=\"field_input_select_state\"]")));
     select.selectByVisibleText("Massachusetts");
+    //next step
 }
 }
