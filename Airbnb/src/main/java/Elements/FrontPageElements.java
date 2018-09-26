@@ -1,8 +1,6 @@
 package Elements;
 
 import PageObject.PageObject;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,6 +35,5 @@ public class FrontPageElements extends PageObject {
     public static WebElement hostingAHome;
     @FindBy(className = "_1nil34o")
     public static WebElement guestButton;
-
 
 }
