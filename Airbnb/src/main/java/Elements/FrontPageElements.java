@@ -15,8 +15,14 @@ public class FrontPageElements extends PageObject {
 
     @FindBy(className = "_17u98ky")
     public static WebElement dateButton;
+    @FindBy(className = "_qz4lhy5")
+    public static WebElement increaseGuest;
+    @FindBy(className = "_n5wk6ic")
+    public static WebElement applyButton;
     @FindBy(id = "checkin_input")
     public static WebElement checkinDate;
+    @FindBy(className = "_16zigr23")
+    public static WebElement AcheckinDate;
     @FindBy(id = "checkout_input")
     public static WebElement checkoutDate;
     @FindBy(xpath = "//*[@id=\"lp-search-button\"]/div/button/span")

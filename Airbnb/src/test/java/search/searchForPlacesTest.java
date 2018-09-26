@@ -17,7 +17,7 @@ public class searchForPlacesTest extends ReusableAPI {
     @Test
     public void inputPlacesTest () {
         searchForPlaces.inputPlaces();
-        //searchForPlaces.searchClick();
+        searchForPlaces.searchClick();
     }
 
 }

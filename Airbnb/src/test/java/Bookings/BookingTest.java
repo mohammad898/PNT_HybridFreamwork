@@ -26,4 +26,12 @@ public class BookingTest extends ReusableAPI {
         booking.selectChekoutDate();
         searchForPlaces.searchClick();
     }
+
+    @Test
+    public void addingGuest() throws InterruptedException {
+        searchForPlaces.inputPlaces();
+        booking.selectCheckingDate();
+        booking.selectChekoutDate();
+        booking.selectGuest();
+    }
 }

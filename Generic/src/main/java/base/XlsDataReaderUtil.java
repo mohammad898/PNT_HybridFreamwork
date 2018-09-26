@@ -13,7 +13,7 @@ public class XlsDataReaderUtil {
     ArrayList<Object[]> myData = new ArrayList<Object[]>();
     try {
 
-        reader = new Xls_Reader("C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Airbnb\\data\\frameworktest.xlsx");
+        reader = new Xls_Reader("C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Airbnb\\data\\frameworktest.xls");
     }
     catch (Exception e){
         e.printStackTrace();
@@ -34,7 +34,7 @@ public class XlsDataReaderUtil {
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
 
-            reader = new Xls_Reader("/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/data/DataFile2.xls");
+            reader = new Xls_Reader("C:\\Users\\mdnas\\eclipse-workspace\\GroupBlueFrameWork\\Airbnb\\data\\frameworktest.xls");
         }
         catch (Exception e){
             e.printStackTrace();
