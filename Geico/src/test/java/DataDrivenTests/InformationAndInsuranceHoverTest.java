@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import DataDrivenClass.ConnectToMongoDB;
 
+import java.net.MalformedURLException;
 import java.util.List;
 
 public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHover {
@@ -18,7 +19,8 @@ public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHov
         object = PageFactory.initElements(driver, InformationAndInsuranceHover.class);
     }
     @Test
-    public void testMenuItems(){
+    public void testMenuItems() throws MalformedURLException {
+        //setUpBrowserStack();
         List<String> spanText = ConnectToMongoDB.readFromMongoDB();
         List<WebElement> element = retInfoMenu();
         for(int index=0; index<element.size();index++) {

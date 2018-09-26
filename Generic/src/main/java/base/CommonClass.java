@@ -4,6 +4,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
@@ -11,6 +13,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import java.io.File;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -33,7 +37,8 @@ public class CommonClass {
     @FindBy(css = "#header-right-links > ul > li:nth-child(3) > a > span")
     public static WebElement searchIcon;
     @BeforeTest
-    public void setup(){
+    public void setup() throws MalformedURLException {
+        //setUpBrowserStack();
         System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
         driver = new ChromeDriver();
         builder = new Actions(driver);
@@ -66,5 +71,13 @@ public class CommonClass {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
         }
 
+    }
+    public void setUpBrowserStack() throws MalformedURLException {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setPlatform(Platform.MAC);
+        cap.setBrowserName("chrome");
+        String browserStackUrl = "https://afiafarjana1:9Z5U2U9zmF6Uq6QUr9pi@hub-cloud.browserstack.com/wd/hub";
+        URL serverUrl = new URL(browserStackUrl);
+        driver = new RemoteWebDriver(serverUrl,cap);
     }
 }

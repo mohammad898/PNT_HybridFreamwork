@@ -22,27 +22,8 @@ public class InformationAndInsuranceHover extends CommonClass {
     public static String informationDivPath = "//div[@data-side-panel='information']/ul";
     public static String infoMenuElementsPath = "//div[@data-side-panel='information']/ul/li/a/span[2]";
 
-    /*public static List<WebElement> LoadInvisibleDiv(WebElement element){
-        builder.moveToElement(element).click().pause(2000).perform();
-        List<WebElement> unorderedList;
-        //if(element.toString().equalsIgnoreCase("information")){
-            wait.until(ExpectedConditions.presenceOfNestedElementsLocatedBy(By.xpath("//div[@data-side-panel='information']/ul"),By.xpath("//div[@data-side-panel='information']/ul/li")));
-            WebElement divUL = driver.findElement(By.xpath("//div[@data-side-panel='information']/ul"));
-             unorderedList = divUL.findElements(By.xpath("//div[@data-side-panel='information']/ul/li"));
-       // }
-        return unorderedList;
-    }
 
-    public void testInformationMenuHover() throws InterruptedException {
-        List<WebElement> unorderedList = LoadInvisibleDiv(information);
-        for(WebElement it : unorderedList){
-            builder.moveToElement(it).perform();
-            Thread.sleep(1000);
-
-        }
-    }*/
     public List<WebElement> retMenuList(String parentXpath, String childXpath){
-        //WebDriverWait wait = new WebDriverWait(driver,10);
         wait.until(ExpectedConditions.presenceOfNestedElementsLocatedBy(By.xpath(parentXpath),By.xpath(childXpath)));
         WebElement divUL = driver.findElement(By.xpath(parentXpath));
         List<WebElement> unorderedList = divUL.findElements(By.xpath(childXpath));
