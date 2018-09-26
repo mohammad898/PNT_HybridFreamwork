@@ -47,7 +47,7 @@ public class GoogleSheetsPage extends LoginBox {
             actual.add(getTextByWebElement(errorMsg));
             System.out.println(getTextByWebElement(errorMsg));
             clearInputBox(inputEmail);
-            clearInputBox(inputPasword);
+            clearInputBox(inputPasword)   ;
             Thread.sleep(5000);
         }
         return actual;

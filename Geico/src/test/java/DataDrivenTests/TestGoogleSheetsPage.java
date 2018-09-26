@@ -1,43 +1,43 @@
 package DataDrivenTests;
+
 import DataDrivenClass.GoogleSheetClass;
+import DataDrivenClass.Login;
+import base.CommonClass;
 import base.GoogleSheetReader;
+import base.ReusableAPI;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-/*import signInPageObjects.GoogleSheetsPage;
-import testHomePageObjects.HomePage;
-import signInPageObjects.SignInPage;*/
 import DataDrivenClass.GoogleSheetClass;
+import sun.rmi.runtime.Log;
+
 import java.io.IOException;
 import java.util.List;
 
-public class TestGoogleSheetsPage extends GoogleSheetReader{
-    /*HomePage objOfHomePage;
-    SignInPage objOfSignInPage;
-    GoogleSheetsPage objGoogleSheetsPage;
-    GoogleSheetClass objGoogleSheetsClass;
+public class TestGoogleSheetsPage extends CommonClass {
+    //SignInPage signInPage;
+    Login loginObject;
+    GoogleSheetClass googleSheetsPage;
 
     @BeforeMethod
     public void initialization(){
-        /*objOfHomePage = PageFactory.initElements(driver, HomePage.class);
-        objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
-        objGoogleSheetsPage = PageFactory.initElements(driver, GoogleSheetsPage.class);
+        loginObject = PageFactory.initElements(driver, Login.class);
+        googleSheetsPage = PageFactory.initElements(driver,GoogleSheetClass.class);
+    }
 
-    } */
-
-    // ALI_GS_TC1: Verify log in by taking data from a google sheets file
-    /*@Test
+    //Verify log in by taking data from a google sheets file
+    @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
-        *//*sleepFor(3);
-        objOfHomePage.clikSignIn();
-        sleepFor(3);
-        objOfSignInPage.switchToSignInForm();
-        sleepFor(3);*//*
+        //Thread.sleep(3000);
+
+        Thread.sleep(3000);
         int i = 0;
-        String spreadsheetId = "1A6G3avCchSjTPM1xoGU8YaYo3azwl4uHBsfgwRZB31A";
-        String range = "Sheet1!A2:D";
-        List<String> actualErrorMessage = objGoogleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
-        List<List<Object>> expectedErrorMessage = objGoogleSheetsPage.getSpreadSheetRecords(spreadsheetId, range);
+        String spreadsheetId = "1H0JiWbL-Hq9to5oI21m65xpY0OQzJ4qCLjdzqbFgy6c";
+        String range = "Sheet1!A2:C";
+        List<String> actualErrorMessage = googleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
+        loginObject.clickSubmit();
+        List<List<Object>> expectedErrorMessage = googleSheetsPage.getSpreadSheetRecords(spreadsheetId, range);
         for (List row : expectedErrorMessage) {
             // Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
             //System.out.println("expected"+row.get(3).toString());
@@ -45,5 +45,5 @@ public class TestGoogleSheetsPage extends GoogleSheetReader{
             i++;
         }
         System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
-    }*/
+    }
 }

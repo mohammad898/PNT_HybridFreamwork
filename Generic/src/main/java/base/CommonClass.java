@@ -38,7 +38,7 @@ public class CommonClass {
     public static WebElement searchIcon;
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        setUpBrowserStack();
+        //setUpBrowserStack();
         System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
@@ -73,12 +73,12 @@ public class CommonClass {
         }
 
     }
-    public void setUpBrowserStack() throws MalformedURLException {
+    /*public void setUpBrowserStack() throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setPlatform(Platform.MAC);
         cap.setBrowserName("chrome");
         String browserStackUrl = "https://afiafarjana1:9Z5U2U9zmF6Uq6QUr9pi@hub-cloud.browserstack.com/wd/hub";
         URL serverUrl = new URL(browserStackUrl);
         driver = new RemoteWebDriver(serverUrl,cap);
-    }
+    }*/
 }

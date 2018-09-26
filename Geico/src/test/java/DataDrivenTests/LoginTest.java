@@ -26,14 +26,7 @@ public class LoginTest extends Login {
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
          navigateToLoginPage();
-        /*TestLogger t1 = PageFactory.initElements(driver,TestLogger.class);
-        t1.log("email: " + email);
-        t1.log("password: " + passCode);*/
-        //TestLogger.log("message: " + message);
-        //TestLogger.log("In Log In Page");
         String errMessage = SendLoginInfo(email, passCode);
         Assert.assertEquals(message,errMessage);
-        //TestLogger.log("Test Passed");
-
     }
 }
