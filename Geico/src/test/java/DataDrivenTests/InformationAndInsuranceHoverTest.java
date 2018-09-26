@@ -19,7 +19,7 @@ public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHov
         object = PageFactory.initElements(driver, InformationAndInsuranceHover.class);
     }
     @Test
-    public void testMenuItems() throws MalformedURLException {
+    public void testMenuItems()  {
         //setUpBrowserStack();
         List<String> spanText = ConnectToMongoDB.readFromMongoDB();
         List<WebElement> element = retInfoMenu();

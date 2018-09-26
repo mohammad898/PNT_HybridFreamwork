@@ -19,10 +19,11 @@ public class ConnectToMongoDB {
         return mongoDatabase;
     }
 
-    public static String insertToMongoDB(WebElement element){
+    public static String insertToMongoDB(WebElement element,String tableName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         String menu = element.getText();
-        MongoCollection<Document>  collection = mongoDatabase.getCollection("infoMenu");
+        MongoCollection<Document>  collection = mongoDatabase.getCollection(tableName);
+        //table names: infoMenu
         //using getCollection(String s) method.
         Document doc = new Document().append("menuList",menu);
         collection.insertOne(doc);
@@ -34,6 +35,7 @@ public class ConnectToMongoDB {
         //User user = new User();
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection<Document> collection = mongoDatabase.getCollection("infoMenu");
+        //table names: infoMenu
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = collection.find(basicDBObject);
         for(Document doc:iterable){

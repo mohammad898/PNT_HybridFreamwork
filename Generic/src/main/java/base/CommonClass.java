@@ -58,7 +58,7 @@ public class CommonClass {
         driver.close();
     }
 
-    public static void captureScreenshot(WebDriver driver, String screenshotName){
+    public static void captureScreenshot( String screenshotName){
 
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();

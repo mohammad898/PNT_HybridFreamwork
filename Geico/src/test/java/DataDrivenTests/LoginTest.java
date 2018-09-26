@@ -1,4 +1,4 @@
-package homePage;
+package DataDrivenTests;
 
 import DataDrivenClass.Login;
 import org.openqa.selenium.support.PageFactory;
@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class LoginTest extends Login {
-
     Login loginObject;
     @BeforeMethod
     public void init(){
@@ -20,12 +19,9 @@ public class LoginTest extends Login {
     }
     @DataProvider
     public Iterator<Object[]> supplyData(){
-
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcelFM();
-
         return testData.iterator();
-
     }
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {

@@ -1,6 +1,10 @@
-homePage/InsuranceProducts.class
-homePage/Search.class
 DataDrivenClass/ConnectToMongoDB.class
 DataDrivenClass/InformationAndInsuranceHover.class
-homePage/Login.class
+homePage/InsuranceProducts.class
+homePage/Search.class
+DataDrivenClass/GoogleSheetClass.class
+popUpHandle/getQuotePopUp.class
 homePage/NavigationBarOptionMethod.class
+DataDrivenClass/Login.class
+DataDrivenClass/XlsDataReaderUtil.class
+cloudEnv/browserStack.class
