@@ -21,7 +21,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
 
 public class ReusableAPI { //Remember this class is not reading from that TestRunner.xml.
 
@@ -31,7 +30,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
    @BeforeMethod
     public void setDriver(String os, String url) {
         setDriverForOS(os);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
        driver.manage().window().fullscreen();
        driver.get(url);

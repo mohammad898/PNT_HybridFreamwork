@@ -1,6 +1,6 @@
-Bookings\BookingTest.class
-practice\bestbuy.class
-practice\geico.class
-BecomeAHost\BecomeAHostTest.class
-search\searchForPlacesTest.class
-ReadingFromXlsTest\ReadingTest.class
+BecomeAHost/BecomeAHostTest.class
+Bookings/BookingTest.class
+ReadingFromXlsTest/ReadingTest.class
+practice/geico.class
+practice/bestbuy.class
+search/searchForPlacesTest.class

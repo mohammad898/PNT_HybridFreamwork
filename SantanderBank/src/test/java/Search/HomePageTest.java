@@ -22,6 +22,8 @@ public class HomePageTest extends HomePage {
     public void About_Textoption_Test(){About_Textoption();}
     @Test
     public void ATM_BranchLocation_Test(){ATM_BranchLocation();}
+//    @Test
+//    public void Search_input_Test(){Search_input();}
     /*@Test
     public void Search_input_Test(){Search_input();}*/
     @Test
