@@ -8,7 +8,7 @@ import java.util.List;
 
 public class GoogleSheetClass extends ReusableAPI {
 
-    public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
+    /*public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
 
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
@@ -25,5 +25,5 @@ public class GoogleSheetClass extends ReusableAPI {
             sleepFor(1);
         }
         return actual;
-    }
+    } */
 }
