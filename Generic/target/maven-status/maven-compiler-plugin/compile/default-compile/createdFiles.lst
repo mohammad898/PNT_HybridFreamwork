@@ -1,1 +1,9 @@
-base/CollectionApi.class
+reporting\ExtentManager.class
+base\Xls_Reader.class
+reporting\ExtentTestManager.class
+base\GoogleSheetTReader.class
+reporting\TestLogger.class
+base\CommonClass.class
+base\XlsDataReaderUtil.class
+base\ReusableAPI.class
+base\CollectionApi.class
