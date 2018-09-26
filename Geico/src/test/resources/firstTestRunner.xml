@@ -12,7 +12,7 @@
     <parameter name="url" value="https://www.geico.com"/>
       <test name = "Geico Services">
         <classes>
-            <class name="homePage.AccessYourPolicy"/>
+            <class name="homePage.DropDownTest"/>
             <class name="DataDrivenTests.InformationAndInsuranceHoverTest"/>
             <class name="homePage.InsuranceProductTest"/>
             <class name ="homePage.NavigationBar" />

@@ -30,11 +30,11 @@ public class ConnectToMongoDB {
         return menu + " added.";
     }
 
-    public static List<String> readFromMongoDB(){
+    public static List<String> readFromMongoDB(String tableName){
         List<String> list = new ArrayList<>();
         //User user = new User();
         MongoDatabase mongoDatabase = connectToMongoDB();
-        MongoCollection<Document> collection = mongoDatabase.getCollection("infoMenu");
+        MongoCollection<Document> collection = mongoDatabase.getCollection(tableName);
         //table names: infoMenu
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = collection.find(basicDBObject);

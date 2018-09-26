@@ -21,7 +21,7 @@ public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHov
     @Test
     public void testMenuItems()  {
         //setUpBrowserStack();
-        List<String> spanText = ConnectToMongoDB.readFromMongoDB();
+        List<String> spanText = ConnectToMongoDB.readFromMongoDB("infoMenu");
         List<WebElement> element = retInfoMenu();
         for(int index=0; index<element.size();index++) {
             Assert.assertEquals(element.get(index).getText(),spanText.get(index));

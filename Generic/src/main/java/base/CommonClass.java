@@ -36,9 +36,9 @@ public class CommonClass {
     public static WebElement login;
     @FindBy(css = "#header-right-links > ul > li:nth-child(3) > a > span")
     public static WebElement searchIcon;
-    @BeforeTest
-    public void setup() {
-        //setUpBrowserStack();
+    @BeforeMethod
+    public void setup() throws MalformedURLException {
+        setUpBrowserStack();
         System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
