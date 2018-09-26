@@ -15,22 +15,13 @@ public class SignInPage extends LoginBox {
 
     public void clickSignIn() {
         loginButton.click();
-    /*    if (useAnotherAccount!=null){
-        useAnotherAccount.click();
-        usingEmail.click();}*/
     }
     public void signInUsingDataProvider(String email, String passCode, String message) {
             inputEmail.sendKeys(email, Keys.ENTER);
             inputPasword.sendKeys(passCode, Keys.ENTER);
-            //reCaptchaMethod();
-            //clickLogin.click();
             String errorMessage = errorMsg.getText();
             TestLogger.log("Error Message: " + errorMessage);
             Assert.assertEquals(errorMessage.contains(message), true);
         }
 
-    public void reCaptchaMethod(){
-       Alert alert = driver.switchTo().alert();
-       alert.accept();
-        }
     }
