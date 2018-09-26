@@ -22,13 +22,10 @@ public class HomePageTest extends HomePage {
     public void About_Textoption_Test(){About_Textoption();}
     @Test
     public void ATM_BranchLocation_Test(){ATM_BranchLocation();}
-<<<<<<< HEAD
 //    @Test
 //    public void Search_input_Test(){Search_input();}
-=======
     /*@Test
     public void Search_input_Test(){Search_input();}*/
->>>>>>> 9c3d889f98ea6a41f87c6eec4468c92a8a711597
     @Test
     public void Login_Test(){Login();}
     @Test

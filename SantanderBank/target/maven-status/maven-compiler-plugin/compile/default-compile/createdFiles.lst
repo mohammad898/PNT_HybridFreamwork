@@ -1,8 +1,8 @@
-home\HomePage.class
-home\CorporateTextOptionPage.class
-home\AboutTextOptionPage.class
-home\ATMBranchPage.class
-home\LoginPage.class
-home\BusinessTextOptionPage.class
-home\DragDrop.class
-home\PersonalTextOptionPage.class
+home/BusinessTextOptionPage.class
+home/LoginPage.class
+home/PersonalTextOptionPage.class
+home/ATMBranchPage.class
+home/AboutTextOptionPage.class
+home/CorporateTextOptionPage.class
+home/HomePage.class
+home/DragDrop.class

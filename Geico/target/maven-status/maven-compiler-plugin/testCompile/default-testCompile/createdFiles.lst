@@ -1,8 +1,8 @@
-homePage\SearchTest.class
-homePage\InformationAndInsuranceHoverTest.class
-homePage\LoginTest.class
-homePage\InsuranceProductTest.class
-homePage\NavigationBar.class
-base\BeforeNAfterMethods.class
-base\firstTest.class
-homePage\AccessYourPolicy.class
+homePage/AccessYourPolicy.class
+homePage/InsuranceProductTest.class
+base/firstTest.class
+DataDrivenTests/InformationAndInsuranceHoverTest.class
+base/BeforeNAfterMethods.class
+homePage/NavigationBar.class
+homePage/SearchTest.class
+homePage/LoginTest.class
