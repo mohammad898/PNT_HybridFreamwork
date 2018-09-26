@@ -24,7 +24,7 @@ import java.util.Date;
 
 public class ReusableAPI { //Remember this class is not reading from that TestRunner.xml.
 
-    public WebDriver driver = null;
+    public  WebDriver driver = null;
 
    @Parameters({"os", "url"})
    @BeforeMethod

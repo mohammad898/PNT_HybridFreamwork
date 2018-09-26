@@ -1,16 +1,17 @@
 package homePage;
 
+import DataDrivenClass.Login;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import base.XlsDataReaderUtil;
+import DataDrivenClass.XlsDataReaderUtil;
 import org.testng.annotations.Test;
-import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class LoginTest extends Login{
+public class LoginTest extends Login {
 
     Login loginObject;
     @BeforeMethod
@@ -28,13 +29,14 @@ public class LoginTest extends Login{
     }
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
+         navigateToLoginPage();
         /*TestLogger t1 = PageFactory.initElements(driver,TestLogger.class);
         t1.log("email: " + email);
         t1.log("password: " + passCode);*/
         //TestLogger.log("message: " + message);
-
         //TestLogger.log("In Log In Page");
-        SendLoginInfo(email, passCode);
+        String errMessage = SendLoginInfo(email, passCode);
+        Assert.assertEquals(message,errMessage);
         //TestLogger.log("Test Passed");
 
     }
