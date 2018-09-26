@@ -15,9 +15,10 @@
 
         <classes>
             <!--<class name="search.searchForPlacesTest"/>
-            <class name="Bookings.BookingTest"/>
-            <class name="ReadingFromXlsTest.ReadingTest"/>-->
-            <class name="ReadingGoogleAPI.TestGoogleSheetsPage"/>
+            <class name="Bookings.BookingTest"/>-->
+            <class name="BecomeAHost.BecomeAHostTest"/>
+     <!--       <class name="ReadingFromXlsTest.ReadingTest"/>
+            <class name="ReadingGoogleAPI.TestGoogleSheetsPage"/>-->
         </classes>
     </test>
 
