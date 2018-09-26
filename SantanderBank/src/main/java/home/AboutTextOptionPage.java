@@ -1,5 +1,4 @@
 package home;
-import base.CollectionApi;
 import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -7,11 +6,11 @@ import org.openqa.selenium.support.FindBy;
 
 public class AboutTextOptionPage extends ReusableAPI {
     //find elements for Who We Are hover option
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/a/span")
+    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/a")
     public static WebElement WhoWeAre;
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/div/div/ul/li/a")
+    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/div/div/ul/li")
     public static WebElement SantanderBank;
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/div/div/ul/li/a")
+    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[1]/div/div/ul/li/ul/li[1]")
     public static WebElement Cummunity;
     // find elements for Santander Universities hover option
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/ul/li[4]/ul/li[2]/a/span")
