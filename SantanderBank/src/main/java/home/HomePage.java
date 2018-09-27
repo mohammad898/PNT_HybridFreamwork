@@ -2,10 +2,18 @@ package home;
 
 import base.CollectionApi;
 import base.ReusableAPI;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
 
 
 public class HomePage extends ReusableAPI {
@@ -54,11 +62,8 @@ public class HomePage extends ReusableAPI {
     public static WebElement Privacy_policy_Header;
     @FindBy(xpath = "//*[@id=\"_P016_Links_Cluster_Grouper_WAR_P016_Links_Cluster_Grouperportlet_INSTANCE_9FLuCSt6O4Uq__VIEW\"]/div/footer/nav/div[1]/ul/li[4]/a/h4")
     public static WebElement Contact_us_Header;
-
-
-
-
-
+    @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_btnAlternativeUrl")
+    public static WebElement ok;
 
     //define functions of above elements
 
@@ -70,7 +75,6 @@ public class HomePage extends ReusableAPI {
     public void Corporate_Textoption(){Corporate_Textoption.click();}
     public void About_Textoption(){About_Textoption.click();}
     public void ATM_BranchLocation(){ATM_BranchLocation.click();}
-    //public void https://github.com/Jahidul2543/PageObjectModelFrameworkearch_input(){Search_input.click();Search_input.sendKeys("debit card");Search_button.click();}
     public void Login(){Login.click();}
     public void ULT_cash_back_creditcard_grouplink(){ULT_cash_back_creditcard_grouplink.click();}
     public void STU_VALUE_CHEK(){STU_VALUE_CHEK.click();}
@@ -86,8 +90,18 @@ public class HomePage extends ReusableAPI {
     public void Privacy_policy_Header(){Privacy_policy_Header.click();}
     public void Contact_us_Header(){Contact_us_Header.click();}
 
-//
-
-
-
+    //drag drop
+    public void dragDrop() throws InterruptedException {
+        Login.click();
+        WebDriverWait wait = new WebDriverWait(driver,10) ;
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("selectedBox")));
+        WebElement dropDown = driver.findElement(By.className("selectedText"));
+        dropDown.click();
+        Thread.sleep(2000);
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//ul[@class='selectOptionsList']/li")));
+        List<WebElement> dropDownList = driver.findElements(By.xpath("//ul[@class='selectOptionsList']/li"));
+        List<String> listText= new LinkedList<String>();
+        dropDownList.get(1).click();
+        ok.click();
+    }
 }

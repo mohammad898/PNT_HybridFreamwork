@@ -6,9 +6,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class ATMBranchPageTest extends ATMBranchPage {
+    ATMBranchPageTest atmBranchPageTest;
     @BeforeMethod
     public void initelement(){
-        ATMBranchPageTest atmBranchPageTest= PageFactory.initElements(driver,ATMBranchPageTest.class);
+        atmBranchPageTest= PageFactory.initElements(driver,ATMBranchPageTest.class);
         driver.get("https://locations.santanderbank.com/search.html");
     }
     @Test

@@ -6,9 +6,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class PersonalTextOptionPageTest extends PersonalTextOptionPage {
+    PersonalTextOptionPage personalTextOptionPage;
     @BeforeMethod
         public void initelement() {
-        PersonalTextOptionPage personalTextOptionPage = PageFactory.initElements(driver,PersonalTextOptionPage.class);
+        personalTextOptionPage = PageFactory.initElements(driver,PersonalTextOptionPage.class);
     }
     //Personal Page Elements
     @Test

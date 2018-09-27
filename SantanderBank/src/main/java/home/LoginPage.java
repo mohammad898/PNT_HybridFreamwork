@@ -2,8 +2,15 @@ package home;
 
 import base.CollectionApi;
 import base.ReusableAPI;
+import base.XlsDataReaderUtil;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class LoginPage extends ReusableAPI {
     //find elements for login page
@@ -37,18 +44,27 @@ public class LoginPage extends ReusableAPI {
     @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_btnAlternativeUrl")
     public static WebElement ok;
 
+    //xl reader
+   @DataProvider
+   public Iterator<Object[]> supplyData(){
+       ArrayList<Object[]> testData = XlsDataReaderUtil.getDataFromExcel();
+       return testData.iterator();
+   }
+
+
+
     //Define methods for above elements
-    public void InvalidUsernameInput() {
+    public void InvalidUsernameInput(String email) {
         LoginPage.click();
-        UserInput.sendKeys("setu ");
+        UserInput.sendKeys(email);
         LoginButton.click();
     }
 
-    public void ValidUserInput() {
+    public void ValidUserInput(String email,String passCode) {
         LoginPage.click();
-        UserInput.sendKeys("setubank01");
+        UserInput.sendKeys(email);
         LoginButton.click();
-        PasswordInput.sendKeys("astonmartin1");
+        PasswordInput.sendKeys(passCode);
         LoginButton2.click();
     }
 

@@ -6,9 +6,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CorporateTextOptionPageTest extends CorporateTextOptionPage {
+    CorporateTextOptionPage corporateTextOptionPage;
     @BeforeMethod
     public void initelement(){
-        CorporateTextOptionPage corporateTextOptionPage= PageFactory.initElements(driver,CorporateTextOptionPage.class);
+        corporateTextOptionPage= PageFactory.initElements(driver,CorporateTextOptionPage.class);
         driver.get("https://www.santanderbank.com/us/corporate");
     }
     @Test

@@ -7,6 +7,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -32,8 +33,8 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         setDriverForOS(os);
         //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-       driver.manage().window().fullscreen();
-       driver.get(url);
+//       driver.manage().window().fullscreen();
+       driver.navigate().to(url);
     }
     public void setDriverForOS(String os){
         if(os.equalsIgnoreCase("Windows")){
@@ -124,6 +125,11 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         Actions ac = new Actions(driver);
         ac.moveToElement(e).build().perform();
 
+    }
+    //drag drop method
+    public void DragDrop1(WebElement element,String value){
+        Select select=new Select(element);
+        select.selectByVisibleText(value);
     }
 
 }

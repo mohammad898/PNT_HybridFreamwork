@@ -11,7 +11,7 @@ public class ATMBranchPage extends ReusableAPI {
     public static WebElement TextInput;
     @FindBy(xpath ="//*[@id=\"main\"]/div/div/div[1]/div/div/div/div/form/button")
     public static WebElement GoSearchButton;
-    @FindBy(xpath = "//*[@id=\"main\"]/div/div/div[1]/div/div/div/div/form/div/div[1]/a")
+    @FindBy(xpath = "//*[@id=\"main\"]/div/div/div[1]/div/div/div/div/form/div/div[1]/a")////main[@id="main"]//div/form//div[1]/a
     public static WebElement BrowseByState;
     @FindBy (xpath = "//*[@id=\"q\"]")
     public static WebElement InnTextInput;
