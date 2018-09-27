@@ -3,8 +3,10 @@ FrontPage/BecomeAHost.class
 DatabaseConnection/House.class
 FrontPage/Booking.class
 SignIn/SignInPage.class
+UsingGoogleAPI/GoogleSheetsPage.class
 DatabaseConnection/User.class
 DatabaseConnection/DBConnection.class
 PageObject/PageObject.class
+Elements/LoginBox.class
 util/breakdownMethodToSetUp.class
 Elements/FrontPageElements.class
