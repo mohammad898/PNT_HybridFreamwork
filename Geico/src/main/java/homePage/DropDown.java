@@ -14,7 +14,7 @@ public class DropDown extends CommonClass {
     public static Select dropDownButton;
 
     public List<String> getDropDownList(){
-        waitToBeVisible("//select[@id='homepage_manage_select']/option");
+       // waitToBeVisible("//select[@id='homepage_manage_select']/option");
         List<WebElement> dropDownList = dropDownButton.getOptions();
         List<String> dropDownListText = new LinkedList<>();
         for(WebElement it:dropDownList) {
