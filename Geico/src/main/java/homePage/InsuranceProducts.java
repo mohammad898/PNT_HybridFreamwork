@@ -14,6 +14,8 @@ public class InsuranceProducts extends CommonClass {
     public static WebElement rightArrow;
     @FindBy(css = ".chevron.icon-chevron-right.highlighted")
     public static WebElement rightArrow2;
+    @FindBy(css=".chevron.icon-chevron-right.highlighted")
+    public static WebElement rightArrow3;
 
     @FindBy(css = "#home > div > span")
     public static WebElement homeOwnersInsuranceIcon;
@@ -94,6 +96,12 @@ public class InsuranceProducts extends CommonClass {
         element.click();
         return clickStartQuote();
     }
+    public String clickOnIconWithoutZipCode4(WebElement element)throws InterruptedException{
+        goTripleRight();
+        element.click();
+        return clickStartQuote();
+    }
+
     public void goRight() throws InterruptedException {
         rightArrow.click();
         Thread.sleep(1500);
@@ -103,13 +111,17 @@ public class InsuranceProducts extends CommonClass {
         rightArrow2.click();
         Thread.sleep(1500);
     }
+    public void goTripleRight()throws InterruptedException{
+        goDoubleRight();
+        rightArrow3.click();
+        Thread.sleep(1500);
+    }
     public String clickStartQuote() throws InterruptedException {
         submitButton.click();
         Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         return url;
     }
-
     public String sendZipCodeKeys(String zipCode) throws InterruptedException {
         zipCodeTextBox.sendKeys(zipCode);
         submitButton.click();
@@ -117,10 +129,4 @@ public class InsuranceProducts extends CommonClass {
         String url = driver.getCurrentUrl();
         return url;
     }
-    /*public String clickOnRVInsurance()throws InterruptedException{
-        rvInsuranceIcon.click();
-        String url= clickStartQuote();
-        return url;
-    }*/
-
 }
