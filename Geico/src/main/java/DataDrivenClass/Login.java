@@ -21,14 +21,11 @@ public class Login extends CommonClass{
         driver.navigate().to("https://ecams.geico.com/ecams/login.xhtml?r=true");
     }
     public void clickSubmit(){
-
         loginButton.click();
     }
     public void clearInputBox(WebElement webElement){
-
         webElement.clear();
     }
-
     public String SendLoginInfo(String email, String password) throws InterruptedException {
         loginTextBox.sendKeys(email);
         passwordTextBox.sendKeys(password);
