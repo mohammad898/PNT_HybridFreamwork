@@ -15,9 +15,9 @@ public class DropDownTest extends DropDown{
     }
     @Test
     public void testDropDownList(){
-        //List<String> actualText = getDropDownList();
-        List<String> expectedText = ConnectToMongoDB.readFromMongoDB("dropDown");
-        for(String st: expectedText)
+        List<String> actualText = getDropDownList();
+       // List<String> expectedText = ConnectToMongoDB.readFromMongoDB("dropDown");
+        for(String st: actualText)
             System.out.println(st);
     }
 }

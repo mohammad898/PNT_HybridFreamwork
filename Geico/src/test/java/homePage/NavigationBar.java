@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -18,32 +19,34 @@ public class NavigationBar extends NavigationBarOptionMethod{
     }
 
    @Test
-    public void clickInsurance(){
-       clickOnInsurance();
+    public void testClickInsurance() throws InterruptedException {
+       boolean retStatement = clickOnInsurance();;
+       Assert.assertEquals(true,retStatement);
    }
     @Test
-    public void clickInformation(){
-
-       clickOnInformation();
+    public void testClickInformation() throws InterruptedException {
+        boolean retStatement = clickOnInformation();
+        Assert.assertEquals(true,retStatement);
     }
     @Test
-    public void clickLocation() {
-        clickOnLocationIcon();
+    public void testClickLocation()throws InterruptedException {
+        boolean retStatement = clickOnLocationIcon();
+        Assert.assertEquals(true,retStatement);
     }
     @Test
-    public void clickLogin(){
-
-       clickLogin();
+    public void testClickLogin()throws InterruptedException{
+        boolean retStatement = clickLogin();;
+        Assert.assertEquals(true,retStatement);
     }
     @Test
-    public void clickSearchIcon(){
-
-       clickOnSearchIcon();
+    public void testClickSearchIcon()throws InterruptedException{
+        boolean retStatement = clickOnSearchIcon();
+        Assert.assertEquals(true,retStatement);
     }
     @Test
-    public void clickOnGeicoLogo(){
-
-       clickOnGeicoLogo();
+    public void testClickOnGeicoLogo()throws InterruptedException{
+       String url = clickOnGeicoLogo();
+       Assert.assertEquals("https://www.geico.com/",url);
     }
 
 }

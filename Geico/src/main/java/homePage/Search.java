@@ -12,6 +12,8 @@ public class Search extends CommonClass {
     public static WebElement searchTextBox;
     @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[6]/form/button")
     public static WebElement searchSubmitButton;
+    @FindBy(css = "#header-right-links > ul > li:nth-child(3) > a > span")
+    public static WebElement searchIcon;
 
     public static  void waitToBeVisible(){
         searchIcon.click();
