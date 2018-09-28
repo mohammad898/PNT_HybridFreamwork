@@ -12,6 +12,8 @@ public class InsuranceProducts extends CommonClass {
     public static WebElement zipCodeTextBox;
     @FindBy(how = How.CLASS_NAME, using = "icon-chevron-right")
     public static WebElement rightArrow;
+    @FindBy(css = ".chevron.icon-chevron-right.highlighted")
+    public static WebElement rightArrow2;
 
     @FindBy(css = "#home > div > span")
     public static WebElement homeOwnersInsuranceIcon;
@@ -28,6 +30,7 @@ public class InsuranceProducts extends CommonClass {
     @FindBy(css = ".icon-rv-ins")
     public static WebElement rvInsuranceIcon;
     @FindBy(css = ".icon-auto-collector-ins")
+
     public static WebElement collectorAutoIcon;
     @FindBy(css = ".icon-mobile-home-ins")
     public static WebElement mobileHomeIcon;
@@ -41,76 +44,65 @@ public class InsuranceProducts extends CommonClass {
     public static WebElement professionalLiability;
     @FindBy(css = "#businessowners > div > span")
     public static WebElement businessOwnersIcon;
+    @FindBy(xpath = "//div[@id='workerscompensation']//span")
+    public static WebElement workersCompensationIcon;
 
-    public String clickOnHomeOwnersInsuranceIcon() throws InterruptedException {
-        homeOwnersInsuranceIcon.click();
-        String url= sendZipCodeKeys("11435");
-        return url;
-    }
-    public String clickOnRentersInsuranceIcon()throws InterruptedException{
-        rentersInsuranceIcon.click();
-        String url= sendZipCodeKeys("11435");
-        return url;
-    }
+    @FindBy(className = "icon icon-life-ins")
+    public static WebElement lifeInsuranceIcon;
+    @FindBy(css = ".icon.icon-car-sharing")
+    public static WebElement rideSharingIcon;
+    @FindBy(css = ".icon.icon-travel")
+    public static WebElement travelIsuranceIcon;
+    @FindBy(css = ".icon.icon-overseas-ins")
+    public static WebElement overseasIsuranceIcon;
+    @FindBy(css = ".icon.icon-id-protection-ins")
+    public static WebElement identityProtectionIcon;
+    @FindBy(css = ".icon.icon-pet-ins")
+    public static WebElement petInsuranceIcon;
+    @FindBy(css = ".icon.icon-collectibles-ins")
+    public static WebElement jewelryInsuranceIcon;
+    @FindBy(css = "#landlord>.circle>.icon.icon-homeowner-ins")
+    public static WebElement landlordInsuranceIcon;
+    @FindBy(css = "#mexicoAuto>.circle>.icon.icon-vehicle")
+    public static WebElement mexicoAutoIcon;
 
-    public String clickOnCondoInsurance()throws InterruptedException{
-        condoInsuranceIcon.click();
-        String url= sendZipCodeKeys("11435");
-        return url;
+    public String clickOnIconwithZipCode(WebElement element) throws InterruptedException {
+         element.click();
+        return sendZipCodeKeys("11435");
     }
-    public String clickOnMotorCycleInsurance()throws InterruptedException{
-        motorCycleInsuranceIcon.click();
-        String url= sendZipCodeKeys("11435");
-        return url;
+    public String clickOnIconWithoutZipCode(WebElement element) throws InterruptedException {
+        element.click();
+        return clickStartQuote();
     }
-    public String clickOnBoatInsurance()throws InterruptedException{
-        boatInsuranceIcon.click();
-        String url= sendZipCodeKeys("11435");
-        return url;
+    public String clickOnIconwithZipCode2(WebElement element) throws InterruptedException {
+        goRight();
+        element.click();
+        return sendZipCodeKeys("11435");
     }
-    public String clickOnUmbrellaInsurance()throws InterruptedException{
-        umbrellaInsuranceIcon.click();
-        String url= clickStartQuote();
-        return url;
+    public String clickOnIconWithoutZipCode2(WebElement element)throws InterruptedException{
+        goRight();
+        element.click();
+        return clickStartQuote();
     }
-    /*public String clickOnRVInsurance()throws InterruptedException{
-        rvInsuranceIcon.click();
-        String url= clickStartQuote();
-        return url;
-    }*/
-    public void clickOnCollectorAutoIcon()throws InterruptedException{
-        collectorAutoIcon.click();
-        submitButton.click();
+    public String clickOnIconwithZipCode3(WebElement element) throws InterruptedException {
+        goDoubleRight();
+        element.click();
+        return sendZipCodeKeys("11435");
     }
-    public void clickOnMobileHomeIcon()throws InterruptedException{
-        mobileHomeIcon.click();
-        submitButton.click();
+    public String clickOnIconWithoutZipCode3(WebElement element)throws InterruptedException{
+        goDoubleRight();
+        element.click();
+        return clickStartQuote();
     }
-    public void clickOnFloodIcon()throws InterruptedException{
-        floodIcon.click();
-        submitButton.click();
-    }
-    public void clickOnCommercialAutoIcon()throws InterruptedException{
-        commercialAutoIcon.click();
-        sendZipCodeKeys("11435");
-    }
-    public void clickOnGeneralLiabilityIcon()throws InterruptedException{
-        generalLiabilityIcon.click();
-        submitButton.click();
-    }
-    public void clickOnProfessionalLiabilityIcon()throws InterruptedException{
-        professionalLiability.click();
-        submitButton.click();
-    }
-    public void clickOnBusinessOwnersIcon()throws InterruptedException{
-        businessOwnersIcon.click();
-        submitButton.click();
-    }
-
-    public void goRight(){
+    public void goRight() throws InterruptedException {
         rightArrow.click();
+        Thread.sleep(1500);
     }
-
+    public void goDoubleRight()throws InterruptedException{
+        goRight();
+        rightArrow2.click();
+        Thread.sleep(1500);
+    }
     public String clickStartQuote() throws InterruptedException {
         submitButton.click();
         Thread.sleep(2000);
@@ -125,5 +117,10 @@ public class InsuranceProducts extends CommonClass {
         String url = driver.getCurrentUrl();
         return url;
     }
+    /*public String clickOnRVInsurance()throws InterruptedException{
+        rvInsuranceIcon.click();
+        String url= clickStartQuote();
+        return url;
+    }*/
 
 }
