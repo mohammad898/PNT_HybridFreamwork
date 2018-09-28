@@ -3,7 +3,6 @@ Search/AboutTextOptionPageTest.class
 Search/BusinessTextOptionPageTest.class
 Search/ATMBranchPageTest.class
 Search/HomePageTest.class
+Search/PageSearch_option_attempt_Test.class
 Search/CorporateTextOptionPageTest.class
-Search/DrapDropTest.class
-Search/PageSearch_optional_attempt.class
 Search/PersonalTextOptionPageTest.class

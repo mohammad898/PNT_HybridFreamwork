@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: base.firstTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.179 s <<< FAILURE! - in base.firstTest
+setup(base.firstTest)  Time elapsed: 0.719 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/renxing/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ec5bf1-20ef-4af2-a767-3a0f4c1208c4" name="Default Changelist" comment="">
+    <list default="true" id="761b93f8-db24-4d96-a6b7-e4e3b140a26e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/GoogleReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/GoogleReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/src/main/java/cloudEnv/browserStack.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Geico/src/main/java/homePage/DropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/homePage/DropDown.java" afterDir="false" />
@@ -29,9 +33,101 @@
     <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
-    <ignored path="$PROJECT_DIR$/Geico/target/" />
-    <ignored path="$PROJECT_DIR$/SantanderBank/target/" />
+=======
+      <change beforePath="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/Airbnb-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/Airbnb-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/UsingGoogleAPI/GoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/UsingGoogleAPI/GoogleSheetsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/util/breakdownMethodToSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/util/breakdownMethodToSetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/AirbnbTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/ReadingGoogleAPI/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/ReadingGoogleAPI/TestGoogleSheetsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CUNY/target/CUNY-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CUNY/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/ConnectToMongoDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/GoogleSheetClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/InformationAndInsuranceHover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/XlsDataReaderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/cloudEnv/browserStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/DropDown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/InsuranceProducts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/NavigationBarOptionMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/popUpHandle/getQuotePopUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/InformationAndInsuranceHoverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/TestGoogleSheetsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/base/BeforeNAfterMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/base/firstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/DropDownTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InsuranceProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/SearchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/popUp/testPopUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/screenShot/testScreenShot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/GoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/GoogleSheetReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/page/ahmed.xls" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/page/ahmed.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/page/ahmed.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/DrapDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/DrapDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/DragDrop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/ATMBranchPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/ATMBranchPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/AboutTextOptionPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/AboutTextOptionPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/BusinessTextOptionPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/BusinessTextOptionPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/CorporateTextOptionPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/CorporateTextOptionPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/DrapDropTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/PageSearch_optional_attempt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/PersonalTextOptionPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/PersonalTextOptionPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SantanderBank/home/RegistrationFormWithXlandDragDrop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SantanderBank/Search/RegistrationFormWithXlandDragDropTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
+    <ignored path="$PROJECT_DIR$/Geico/target/" />
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/Airbnb/target/" />
+    <ignored path="$PROJECT_DIR$/SantanderBank/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,47 +136,52 @@
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1349505766">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-    </session>
-    <session id="98477560">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="class" value="11" />
           <entry key="java" value="43" />
           <entry key="json" value="2" />
           <entry key="xml" value="4" />
+=======
+          <entry key="java" value="7" />
+          <entry key="xml" value="5" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="CLASS" value="11" />
           <entry key="JAVA" value="43" />
           <entry key="JSON" value="2" />
           <entry key="XML" value="4" />
+=======
+          <entry key="JAVA" value="7" />
+          <entry key="XML" value="5" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="java" value="1688" />
           <entry key="xml" value="6" />
+=======
+          <entry key="java" value="2" />
+          <entry key="xml" value="29" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="JAVA" value="1688" />
           <entry key="XML" value="6" />
         </counts>
@@ -94,6 +195,10 @@
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="14" />
+=======
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="29" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
         </counts>
       </usages-collector>
     </session>
@@ -102,8 +207,18 @@
     <favorites_list name="GroupBlueFrameWork" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
@@ -147,38 +262,67 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/DropDown.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="49" column="131" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="131" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
               <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="47" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/DropDownTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -192,18 +336,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+=======
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -211,6 +354,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetTReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetReader.java" />
@@ -239,53 +383,25 @@
         <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/Search.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" />
+=======
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="HomeDepot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SantanderBank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SantanderBank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
@@ -294,8 +410,13 @@
     <option name="y" value="23" />
     <option name="width" value="878" />
     <option name="height" value="877" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="y" value="45" />
+    <option name="width" value="1440" />
+    <option name="height" value="815" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -313,25 +434,33 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Geico" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Geico" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -339,8 +468,9 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -359,11 +489,53 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DataDrivenTests" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
             </path>
           </expand>
           <select />
@@ -373,6 +545,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538092714738" />
@@ -385,6 +558,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Geico/src/test/resources" />
     </key>
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538089876508" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -398,6 +574,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.InformationAndInsuranceHoverTest.testMenuItems">
     <configuration name="DropDownTest.testDropDownList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
@@ -411,12 +588,20 @@
       <option name="MAIN_CLASS_NAME" value="homePage.DropDownTest" />
       <option name="METHOD_NAME" value="testDropDownList" />
       <option name="TEST_OBJECT" value="METHOD" />
+=======
+  <component name="RunManager">
+    <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SantanderBank" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="InformationAndInsuranceHoverTest.testMenuItems" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
       <extension name="coverage">
@@ -493,6 +678,11 @@
         <item itemvalue="TestNG.NavigationBar" />
         <item itemvalue="TestNG.NavigationBar.clickInformation" />
         <item itemvalue="TestNG.DropDownTest.testDropDownList" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
       </list>
     </recent_temporary>
   </component>
@@ -501,10 +691,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1ec5bf1-20ef-4af2-a767-3a0f4c1208c4" name="Default Changelist" comment="" />
-      <created>1537140928602</created>
+      <changelist id="761b93f8-db24-4d96-a6b7-e4e3b140a26e" name="Default Changelist" comment="" />
+      <created>1538085259911</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1537140928602</updated>
       <workItem from="1537311360018" duration="230000" />
       <workItem from="1537311594203" duration="209000" />
@@ -539,10 +730,14 @@
       <workItem from="1538088802747" duration="1519000" />
       <workItem from="1538090669473" duration="768000" />
       <workItem from="1538091495886" duration="906000" />
+=======
+      <updated>1538085259911</updated>
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="LoginPageTest_CheckDropDown_Test - 2018.09.23 at 01h 49m 44s.xml">
       <configuration name="LoginPageTest.CheckDropDown_Test" configurationId="TestNG" />
     </history-entry>
@@ -553,94 +748,37 @@
       <configuration name="LoginPageTest.CheckDropDown_Test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.24 at 15h 24m 33s.xml">
+=======
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 18h 34m 29s.xml">
       <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.25 at 01h 36m 33s.xml">
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 18h 36m 10s.xml">
       <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.25 at 01h 42m 40s.xml">
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 18h 37m 07s.xml">
       <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AboutTextOptionPageTest_WhoWeAre_Test - 2018.09.25 at 13h 53m 43s.xml">
-      <configuration name="AboutTextOptionPageTest.WhoWeAre_Test" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 18h 39m 35s.xml">
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AboutTextOptionPageTest_WhoWeAre_Test - 2018.09.25 at 13h 53m 57s.xml">
-      <configuration name="AboutTextOptionPageTest.WhoWeAre_Test" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 18h 44m 24s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AboutTextOptionPageTest_SantanderBankUni_Test - 2018.09.25 at 13h 54m 50s.xml">
-      <configuration name="AboutTextOptionPageTest.SantanderBankUni_Test" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 18h 57m 48s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AboutTextOptionPageTest_SantanderBankUni_Test - 2018.09.25 at 13h 54m 57s.xml">
-      <configuration name="AboutTextOptionPageTest.SantanderBankUni_Test" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 19h 03m 54s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ATMBranchPageTest_TextInput_Test - 2018.09.25 at 13h 55m 57s.xml">
-      <configuration name="ATMBranchPageTest.TextInput_Test" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 19h 04m 51s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BusinessTextOptionPageTest_Banking_Test - 2018.09.25 at 13h 56m 09s.xml">
-      <configuration name="BusinessTextOptionPageTest.Banking_Test" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 19h 06m 54s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testScreenShot_testCaptureScreenShot - 2018.09.26 at 04h 44m 52s.xml">
-      <configuration name="testScreenShot.testCaptureScreenShot" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testScreenShot_testCaptureScreenShot - 2018.09.26 at 04h 45m 43s.xml">
-      <configuration name="testScreenShot.testCaptureScreenShot" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.26 at 10h 54m 28s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.26 at 10h 55m 37s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.26 at 10h 58m 13s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.26 at 11h 00m 29s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.26 at 11h 03m 22s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testPopUp - 2018.09.26 at 12h 57m 33s.xml">
-      <configuration name="testPopUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testPopUp_testSkipButton - 2018.09.26 at 12h 57m 55s.xml">
-      <configuration name="testPopUp.testSkipButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testPopUp_testSkipButton - 2018.09.26 at 12h 58m 36s.xml">
-      <configuration name="testPopUp.testSkipButton" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testPopUp - 2018.09.26 at 12h 59m 01s.xml">
-      <configuration name="testPopUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 24m 58s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 25m 48s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 31m 36s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 32m 42s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 34m 02s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 37m 06s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 40m 38s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 43m 11s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 43m 57s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_signIn - 2018.09.26 at 13h 56m 50s.xml">
-      <configuration name="LoginTest.signIn" configurationId="TestNG" />
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.09.27 at 19h 10m 16s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="testPopUp_testGetQuoteButton - 2018.09.27 at 12h 39m 09s.xml">
       <configuration name="testPopUp.testGetQuoteButton" configurationId="TestNG" />
@@ -691,13 +829,16 @@
       <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
     </history-entry>
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="14201000" />
   </component>
+=======
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="45" width="1440" height="815" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.74949497" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" sideWeight="0.5016611" side_tool="true" weight="0.10944206" />
       <window_info id="Capture Tool" order="2" />
@@ -717,56 +858,42 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" visible="true" weight="0.14306152" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.09227468" />
-      <window_info anchor="right" id="Database" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+=======
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30736545" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31082803" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32918397" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="Maven Projects" weight="0.3297568" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.12600537" />
-      <window_info anchor="right" id="Database" order="9" />
-    </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetTReader.java" />
     <entry file="file://$PROJECT_DIR$/Airbnb/src/test/resources/AirbnbTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -928,35 +1055,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/client_secret.json" />
     <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/CorporateTextOptionPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/NativeConstructorAccessorImpl.java">
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        <state relative-caret-position="183">
+          <caret line="49" column="131" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="131" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/SignIn/SignInPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/PageObject/PageObject.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="585">
           <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
@@ -1089,11 +1230,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+=======
+        <state relative-caret-position="243">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java">
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="270">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
@@ -1103,6 +1256,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
+=======
+        <state relative-caret-position="146">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+>>>>>>> d8c1d565f83bd28edf1aff541f7e5919ef83ff7d
         </state>
       </provider>
     </entry>
