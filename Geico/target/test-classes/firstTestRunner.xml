@@ -10,14 +10,29 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>
-      <test name = "Geico Services">
+      <test name = "homePage Test">
         <classes>
             <class name="homePage.DropDownTest"/>
-            <class name="DataDrivenTests.InformationAndInsuranceHoverTest"/>
             <class name="homePage.InsuranceProductTest"/>
             <class name ="homePage.NavigationBar" />
             <class name="homePage.SearchTest"/>
         </classes>
     </test>
-
+    <test name="DataDriven Test">
+  <classes>
+      <class name="DataDrivenTests.InformationAndInsuranceHoverTest"/>
+      <class name="DataDrivenTests.LoginTest"/>
+      <class name="DataDrivenTests.TestGoogleSheetsPage"/>
+  </classes>
+    </test>
+    <test name="popUp test">
+        <classes>
+            <class name="popUp.testPopUp"/>
+        </classes>
+    </test>
+    <test name ="screenShot test">
+        <classes>
+            <class name="screenShot.testScreenShot"/>
+        </classes>
+    </test>
 </suite>

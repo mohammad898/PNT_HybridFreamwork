@@ -7,7 +7,7 @@ public class testScreenShot extends CommonClass {
     String screenShot1 = "ScreenShot";
     @Test
     public void testCaptureScreenShot(){
-        captureScreenshot(screenShot1);
+        captureScreenshot(driver, screenShot1);
     }
 
 }
