@@ -14,7 +14,7 @@
         <classes>
             <class name="homePage.DropDownTest"/>
             <class name="homePage.InsuranceProductTest"/>
-            <class name ="homePage.NavigationBar" />
+            <class name ="homePage.NavigationBarTest" />
             <class name="homePage.SearchTest"/>
         </classes>
     </test>

@@ -5,7 +5,7 @@ import base.CommonClass;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class NavigationBarOptionMethod extends CommonClass {
+public class NavigationBar extends CommonClass {
     @FindBy(css = "ul.desktop-links > li:nth-child(2)>a")
     public static WebElement information;
     @FindBy(css = "#header-left-links > ul> li > a")

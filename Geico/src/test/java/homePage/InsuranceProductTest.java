@@ -1,6 +1,7 @@
 package homePage;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -12,59 +13,59 @@ public class InsuranceProductTest extends InsuranceProducts{
     }
 
     @Test
-    public void testHomeOwnerInsuranceIconClick(){
-        clickOnHomeOwnersInsuranceIcon();
+    public void testHomeOwnerInsuranceIconClick() throws InterruptedException {
+        Assert.assertEquals("https://propertysales.geico.com/CustomerInformation",clickOnHomeOwnersInsuranceIcon());
     }
     @Test
-    public void testRentersInsuranceIconClick(){
-        clickOnRentersInsuranceIcon();
+    public void testRentersInsuranceIconClick()throws InterruptedException {
+        Assert.assertEquals("https://propertysales.geico.com/Diva/Conversation",clickOnRentersInsuranceIcon());
     }
     @Test
-    public void testMotorCycleInsuranceIconClick(){
-        clickOnMotorCycleInsurance();
+    public void testMotorCycleInsuranceIconClick()throws InterruptedException{
+        Assert.assertEquals("https://buy.geico.com/ui/nb#/sale/customerinformation/gskmsi",clickOnMotorCycleInsurance());
     }
     @Test
-    public void testCondoInsuranceIconClick(){
-        clickOnCondoInsurance();
+    public void testCondoInsuranceIconClick()throws InterruptedException{
+        Assert.assertEquals("https://propertysales.geico.com/CustomerInformation",clickOnCondoInsurance());
     }
     @Test
-    public void testBoatInsuranceIconClick(){
-        clickOnBoatInsurance();
+    public void testBoatInsuranceIconClick()throws InterruptedException{
+        Assert.assertEquals("https://boat-prod.geico.com/CustomerInformation",clickOnBoatInsurance());
     }
     @Test
-    public void testUmbrellaInsuranceIconClick(){
-        clickOnUmbrellaInsurance();
+    public void testUmbrellaInsuranceIconClick()throws InterruptedException{
+        Assert.assertEquals("https://www.geico.com/umbrella-insurance/",clickOnUmbrellaInsurance());
     }
+    /*@Test
+    public void testRVInsuranceIconClick()throws InterruptedException{
+        Assert.assertEquals("https://rv.geico.com/sales/(S(fkmghmtlvdw3pz0rykldkdv1))/default.aspx",clickOnRVInsurance());
+    }*/
     @Test
-    public void testRVInsuranceIconClick(){
-        clickOnRVInsurance();
-    }
-    @Test
-    public void testCollectorAutoInsuranceIconClick(){
+    public void testCollectorAutoInsuranceIconClick()throws InterruptedException{
         clickOnCollectorAutoIcon();
     }
     @Test
-    public void testMobileHomeInsuranceIconClick(){
+    public void testMobileHomeInsuranceIconClick()throws InterruptedException{
         clickOnMobileHomeIcon();
     }
     @Test
-    public void testFloodInsuranceIconClick(){
+    public void testFloodInsuranceIconClick()throws InterruptedException{
         clickOnFloodIcon();
     }
     @Test
-    public void testCommercialAutoInsuranceIconClick(){
+    public void testCommercialAutoInsuranceIconClick()throws InterruptedException{
         clickOnCommercialAutoIcon();
     }
     @Test
-    public void testGeneralLiabilityInsuranceIconClick(){
+    public void testGeneralLiabilityInsuranceIconClick()throws InterruptedException{
         clickOnGeneralLiabilityIcon();
     }
     @Test
-    public void testProfessionalLiabilityInsuranceIconClick(){
+    public void testProfessionalLiabilityInsuranceIconClick()throws InterruptedException{
         clickOnProfessionalLiabilityIcon();
     }
     @Test
-    public void testBusinessOwnersInsuranceIconClick(){
+    public void testBusinessOwnersInsuranceIconClick()throws InterruptedException{
         clickOnBusinessOwnersIcon();
     }
 

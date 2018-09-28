@@ -40,16 +40,8 @@ public class CommonClass {
         wait = new WebDriverWait(driver,10);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
-
-    }
-    /*@BeforeMethod
-    public void fullScreen(){
         driver.manage().window().fullscreen();
-    }*/
-    @AfterMethod
-    public void end() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.close();
+
     }
 
     public static ExtentReports extent;
