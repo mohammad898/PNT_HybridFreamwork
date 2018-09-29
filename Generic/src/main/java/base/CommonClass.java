@@ -43,8 +43,7 @@ public class CommonClass{
         wait = new WebDriverWait(driver,10);
        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
-        driver.manage().window().fullscreen();
-
+       // driver.manage().window().fullscreen();
     }
 
     public static ExtentReports extent;

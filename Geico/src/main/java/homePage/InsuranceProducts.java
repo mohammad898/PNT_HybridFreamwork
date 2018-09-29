@@ -34,7 +34,7 @@ public class InsuranceProducts extends CommonClass {
     @FindBy(css = ".icon-auto-collector-ins")
 
     public static WebElement collectorAutoIcon;
-    @FindBy(css = ".icon-mobile-home-ins")
+    @FindBy(css = ".icon.icon-mobile-home-ins")
     public static WebElement mobileHomeIcon;
     @FindBy(css = ".icon-flood-ins")
     public static WebElement floodIcon;
@@ -128,5 +128,9 @@ public class InsuranceProducts extends CommonClass {
         Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         return url;
+    }
+    public String breakString(String url){
+        String[] arr = url.split("S");
+        return arr[0];
     }
 }

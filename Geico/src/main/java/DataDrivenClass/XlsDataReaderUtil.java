@@ -5,14 +5,10 @@ import base.Xls_Reader;
 import java.util.ArrayList;
 
 public class XlsDataReaderUtil {
-
     static Xls_Reader reader;
-
     public static ArrayList<Object[]> getDataFromExcelFM(){
-
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
-
             reader = new Xls_Reader("/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/data/DataFile2.xls");
         }
         catch (Exception e){
@@ -26,7 +22,6 @@ public class XlsDataReaderUtil {
             Object obj[] = {email,passCode, message};
             myData.add(obj);
         }
-
         return  myData;
     }
 }

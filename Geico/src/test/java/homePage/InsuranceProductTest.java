@@ -8,10 +8,8 @@ import org.testng.annotations.Test;
 public class InsuranceProductTest extends InsuranceProducts{
     InsuranceProducts insuranceProducts;
     @BeforeMethod
-    public void init(){
-        insuranceProducts = PageFactory.initElements(driver, InsuranceProducts.class);
+    public void init(){ insuranceProducts = PageFactory.initElements(driver, InsuranceProducts.class);
     }
-
     @Test
     public void testHomeOwnerInsurance() throws InterruptedException {
         Assert.assertEquals("https://propertysales.geico.com/CustomerInformation",clickOnIconwithZipCode(homeOwnersInsuranceIcon));
@@ -36,26 +34,32 @@ public class InsuranceProductTest extends InsuranceProducts{
     public void testUmbrellaInsurance()throws InterruptedException{
         Assert.assertEquals("https://www.geico.com/umbrella-insurance/",clickOnIconWithoutZipCode(umbrellaInsuranceIcon));
     }
-    /*@Test dynamic url
+    @Test
     public void testRVInsuranceIconClick()throws InterruptedException{
-        Assert.assertEquals("https://rv.geico.com/sales/(S(fkmghmtlvdw3pz0rykldkdv1))/default.aspx",clickOnRVInsurance());
-    }*/
+        String url = clickOnIconWithoutZipCode(rvInsuranceIcon);
+        url = breakString(url);
+        String actualUrl = "https://rv.geico.com/sales/(S(fkmghmtlvdw3pz0rykldkdv1))/default.aspx";
+        Assert.assertTrue(actualUrl.contains(url));
+    }
     @Test
     public void testCollectorAutoInsurance()throws InterruptedException{
         Assert.assertEquals("https://www.geico.com/collector-auto-insurance/",clickOnIconWithoutZipCode2(collectorAutoIcon) );
     }
     @Test
     public void testMobileHomeInsurance()throws InterruptedException{
-        Assert.assertEquals("https://www.geico.com/mobile-home-insurance/",clickOnIconWithoutZipCode2(mobileHomeIcon));
+        String url = clickOnIconWithoutZipCode2(mobileHomeIcon);
+        url = breakString(url);
+        String actualUrl = "https://commercial.geico.com/Sales/(S(gitrpomgn30nz300sbxuzckq))/Quote/LandingPage.aspx?Zipcode=11435";
+        Assert.assertTrue(actualUrl.contains(url));
     }
     /*@Test popup
     public void testFloodInsurance()throws InterruptedException{
         clickOnFloodIcon();
     }*/
-    /*@Test dynamic url
+    @Test
     public void testCommercialAutoInsurance()throws InterruptedException{
         Assert.assertEquals("https://commercial.geico.com/Sales/(S(qzn5nfzs4mdkszahrf11yxfv))/Quote/LandingPage.aspx?Zipcode=11435",clickOnIconwithZipCode2(commercialAutoIcon));
-    }*/
+    }
     /*@Test popup
     public void testGeneralLiabilityInsurance()throws InterruptedException{
         clickOnGeneralLiabilityIcon();

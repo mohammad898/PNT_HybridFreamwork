@@ -9,5 +9,4 @@ public class testScreenShot extends CommonClass {
     public void testCaptureScreenShot(){
         captureScreenshot(driver, screenShot1);
     }
-
 }

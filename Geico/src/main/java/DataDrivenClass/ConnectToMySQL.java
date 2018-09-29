@@ -32,9 +32,7 @@ public class ConnectToMySQL {
             connect = DriverManager.getConnection(url,username,password);
             System.out.println("Database is connected");
             return connect;
-
         }
-
         public List<String> readData(String tableName, String columnName) {
             List<String> warning = new ArrayList<>();
             try{

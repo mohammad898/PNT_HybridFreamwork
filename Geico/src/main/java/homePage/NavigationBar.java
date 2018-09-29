@@ -35,7 +35,6 @@ public class NavigationBar extends CommonClass {
        Thread.sleep(2000);
         return insuranceDiv.isDisplayed();
     }
-
     public boolean clickOnInformation() throws InterruptedException {
         information.click();
         Thread.sleep(2000);

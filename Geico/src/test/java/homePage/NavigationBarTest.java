@@ -12,7 +12,6 @@ public class NavigationBarTest extends NavigationBar {
     public void init(){
         n1 = PageFactory.initElements(driver, NavigationBar.class);
     }
-
    @Test
     public void testClickInsurance() throws InterruptedException {
        boolean retStatement = clickOnInsurance();;
@@ -43,5 +42,4 @@ public class NavigationBarTest extends NavigationBar {
        String url = clickOnGeicoLogo();
        Assert.assertEquals("https://www.geico.com/",url);
     }
-
 }

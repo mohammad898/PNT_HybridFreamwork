@@ -10,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 public class ConnectToMongoDB {
-
     public static MongoDatabase mongoDatabase = null;
     public static MongoDatabase connectToMongoDB(){
         MongoClient mongoClient = new MongoClient();
@@ -18,7 +17,6 @@ public class ConnectToMongoDB {
         System.out.println("Database Connected");
         return mongoDatabase;
     }
-
     public static String insertToMongoDB(WebElement element,String tableName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         String menu = element.getText();
@@ -29,7 +27,6 @@ public class ConnectToMongoDB {
         collection.insertOne(doc);
         return menu + " added.";
     }
-
     public static List<String> readFromMongoDB(String tableName){
         List<String> list = new ArrayList<>();
         //User user = new User();

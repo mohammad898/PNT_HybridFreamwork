@@ -22,7 +22,6 @@ public class InformationAndInsuranceHover extends CommonClass {
     public static String informationDivPath = "//div[@data-side-panel='information']/ul";
     public static String infoMenuElementsPath = "//div[@data-side-panel='information']/ul/li/a/span[2]";
 
-
     public List<WebElement> retMenuList(String parentXpath, String childXpath){
         wait.until(ExpectedConditions.presenceOfNestedElementsLocatedBy(By.xpath(parentXpath),By.xpath(childXpath)));
         WebElement divUL = driver.findElement(By.xpath(parentXpath));

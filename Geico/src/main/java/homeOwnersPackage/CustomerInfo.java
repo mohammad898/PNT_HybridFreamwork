@@ -28,7 +28,6 @@ public class CustomerInfo extends CommonClass {
 
     @FindBy(xpath = "//label[@for='CustomerInformationViewData_CD004aMovedRecently_True']")
     public static WebElement radioButton2Yes;
-
     @FindBy(id = "CD005PriorAddressStreet")
     public static WebElement div1;
     @FindBy(id = "CD006PriorAddressZip")
@@ -41,7 +40,6 @@ public class CustomerInfo extends CommonClass {
     public void clickRadioButton(){
         radioButton2Yes.click();
     }
-
     //test of the warning texts that occur when clicked continue without filling any field
     @FindBy(name = "submitButton")
     public static WebElement continueButton;
