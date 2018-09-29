@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -32,9 +33,7 @@ public class GoogleSheetClass extends Login{
             return values;
         }
     }
-    //LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
-
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {
@@ -42,7 +41,6 @@ public class GoogleSheetClass extends Login{
             inputValueInTextBoxByWebElement(loginTextBox, row.get(1).toString());
             inputValueInTextBoxByWebElement(passwordTextBox, row.get(2).toString());
             Thread.sleep(3000);
-            //actual.add(getCurrentPageTitle());
             actual.add(getTextByWebElement(errorMessage));
             System.out.println(getTextByWebElement(errorMessage));
             clearInputBox(loginTextBox);

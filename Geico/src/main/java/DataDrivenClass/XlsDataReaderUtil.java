@@ -14,7 +14,6 @@ public class XlsDataReaderUtil {
         catch (Exception e){
             e.printStackTrace();
         }
-        // change only sheet name in line 19
         for (int rowNum =2; rowNum <= reader.getRowCount("Sheet1"); rowNum++){
             String  email = reader.getCellData("Sheet1", "email",rowNum );
             String passCode = reader.getCellData("Sheet1","passCode", rowNum);

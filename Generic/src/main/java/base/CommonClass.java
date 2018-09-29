@@ -11,6 +11,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.apache.commons.lang3.StringUtils;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -130,4 +131,10 @@ wait.until(ExpectedConditions.visibilityOf(element));
         URL serverUrl = new URL(browserStackUrl);
         driver = new RemoteWebDriver(serverUrl,cap);
     }
+    public static String convertToString(String st){
+        String splitString ;
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        return splitString;
+    }
+
 }

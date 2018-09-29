@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import DataDrivenClass.XlsDataReaderUtil;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -19,7 +20,8 @@ public class LoginTest extends Login {
     }
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
-        navigateToLoginPage();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+         navigateToLoginPage();
         String errMessage = SendLoginInfo(email, passCode);
         Assert.assertEquals(message,errMessage);
     }

@@ -4,6 +4,7 @@ package base;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -214,5 +215,9 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         Select select=new Select(element);
         select.selectByVisibleText(value);
     }
-
+    public static String convertToString(String st){
+        String splitString ;
+        splitString = org.apache.commons.lang3.StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        return splitString;
+    }
 }
