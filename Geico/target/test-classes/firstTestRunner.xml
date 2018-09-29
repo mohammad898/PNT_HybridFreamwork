@@ -3,10 +3,10 @@
 
 <suite name="Geico API Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Mac"/>
-    <parameter name="os_version" value="macOS(10.13)"/>
+    <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>

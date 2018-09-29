@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
@@ -28,20 +29,19 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class CommonClass {
+public class CommonClass{
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait = null ;
-
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        setUpBrowserStack();
         System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
+        //setUpBrowserStack();
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         builder = new Actions(driver);
         wait = new WebDriverWait(driver,10);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
         driver.manage().window().fullscreen();
 
@@ -76,7 +76,6 @@ public class CommonClass {
 
         if (result.getStatus() == 1) {
             ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
-//            System.out.println();
         } else if (result.getStatus() == 2) {
             ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
         } else if (result.getStatus() == 3) {
@@ -96,7 +95,7 @@ public class CommonClass {
         Date date = new Date();
         df.format(date);
 
-        File file = ((TakesScreenshot) CommonClass.driver).getScreenshotAs(OutputType.FILE);
+        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
             System.out.println("Screenshot captured");
@@ -124,8 +123,10 @@ wait.until(ExpectedConditions.visibilityOf(element));
     }
     public void setUpBrowserStack() throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setPlatform(Platform.MAC);
-        cap.setBrowserName("chrome");
+        cap.setCapability("browser","chrome");
+        cap.setCapability("browser_version","68.0");
+        cap.setCapability("os", "OS X");
+        cap.setCapability("os_version", "Sierra");
         String browserStackUrl = "https://afiafarjana1:9Z5U2U9zmF6Uq6QUr9pi@hub-cloud.browserstack.com/wd/hub";
         URL serverUrl = new URL(browserStackUrl);
         driver = new RemoteWebDriver(serverUrl,cap);
