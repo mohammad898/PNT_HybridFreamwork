@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import reporting.TestLogger;
 
 public class getQuotePopUp extends CommonClass {
     @FindBy(xpath = "//div[@class='card-selections-card']//label")
@@ -14,12 +15,15 @@ public class getQuotePopUp extends CommonClass {
     @FindBy(css = ".skip-collect-intent.link--primary")
     public static WebElement skipButton;
     public void navigate() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.navigate().to("https://auto-buy.geico.com/nb#/sale/customerinformation/gskmsi");
     }
     public void waitToBeVisible(WebElement element){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
     public void getQuote(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         navigate();
         waitToBeVisible(firstQuote);
         firstQuote.click();
@@ -27,6 +31,7 @@ public class getQuotePopUp extends CommonClass {
         getQuoteButton.click();
     }
     public void clickSkip(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         navigate();
         waitToBeVisible(skipButton);
         skipButton.click();

@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import DataDrivenClass.ConnectToMongoDB;
+import reporting.TestLogger;
 
 import java.net.MalformedURLException;
 import java.util.List;
@@ -19,10 +20,10 @@ public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHov
         object = PageFactory.initElements(driver, InformationAndInsuranceHover.class);
     }
     @Test
-    public void testMenuItems()  {
-        //setUpBrowserStack();
+    public void testInformationMenuItems() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> spanText = ConnectToMongoDB.readFromMongoDB("infoMenu");
-        List<WebElement> element = retInfoMenu();
+        List<WebElement> element = getInformationMenuList();
         for(int index=0; index<element.size();index++) {
             Assert.assertEquals(element.get(index).getText(),spanText.get(index));
         }

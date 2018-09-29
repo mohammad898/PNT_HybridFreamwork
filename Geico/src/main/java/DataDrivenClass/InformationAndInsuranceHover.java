@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import reporting.TestLogger;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -22,15 +23,17 @@ public class InformationAndInsuranceHover extends CommonClass {
     public static String informationDivPath = "//div[@data-side-panel='information']/ul";
     public static String infoMenuElementsPath = "//div[@data-side-panel='information']/ul/li/a/span[2]";
 
-    public List<WebElement> retMenuList(String parentXpath, String childXpath){
+    public List<WebElement> retToGetInformationMenuList(String parentXpath, String childXpath){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         wait.until(ExpectedConditions.presenceOfNestedElementsLocatedBy(By.xpath(parentXpath),By.xpath(childXpath)));
         WebElement divUL = driver.findElement(By.xpath(parentXpath));
         List<WebElement> unorderedList = divUL.findElements(By.xpath(childXpath));
         return unorderedList;
     }
-    public List<WebElement> retInfoMenu(){
+    public List<WebElement> getInformationMenuList(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         information.click();
-        List<WebElement> li = retMenuList(informationDivPath,infoMenuElementsPath);
+        List<WebElement> li = retToGetInformationMenuList(informationDivPath,infoMenuElementsPath);
         return  li;
     }
 }

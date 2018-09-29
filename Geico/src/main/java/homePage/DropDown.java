@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import reporting.TestLogger;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -14,7 +15,8 @@ public class DropDown extends CommonClass {
     public static Select dropDownButton;
 
     public List<String> getDropDownList(){
-       // waitToBeVisible("//select[@id='homepage_manage_select']/option");
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        // waitToBeVisible("//select[@id='homepage_manage_select']/option");
         List<WebElement> dropDownList = dropDownButton.getOptions();
         List<String> dropDownListText = new LinkedList<>();
         for(WebElement it:dropDownList) {

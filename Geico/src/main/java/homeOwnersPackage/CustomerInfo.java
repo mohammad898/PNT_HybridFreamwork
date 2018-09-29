@@ -5,6 +5,7 @@ import homePage.InsuranceProducts;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,22 +48,26 @@ public class CustomerInfo extends CommonClass {
     public static List<WebElement> warningList;
 
     public void clickContinue() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         continueButton.click();
         Thread.sleep(2000);
     }
-    public void clickOnHO() throws InterruptedException {
+    public void clickOnHomeOwnersInsurance() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         object.homeOwnersInsuranceIcon.click();
         object.sendZipCodeKeys("11435");
     }
     public String clickToolTip(WebElement toolKit, WebElement toolKitText ) throws InterruptedException {
-        clickOnHO();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickOnHomeOwnersInsurance();
         Thread.sleep(1000);
         toolKit.click();
         waitToBeVisible(toolKitText);
         return toolKitText.getText();
     }
     public List<String> clickContinue1() throws InterruptedException {
-        clickOnHO();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickOnHomeOwnersInsurance();
         clickContinue();
         waitToBeVisible("//ul[@class='list list--unordered']");
         List<String> warningText = new ArrayList<>();
@@ -72,7 +77,8 @@ public class CustomerInfo extends CommonClass {
         return warningText;
     }
     public boolean isDivVisible(WebElement element) throws InterruptedException {
-        clickOnHO();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickOnHomeOwnersInsurance();
         Thread.sleep(2000);
         clickRadioButton();
         Thread.sleep(1000);

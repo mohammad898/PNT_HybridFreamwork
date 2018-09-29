@@ -22,6 +22,7 @@ public class GoogleSheetClass extends Login{
     Login loginObject = PageFactory.initElements(driver,Login.class);
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Sheets service = getSheetsService();
         ValueRange response = service.spreadsheets().values()
                 .get(spreadsheetId, range)
@@ -34,6 +35,7 @@ public class GoogleSheetClass extends Login{
         }
     }
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {
@@ -50,16 +52,20 @@ public class GoogleSheetClass extends Login{
         return actual;
     }
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         webElement.sendKeys(value + Keys.ENTER);
     }
     public void clearInputBox(WebElement webElement){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         webElement.clear();
     }
     public String getTextByWebElement(WebElement webElement){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         String text = webElement.getText();
         return text;
     }
-    public void testGoogleSheet(String spreadsheetId, String range) throws InterruptedException, IOException {
+    public void sendSpreadSheetIdAndRange(String spreadsheetId, String range) throws InterruptedException, IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.navigate().to("https://ecams.geico.com/ecams/login.xhtml?r=true");
         Thread.sleep(1000);
         List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);

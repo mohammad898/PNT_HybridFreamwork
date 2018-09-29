@@ -1,12 +1,16 @@
 package DataDrivenClass;
 
 import base.Xls_Reader;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
+
+import static base.CommonClass.convertToString;
 
 public class XlsDataReaderUtil {
     static Xls_Reader reader;
     public static ArrayList<Object[]> getDataFromExcelFM(){
+        TestLogger.log(XlsDataReaderUtil.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
             reader = new Xls_Reader("/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/data/DataFile2.xls");

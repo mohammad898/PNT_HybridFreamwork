@@ -19,8 +19,8 @@ public class TestGoogleSheetsPage extends GoogleSheetClass{
         googleSheetsPage = PageFactory.initElements(driver,GoogleSheetClass.class);
     }
     @Test
-    public void testLogInByInvalidIdPassword() throws IOException, InterruptedException {
+    public void testLogInByInvalidIdPassUsingGoolgleSheet() throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        testGoogleSheet("1H0JiWbL-Hq9to5oI21m65xpY0OQzJ4qCLjdzqbFgy6c","Sheet1!A2:C");
+        sendSpreadSheetIdAndRange("1H0JiWbL-Hq9to5oI21m65xpY0OQzJ4qCLjdzqbFgy6c","Sheet1!A2:C");
     }
 }

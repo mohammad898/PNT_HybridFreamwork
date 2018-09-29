@@ -25,7 +25,7 @@
       <class name="DataDrivenTests.TestGoogleSheetsPage"/>
   </classes>
     </test>
-    <test name="popUp test">
+   <test name="popUp test">
         <classes>
             <class name="popUp.testPopUp"/>
         </classes>

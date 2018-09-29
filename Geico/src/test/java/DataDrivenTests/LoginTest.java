@@ -19,10 +19,10 @@ public class LoginTest extends Login {
         loginObject = PageFactory.initElements(driver,Login.class);
     }
     @Test(dataProvider = "supplyData")
-    public void signIn(String email, String passCode, String message) throws InterruptedException {
+    public void signInWithInvalidIDPassUsingExcel(String email, String passCode, String message) throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
          navigateToLoginPage();
-        String errMessage = SendLoginInfo(email, passCode);
-        Assert.assertEquals(message,errMessage);
+         String errMessage = SendLoginInfo(email, passCode);
+         Assert.assertEquals(message,errMessage);
     }
 }
