@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
-  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
     <classes>
       <class name="Search.AboutTextOptionPageTest">
         <methods>
@@ -11,11 +11,22 @@
           <include name="afterEachTestMethod"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
-          <include name="setDriver"/>
           <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
       </class> <!-- Search.AboutTextOptionPageTest -->
+      <class name="Search.ATMBranchPageTest">
+        <methods>
+          <include name="initelement"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="TextInput_Test"/>
+          <include name="setUp"/>
+          <include name="BrowseByState_Test"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.ATMBranchPageTest -->
       <class name="Search.CorporateTextOptionPageTest">
         <methods>
           <include name="CorporateCapabilities_Test"/>
@@ -23,38 +34,28 @@
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="initelement"/>
-          <include name="setDriver"/>
           <include name="StanderderPrespectives_Test"/>
           <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
       </class> <!-- Search.CorporateTextOptionPageTest -->
-      <class name="Search.PageSearch_option_attempt_Test">
+      <class name="Search.BusinessTextOptionPageTest">
         <methods>
-          <include name="generateReport"/>
-          <include name="setDriver"/>
-          <include name="setUp"/>
-          <include name="contactus"/>
-          <include name="Hovermenu"/>
-          <include name="init"/>
-          <include name="privacypolicy"/>
-          <include name="TermsofUse"/>
-          <include name="business"/>
-          <include name="mortgageLending"/>
-          <include name="SearchPage"/>
-          <include name="findATM"/>
+          <include name="Banking_Test"/>
+          <include name="Borrowing_Test"/>
+          <include name="initelement"/>
           <include name="afterEachTestMethod"/>
-          <include name="aTMLocation"/>
+          <include name="generateReport"/>
           <include name="extentSetup"/>
-          <include name="ClassBody"/>
+          <include name="BusinessFirst_Test"/>
+          <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- Search.PageSearch_option_attempt_Test -->
+      </class> <!-- Search.BusinessTextOptionPageTest -->
       <class name="Search.HomePageTest">
         <methods>
           <include name="STU_VALUE_CHEK_Test"/>
           <include name="About_Textoption_Test"/>
-          <include name="setDriver"/>
           <include name="Find_location_near_you_Test"/>
           <include name="setUp"/>
           <include name="DIGI_BANKING_Test"/>
@@ -82,33 +83,6 @@
           <include name="startExtent"/>
         </methods>
       </class> <!-- Search.HomePageTest -->
-      <class name="Search.ATMBranchPageTest">
-        <methods>
-          <include name="initelement"/>
-          <include name="afterEachTestMethod"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setDriver"/>
-          <include name="TextInput_Test"/>
-          <include name="setUp"/>
-          <include name="BrowseByState_Test"/>
-          <include name="startExtent"/>
-        </methods>
-      </class> <!-- Search.ATMBranchPageTest -->
-      <class name="Search.BusinessTextOptionPageTest">
-        <methods>
-          <include name="Banking_Test"/>
-          <include name="Borrowing_Test"/>
-          <include name="initelement"/>
-          <include name="afterEachTestMethod"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="BusinessFirst_Test"/>
-          <include name="setDriver"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-        </methods>
-      </class> <!-- Search.BusinessTextOptionPageTest -->
       <class name="Search.PersonalTextOptionPageTest">
         <methods>
           <include name="CreditCard_Test"/>
@@ -119,7 +93,6 @@
           <include name="extentSetup"/>
           <include name="Borrowing_Test"/>
           <include name="Banking_Test"/>
-          <include name="setDriver"/>
           <include name="initelement"/>
           <include name="setUp"/>
           <include name="startExtent"/>
@@ -130,13 +103,32 @@
           <include name="afterEachTestMethod"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
-          <include name="setDriver"/>
           <include name="signIn"/>
           <include name="setUp"/>
           <include name="initelement"/>
           <include name="startExtent"/>
         </methods>
       </class> <!-- Search.LoginPageTest -->
+      <class name="Search.PageSearch_option_attempt_Test">
+        <methods>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="contactus"/>
+          <include name="Hovermenu"/>
+          <include name="init"/>
+          <include name="privacypolicy"/>
+          <include name="TermsofUse"/>
+          <include name="business"/>
+          <include name="mortgageLending"/>
+          <include name="SearchPage"/>
+          <include name="findATM"/>
+          <include name="afterEachTestMethod"/>
+          <include name="aTMLocation"/>
+          <include name="extentSetup"/>
+          <include name="ClassBody"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.PageSearch_option_attempt_Test -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

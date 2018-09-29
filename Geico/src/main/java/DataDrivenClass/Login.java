@@ -9,6 +9,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.DataProvider;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Login extends CommonClass{
     @FindBy(id = "userName")
@@ -40,5 +44,11 @@ public class Login extends CommonClass{
         clearInputBox(loginTextBox);
         clearInputBox(passwordTextBox);
         return errMessage;
+    }
+    @DataProvider
+    public Iterator<Object[]> supplyData(){
+        ArrayList<Object[]> testData =
+                XlsDataReaderUtil.getDataFromExcelFM();
+        return testData.iterator();
     }
 }

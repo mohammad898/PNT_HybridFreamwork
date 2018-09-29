@@ -20,7 +20,6 @@ public class TestGoogleSheetsPage extends CommonClass {
         loginObject = PageFactory.initElements(driver, Login.class);
         googleSheetsPage = PageFactory.initElements(driver,GoogleSheetClass.class);
     }
-
     //Verify log in by taking data from a google sheets file
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {

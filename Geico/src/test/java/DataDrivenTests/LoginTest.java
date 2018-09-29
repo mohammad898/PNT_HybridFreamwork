@@ -17,15 +17,9 @@ public class LoginTest extends Login {
     public void init(){
         loginObject = PageFactory.initElements(driver,Login.class);
     }
-    @DataProvider
-    public Iterator<Object[]> supplyData(){
-        ArrayList<Object[]> testData =
-                XlsDataReaderUtil.getDataFromExcelFM();
-        return testData.iterator();
-    }
     @Test(dataProvider = "supplyData")
     public void signIn(String email, String passCode, String message) throws InterruptedException {
-         navigateToLoginPage();
+        navigateToLoginPage();
         String errMessage = SendLoginInfo(email, passCode);
         Assert.assertEquals(message,errMessage);
     }

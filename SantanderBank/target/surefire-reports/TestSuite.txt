@@ -1,52 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 289, Failures: 8, Errors: 0, Skipped: 281, Time elapsed: 2.39 s <<< FAILURE! - in TestSuite
-setDriver(Search.PageSearch_option_attempt_Test)  Time elapsed: 1.186 s  <<< FAILURE!
-org.testng.TestNGException: 
+Tests run: 227, Failures: 7, Errors: 0, Skipped: 220, Time elapsed: 0.798 s <<< FAILURE! - in TestSuite
+setUp(Search.PageSearch_option_attempt_Test)  Time elapsed: 0.49 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
+setUp(Search.BusinessTextOptionPageTest)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
+setUp(Search.ATMBranchPageTest)  Time elapsed: 0.505 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
-setDriver(Search.BusinessTextOptionPageTest)  Time elapsed: 1.218 s  <<< FAILURE!
-org.testng.TestNGException: 
+setUp(Search.AboutTextOptionPageTest)  Time elapsed: 0.507 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
+setUp(Search.PersonalTextOptionPageTest)  Time elapsed: 0.511 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
+setUp(Search.CorporateTextOptionPageTest)  Time elapsed: 0.517 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
-setDriver(Search.ATMBranchPageTest)  Time elapsed: 1.225 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
-
-
-setDriver(Search.AboutTextOptionPageTest)  Time elapsed: 1.23 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
-
-
-setDriver(Search.PersonalTextOptionPageTest)  Time elapsed: 1.235 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
-
-
-setDriver(Search.CorporateTextOptionPageTest)  Time elapsed: 1.247 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
-
-
-setDriver(Search.HomePageTest)  Time elapsed: 1.256 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
-
-
-setDriver(Search.LoginPageTest)  Time elapsed: 1.833 s  <<< FAILURE!
-org.testng.TestNGException: 
-
-Parameter 'os' is required by BeforeMethod on method setDriver but has not been marked @Optional or defined
-
+setUp(Search.HomePageTest)  Time elapsed: 0.52 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
 
