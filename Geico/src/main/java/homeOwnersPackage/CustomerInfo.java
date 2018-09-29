@@ -6,8 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CustomerInfo extends CommonClass {
     InsuranceProducts object = PageFactory.initElements(driver,InsuranceProducts.class);
+
+    //test of texts shown in all the help tool tips.
     @FindBy(xpath = "//a[@data-tooltip-view='HelpText-NIP013PIPropertyStreetAddress']")
     public static WebElement streetTip;
     @FindBy(xpath = "//div[@id='HelpText-NIP013PIPropertyStreetAddress']//div[@id='HelpTextDiv']/p")
@@ -18,7 +23,19 @@ public class CustomerInfo extends CommonClass {
     public static WebElement coverageDateTipText;
     @FindBy(xpath = "//a[@data-tooltip-view='HelpText-CD003DateOfBirth']")
     public static WebElement dateOfBirthTip;
+    @FindBy(xpath = "//div[@id='HelpText-CD003DateOfBirth']//div[@id='HelpTextDiv']/p")
+    public static WebElement dateOfBirthTipText;
 
+    //test of the warning texts that occur when clicked continue without filling any field
+    @FindBy(name = "submitButton")
+    public static WebElement continueButton;
+    @FindBy(xpath = "//ul[@class='list list--unordered']/li")
+    public static List<WebElement> warningList;
+
+    public void clickContinue() throws InterruptedException {
+        continueButton.click();
+        Thread.sleep(2000);
+    }
     public void clickOnHO() throws InterruptedException {
         object.homeOwnersInsuranceIcon.click();
         object.sendZipCodeKeys("11435");
@@ -29,5 +46,15 @@ public class CustomerInfo extends CommonClass {
         toolKit.click();
         waitToBeVisible(toolKitText);
         return toolKitText.getText();
+    }
+    public List<String> clickContinue1() throws InterruptedException {
+        clickOnHO();
+        clickContinue();
+        waitToBeVisible("//ul[@class='list list--unordered']");
+        List<String> warningText = new ArrayList<>();
+        for(WebElement it: warningList){
+            warningText.add(it.getText());
+        }
+        return warningText;
     }
 }
