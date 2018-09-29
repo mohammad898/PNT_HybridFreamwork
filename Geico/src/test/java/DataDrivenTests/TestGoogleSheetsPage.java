@@ -4,6 +4,7 @@ import DataDrivenClass.GoogleSheetClass;
 import DataDrivenClass.Login;
 import base.CommonClass;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,20 +24,15 @@ public class TestGoogleSheetsPage extends CommonClass {
     //Verify log in by taking data from a google sheets file
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
-        //Thread.sleep(3000);
-
-        Thread.sleep(3000);
-        int i = 0;
+        driver.navigate().to("https://ecams.geico.com/ecams/login.xhtml?r=true");
+        Thread.sleep(1000);
         String spreadsheetId = "1H0JiWbL-Hq9to5oI21m65xpY0OQzJ4qCLjdzqbFgy6c";
         String range = "Sheet1!A2:C";
         List<String> actualErrorMessage = googleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
         loginObject.clickSubmit();
         List<List<Object>> expectedErrorMessage = googleSheetsPage.getSpreadSheetRecords(spreadsheetId, range);
-        for (List row : expectedErrorMessage) {
-            // Assert.assertTrue(actualErrorMessage.get(i).contains(row.get(3).toString()));
-            //System.out.println("expected"+row.get(3).toString());
-            System.out.println(expectedErrorMessage.get(i) + ": Search - Passed");
-            i++;
+        for (int index=0;index<expectedErrorMessage.size();index++) {
+            Assert.assertTrue(actualErrorMessage.get(index).contains(actualErrorMessage.get(index)));
         }
         System.out.println("testLogInByInvalidIdPassUsingGoogleSheet Passed");
     }

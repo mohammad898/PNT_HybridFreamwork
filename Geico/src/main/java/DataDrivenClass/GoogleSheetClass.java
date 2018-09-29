@@ -33,19 +33,18 @@ public class GoogleSheetClass extends Login{
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
 
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
-        driver.navigate().to("https://ecams.geico.com/ecams/login.xhtml?r=true");
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
             inputValueInTextBoxByWebElement(loginTextBox, row.get(1).toString());
             inputValueInTextBoxByWebElement(passwordTextBox, row.get(2).toString());
-            Thread.sleep(5000);
+            Thread.sleep(3000);
             //actual.add(getCurrentPageTitle());
             actual.add(getTextByWebElement(errorMessage));
             System.out.println(getTextByWebElement(errorMessage));
             clearInputBox(loginTextBox);
             clearInputBox(passwordTextBox) ;
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         }
         return actual;
     }

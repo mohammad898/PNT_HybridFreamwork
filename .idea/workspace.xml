@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="761b93f8-db24-4d96-a6b7-e4e3b140a26e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/HomeOwners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/GoogleSheetClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/GoogleSheetClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/InsuranceProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/InsuranceProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/TestGoogleSheetsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Geico/target/" />
@@ -71,41 +83,43 @@
     <session id="98477560">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="11" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="21" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="21" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1629" />
-          <entry key="xml" value="199" />
+          <entry key="java" value="1849" />
+          <entry key="xml" value="251" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1629" />
+          <entry key="JAVA" value="1849" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="199" />
+          <entry key="XML" value="251" />
         </counts>
       </usages-collector>
     </session>
@@ -116,10 +130,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,40 +141,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/Login.java">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="178">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1438">
+              <caret line="130" column="52" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,8 +204,6 @@
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/TestGoogleSheetsPage.java" />
-        <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java" />
-        <option value="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/screenShot/testScreenShot.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/cloudEnv/browserStack.java" />
@@ -194,12 +221,18 @@
         <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBarOptionMethod.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/NavigationBar.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
         <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java" />
         <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/Login.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/InsuranceQuote/HomeOwners.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/HomeOwners.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
       </list>
     </option>
   </component>
@@ -233,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,13 +277,62 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+              <item name="sheets-googleapis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Airbnb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ReadingGoogleAPI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Geico" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +362,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DataDrivenClass" type="462c0819:PsiDirectoryNode" />
+              <item name="homeOwnersPackage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -312,16 +395,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Geico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="screenShot" type="462c0819:PsiDirectoryNode" />
+              <item name="homeOwnersPackage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -369,21 +443,31 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538167322967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538189457508" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -406,34 +490,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InsuranceProductTest">
-    <configuration name="InsuranceProductTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml">
+    <configuration name="CustomerInfoTest.testCoverageDateTipText" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homePage.*" />
+          <option name="PATTERN" value="homeOwnersPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homePage" />
-      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsuranceProductTest.testIdentityProtection" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Geico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homePage" />
-      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
-      <option name="METHOD_NAME" value="testIdentityProtection" />
+      <option name="PACKAGE_NAME" value="homeOwnersPackage" />
+      <option name="MAIN_CLASS_NAME" value="homeOwnersPackage.CustomerInfoTest" />
+      <option name="METHOD_NAME" value="testCoverageDateTipText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -441,17 +509,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsuranceProductTest.testOverseasInsurance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerInfoTest.testStreetTipText" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homePage.*" />
+          <option name="PATTERN" value="homeOwnersPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homePage" />
-      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
-      <option name="METHOD_NAME" value="testOverseasInsurance" />
+      <option name="PACKAGE_NAME" value="homeOwnersPackage" />
+      <option name="MAIN_CLASS_NAME" value="homeOwnersPackage.CustomerInfoTest" />
+      <option name="METHOD_NAME" value="testStreetTipText" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -459,17 +527,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsuranceProductTest.testTravelInsurance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InformationAndInsuranceHoverTest.testMenuItems" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homePage.*" />
+          <option name="PATTERN" value="DataDrivenTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homePage" />
-      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
-      <option name="METHOD_NAME" value="testTravelInsurance" />
+      <option name="PACKAGE_NAME" value="DataDrivenTests" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenTests.InformationAndInsuranceHoverTest" />
+      <option name="METHOD_NAME" value="testMenuItems" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -477,18 +545,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsuranceProductTest.testrideSharingInsurance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Geico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homePage.*" />
+          <option name="PATTERN" value="DataDrivenTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homePage" />
-      <option name="MAIN_CLASS_NAME" value="homePage.InsuranceProductTest" />
-      <option name="METHOD_NAME" value="testrideSharingInsurance" />
+      <option name="PACKAGE_NAME" value="DataDrivenTests" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenTests.TestGoogleSheetsPage" />
+      <option name="METHOD_NAME" value="testLogInByInvalidIdPassUsingGoogleSheet" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -496,19 +574,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.InsuranceProductTest.testrideSharingInsurance" />
-      <item itemvalue="TestNG.InsuranceProductTest.testTravelInsurance" />
-      <item itemvalue="TestNG.InsuranceProductTest.testOverseasInsurance" />
-      <item itemvalue="TestNG.InsuranceProductTest.testIdentityProtection" />
-      <item itemvalue="TestNG.InsuranceProductTest" />
+      <item itemvalue="TestNG.TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" />
+      <item itemvalue="TestNG.CustomerInfoTest.testStreetTipText" />
+      <item itemvalue="TestNG.CustomerInfoTest.testCoverageDateTipText" />
+      <item itemvalue="TestNG.InformationAndInsuranceHoverTest.testMenuItems" />
+      <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.InsuranceProductTest" />
-        <item itemvalue="TestNG.InsuranceProductTest.testIdentityProtection" />
-        <item itemvalue="TestNG.InsuranceProductTest.testOverseasInsurance" />
-        <item itemvalue="TestNG.InsuranceProductTest.testTravelInsurance" />
-        <item itemvalue="TestNG.InsuranceProductTest.testrideSharingInsurance" />
+        <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
+        <item itemvalue="TestNG.CustomerInfoTest.testCoverageDateTipText" />
+        <item itemvalue="TestNG.InformationAndInsuranceHoverTest.testMenuItems" />
+        <item itemvalue="TestNG.CustomerInfoTest.testStreetTipText" />
+        <item itemvalue="TestNG.TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" />
       </list>
     </recent_temporary>
   </component>
@@ -561,39 +639,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.27 at 19h 40m 01s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.27 at 19h 59m 45s.xml">
-      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationBar_testClickInsurance - 2018.09.28 at 02h 15m 04s.xml">
-      <configuration name="NavigationBar.testClickInsurance" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.28 at 02h 27m 29s.xml">
-      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.28 at 11h 52m 19s.xml">
-      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.28 at 14h 10m 23s.xml">
-      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.28 at 14h 11m 25s.xml">
-      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testHomeOwnerInsuranceIconClick - 2018.09.28 at 14h 12m 11s.xml">
-      <configuration name="InsuranceProductTest.testHomeOwnerInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testRentersInsuranceIconClick - 2018.09.28 at 14h 16m 39s.xml">
-      <configuration name="InsuranceProductTest.testRentersInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testMotorCycleInsuranceIconClick - 2018.09.28 at 14h 18m 14s.xml">
-      <configuration name="InsuranceProductTest.testMotorCycleInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InsuranceProductTest_testCondoInsuranceIconClick - 2018.09.28 at 14h 19m 33s.xml">
-      <configuration name="InsuranceProductTest.testCondoInsuranceIconClick" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="InsuranceProductTest_testBoatInsuranceIconClick - 2018.09.28 at 14h 20m 43s.xml">
       <configuration name="InsuranceProductTest.testBoatInsuranceIconClick" configurationId="TestNG" />
     </history-entry>
@@ -648,6 +693,39 @@
     <history-entry file="InsuranceProductTest - 2018.09.28 at 15h 44m 50s.xml">
       <configuration name="InsuranceProductTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.28 at 22h 12m 51s.xml">
+      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.28 at 22h 15m 37s.xml">
+      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.28 at 22h 23m 06s.xml">
+      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.28 at 22h 27m 44s.xml">
+      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.28 at 22h 30m 43s.xml">
+      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestGoogleSheetsPage_testLogInByInvalidIdPassUsingGoogleSheet - 2018.09.28 at 22h 31m 38s.xml">
+      <configuration name="TestGoogleSheetsPage.testLogInByInvalidIdPassUsingGoogleSheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomerInfoTest_testStreetTipText - 2018.09.28 at 22h 36m 15s.xml">
+      <configuration name="CustomerInfoTest.testStreetTipText" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomerInfoTest_testCoverageDateTipText - 2018.09.28 at 22h 36m 36s.xml">
+      <configuration name="CustomerInfoTest.testCoverageDateTipText" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testMenuItems - 2018.09.28 at 22h 37m 27s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomerInfoTest_testCoverageDateTipText - 2018.09.28 at 22h 39m 45s.xml">
+      <configuration name="CustomerInfoTest.testCoverageDateTipText" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.09.28 at 22h 52m 52s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="15176000" />
@@ -655,7 +733,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -664,14 +742,45 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2624204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6203822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15923567" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15159236" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.01656051" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15159236" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -684,7 +793,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -692,35 +801,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/ReadingFromXlsTest/ReadingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/search/searchForPlacesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Airbnb/src/main/java/FrontPage/SearchForPlaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -753,20 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -899,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -948,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2190">
@@ -983,20 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/NavigationBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -1006,7 +1049,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
+        <state relative-caret-position="1530">
           <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1016,7 +1059,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="1290">
           <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
@@ -1030,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#784#785#0" expanded="true" />
             <element signature="e#819#820#0" expanded="true" />
@@ -1041,5 +1084,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Airbnb/src/test/java/ReadingGoogleAPI/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="91" lean-forward="true" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/HomeOwners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1438">
+          <caret line="130" column="52" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Airbnb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:3.1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
