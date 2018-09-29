@@ -21,7 +21,7 @@ public class ConnectToMongoDB {
     public static String insertToMongoDB(WebElement element,String tableName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         String menu = element.getText();
-        MongoCollection<Document>  collection = mongoDatabase.getCollection("tableName");
+        MongoCollection<Document>  collection = mongoDatabase.getCollection(tableName);
         //table names: infoMenu
         //using getCollection(String s) method.
         Document doc = new Document().append("menuList",menu);

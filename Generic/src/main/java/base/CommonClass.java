@@ -17,7 +17,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
-
 import java.io.File;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -29,14 +28,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-import reporting.ApplicationLog;
+
 public class CommonClass{
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait = null ;
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        ApplicationLog.launchBrowser();
         System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
         //setUpBrowserStack();
         driver = new ChromeDriver();
@@ -45,7 +43,7 @@ public class CommonClass{
         wait = new WebDriverWait(driver,10);
        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
-        ApplicationLog.launchBrowserComplete();
+
        // driver.manage().window().fullscreen();
     }
 
