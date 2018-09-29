@@ -6,15 +6,19 @@ import com.google.api.services.sheets.v4.model.ValueRange;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import static base.GoogleSheetReader.getSheetsService;
 
 public class GoogleSheetClass extends Login{
-
+    Login loginObject = PageFactory.initElements(driver,Login.class);
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
         Sheets service = getSheetsService();
@@ -56,5 +60,15 @@ public class GoogleSheetClass extends Login{
     public String getTextByWebElement(WebElement webElement){
         String text = webElement.getText();
         return text;
+    }
+    public void testGoogleSheet(String spreadsheetId, String range) throws InterruptedException, IOException {
+        driver.navigate().to("https://ecams.geico.com/ecams/login.xhtml?r=true");
+        Thread.sleep(1000);
+        List<String> actualErrorMessage = signInByInvalidIdPass(spreadsheetId, range);
+        loginObject.clickSubmit();
+        List<List<Object>> expectedErrorMessage = getSpreadSheetRecords(spreadsheetId, range);
+        for (int index=0;index<expectedErrorMessage.size();index++) {
+            Assert.assertTrue(actualErrorMessage.get(index).contains(actualErrorMessage.get(index)));
+        }
     }
 }
