@@ -26,6 +26,22 @@ public class CustomerInfo extends CommonClass {
     @FindBy(xpath = "//div[@id='HelpText-CD003DateOfBirth']//div[@id='HelpTextDiv']/p")
     public static WebElement dateOfBirthTipText;
 
+    @FindBy(xpath = "//label[@for='CustomerInformationViewData_CD004aMovedRecently_True']")
+    public static WebElement radioButton2Yes;
+
+    @FindBy(id = "CD005PriorAddressStreet")
+    public static WebElement div1;
+    @FindBy(id = "CD006PriorAddressZip")
+    public static WebElement div2;
+    @FindBy(id = "CD007PriorAddressCity")
+    public static WebElement div3;
+    @FindBy(id = "CD008PriorAddressState")
+    public static WebElement div4;
+
+    public void clickRadioButton(){
+        radioButton2Yes.click();
+    }
+
     //test of the warning texts that occur when clicked continue without filling any field
     @FindBy(name = "submitButton")
     public static WebElement continueButton;
@@ -56,5 +72,13 @@ public class CustomerInfo extends CommonClass {
             warningText.add(it.getText());
         }
         return warningText;
+    }
+    public boolean isDivVisible(WebElement element) throws InterruptedException {
+        clickOnHO();
+        Thread.sleep(2000);
+        clickRadioButton();
+        Thread.sleep(1000);
+        waitToBeVisible(element);
+        return element.isDisplayed();
     }
 }

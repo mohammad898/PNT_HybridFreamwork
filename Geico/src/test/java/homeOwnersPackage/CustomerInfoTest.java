@@ -34,4 +34,20 @@ public class CustomerInfoTest extends CustomerInfo{
         for (int i=0; i<actualText.size();i++)
             Assert.assertEquals(actualText.get(i),warningText.get(i));
     }
+    @Test
+    public void isDivOneVisible() throws InterruptedException {
+        Assert.assertEquals(true,isDivVisible(div1));
+    }
+    @Test
+    public void isDivTwoVisible() throws InterruptedException {
+        Assert.assertEquals(true,isDivVisible(div2));
+    }
+    @Test
+    public void isDivThreeVisible() throws InterruptedException {
+        Assert.assertEquals(true,isDivVisible(div3));
+    }
+    @Test
+    public void isDivFourVisible() throws InterruptedException {
+        Assert.assertEquals(true,isDivVisible(div4));
+    }
 }
