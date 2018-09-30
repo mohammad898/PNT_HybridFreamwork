@@ -116,7 +116,7 @@ public class CommonClass{
     }
 
     public void waitToBeVisible(WebElement element){
-wait.until(ExpectedConditions.visibilityOf(element));
+       wait.until(ExpectedConditions.visibilityOf(element));
     }
     public void waitToBeVisible(String xpathLocator){
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathLocator)));

@@ -51,7 +51,7 @@ public class Login extends CommonClass{
     }
     @DataProvider
     public Iterator<Object[]> supplyData(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcelFM();
         return testData.iterator();
