@@ -25,9 +25,10 @@ public class InformationAndInsuranceHover extends CommonClass {
 
     public List<WebElement> retToGetInformationMenuList(String parentXpath, String childXpath){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        wait.until(ExpectedConditions.presenceOfNestedElementsLocatedBy(By.xpath(parentXpath),By.xpath(childXpath)));
-        WebElement divUL = driver.findElement(By.xpath(parentXpath));
-        List<WebElement> unorderedList = divUL.findElements(By.xpath(childXpath));
+        waitToBeVisible(parentXpath);
+       // WebElement divUL = driver.findElement(By.xpath(parentXpath));
+        List<WebElement> unorderedList = driver.findElements(By.xpath(childXpath));
+        //List<WebElement> unorderedList = divUL.findElements(By.xpath(childXpath));
         return unorderedList;
     }
     public List<WebElement> getInformationMenuList(){
