@@ -1,6 +1,6 @@
 package homeOwnersPackage;
 
-import DataDrivenClass.ConnectToMySQL;
+import DataReaderCommonClass.ConnectToMySQL;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

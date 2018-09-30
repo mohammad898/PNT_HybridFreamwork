@@ -1,4 +1,4 @@
-package DataDrivenClass;
+package navigationBar;
 
 import base.CommonClass;
 import org.openqa.selenium.By;

@@ -14,20 +14,20 @@
         <classes>
             <class name="homePage.DropDownTest"/>
             <class name="homePage.InsuranceProductTest"/>
-            <class name ="homePage.NavigationBarTest" />
+            <class name ="testNavigationBar.NavigationBarTest" />
             <class name="homePage.SearchTest"/>
         </classes>
     </test>
     <test name="DataDriven Test">
   <classes>
-      <class name="DataDrivenTests.InformationAndInsuranceHoverTest"/>
-      <class name="DataDrivenTests.LoginTest"/>
-      <class name="DataDrivenTests.TestGoogleSheetsPage"/>
+      <class name="testNavigationBar.InformationAndInsuranceHoverTest"/>
+      <class name="homePage.TestLoginExcelSheet"/>
+      <class name="homePage.TestLoginGoogleSheets"/>
   </classes>
     </test>
    <test name="popUp test">
         <classes>
-            <class name="popUp.testPopUp"/>
+            <class name="autoInsuranceTest.testGetQuotePopUp"/>
         </classes>
     </test>
     <test name ="screenShot test">

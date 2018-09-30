@@ -1,6 +1,7 @@
-package homePage;
+package testNavigationBar;
 
 
+import navigationBar.NavigationBar;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

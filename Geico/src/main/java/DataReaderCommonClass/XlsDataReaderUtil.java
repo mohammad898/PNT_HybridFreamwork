@@ -1,4 +1,4 @@
-package DataDrivenClass;
+package DataReaderCommonClass;
 
 import base.Xls_Reader;
 import reporting.TestLogger;

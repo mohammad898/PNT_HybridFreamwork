@@ -1,16 +1,14 @@
-package DataDrivenTests;
+package testNavigationBar;
 
-import DataDrivenClass.InformationAndInsuranceHover;
-import org.openqa.selenium.WebDriver;
+import navigationBar.InformationAndInsuranceHover;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import DataDrivenClass.ConnectToMongoDB;
+import DataReaderCommonClass.ConnectToMongoDB;
 import reporting.TestLogger;
 
-import java.net.MalformedURLException;
 import java.util.List;
 
 public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHover {

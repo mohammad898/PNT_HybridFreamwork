@@ -1,4 +1,4 @@
-package DataDrivenClass;
+package DataReaderCommonClass;
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;

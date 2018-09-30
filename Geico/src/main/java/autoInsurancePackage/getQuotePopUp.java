@@ -1,4 +1,4 @@
-package popUpHandle;
+package autoInsurancePackage;
 
 import base.CommonClass;
 import org.openqa.selenium.By;

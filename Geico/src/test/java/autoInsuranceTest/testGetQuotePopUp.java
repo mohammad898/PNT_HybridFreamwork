@@ -1,12 +1,12 @@
-package popUp;
+package autoInsuranceTest;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import popUpHandle.getQuotePopUp;
+import autoInsurancePackage.getQuotePopUp;
 import reporting.TestLogger;
 
-public class testPopUp extends getQuotePopUp {
+public class testGetQuotePopUp extends getQuotePopUp {
     getQuotePopUp object;
     @BeforeMethod
     public void init(){

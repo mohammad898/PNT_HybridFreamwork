@@ -1,18 +1,14 @@
-package DataDrivenTests;
+package homePage;
 
-import DataDrivenClass.GoogleSheetClass;
-import DataDrivenClass.Login;
-import base.CommonClass;
+import DataReaderCommonClass.GoogleSheetClass;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 import java.io.IOException;
-import java.util.List;
 
-public class TestGoogleSheetsPage extends GoogleSheetClass{
+public class TestLoginGoogleSheets extends GoogleSheetClass{
     GoogleSheetClass googleSheetsPage;
     @BeforeMethod
     public void initialization(){
