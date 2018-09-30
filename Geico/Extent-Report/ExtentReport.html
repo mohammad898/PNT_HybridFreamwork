@@ -54,7 +54,7 @@
 					<i class='mdi-hardware-desktop-windows'></i>
 				</li>
 				<li>
-					<span class='suite-started-time'>2018-09-30 10:35:53</span>
+					<span class='suite-started-time'>2018-09-30 11:32:09</span>
 				</li>
 				<li>
 					<span>v2.41.1</span>
@@ -84,25 +84,25 @@
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-current'> 
 							<span class='panel-name'>Total Time Taken (Current Run)</span> 
-							<span class='suite-total-time-current-value panel-lead'>0h 0m 37s+256ms</span> 
+							<span class='suite-total-time-current-value panel-lead'>0h 0m 27s+798ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-overall'> 
 							<span class='panel-name'>Total Time Taken (Overall)</span> 
-							<span class='suite-total-time-overall-value panel-lead'>0h 0m 37s+256ms</span> 
+							<span class='suite-total-time-overall-value panel-lead'>0h 0m 27s+798ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-start-time'>
 						<div class='card accent green-accent'> 
 							<span class='panel-name'>Start</span> 
-							<span class='panel-lead suite-started-time'>2018-09-30 10:35:16</span> 
+							<span class='panel-lead suite-started-time'>2018-09-30 11:31:42</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-end-time'>
 						<div class='card accent pink-accent'> 
 							<span class='panel-name'>End</span> 
-							<span class='panel-lead suite-ended-time'>2018-09-30 10:35:53</span> 
+							<span class='panel-lead suite-ended-time'>2018-09-30 11:32:09</span> 
 						</div> 
 					</div>
 				</div>
@@ -281,7 +281,7 @@
 						<div class='card-panel no-padding-h no-padding-v no-margin-v'>
 							<div class='wrapper'>
 								<ul id='test-collection' class='test-collection'>
-										<li class='collection-item test displayed active fail ' extentid='98786403-5316-432c-980d-73e4b4a9dc33'>
+										<li class='collection-item test displayed active fail ' extentid='cd8e4d1e-9228-4a17-adfe-c368bc3dae3b'>
 											<div class='test-head'>
 												<span class='test-name'>testFeedback </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
@@ -289,9 +289,9 @@
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2018-09-30 10:35:52</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2018-09-30 10:35:52</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+0ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2018-09-30 11:32:08</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2018-09-30 11:32:08</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+6ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -311,11 +311,19 @@
 														<tbody>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>10:35:52</td>
-																	<td class='step-details'>java.lang.NullPointerException
-	at homePage.Feedback.switchToFrame(Feedback.java:22)
+																	<td class='timestamp'>11:32:08</td>
+																	<td class='step-details'>java.lang.NullPointerException: null value in entry: id=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:888)
+	at org.openqa.selenium.support.ui.ExpectedConditions$19.apply(ExpectedConditions.java:569)
+	at org.openqa.selenium.support.ui.ExpectedConditions$19.apply(ExpectedConditions.java:565)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at homePage.Feedback.switchToFrame(Feedback.java:23)
 	at homePage.Feedback.giveFeedback(Feedback.java:33)
-	at homePage.FeedbackTest.testFeedback(FeedbackTest.java:15)
+	at homePage.FeedbackTest.testFeedback(FeedbackTest.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -421,8 +429,8 @@
 															</thead>
 															<tbody>
 																	<tr class='fail'>
-																		<td>2018-09-30 10:35:52</td>
-																		<td><span class='category-link linked' extentid='98786403-5316-432c-980d-73e4b4a9dc33'>testFeedback</span></td>
+																		<td>2018-09-30 11:32:08</td>
+																		<td><span class='category-link linked' extentid='cd8e4d1e-9228-4a17-adfe-c368bc3dae3b'>testFeedback</span></td>
 																		<td><div class='status label capitalize fail'>fail</div></td>
 																	</tr>
 															<tbody>
