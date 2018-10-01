@@ -16,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="CUNY" target="1.8" />
       <module name="SantanderBank" target="1.8" />
+      <module name="SantanderBank1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

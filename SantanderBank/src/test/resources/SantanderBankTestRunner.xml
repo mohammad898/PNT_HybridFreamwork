@@ -17,10 +17,12 @@
             <!--<class name="Search.ATMBranchPageTest"/>-->
             <!--<class name="Search.BusinessTextOptionPageTest"/>-->
             <!--<class name="Search.CorporateTextOptionPageTest"/>-->
-            <class name="Search.HomePageTest"/>
+            <!--<class name="Search.HomePageTest"/>-->
             <!--<class name="Search.LoginPageTest"/>-->
             <!--<class name="Search.PageSearch_option_attempt_Test"/>-->
-            <!--<class name="Search.PersonalTextOptionPageTest"/>-->
+            <!--&lt;!&ndash;<class name="Search.PersonalTextOptionPageTest"/>&ndash;&gt;-->
+            <!--<class name="Search.TestGoogleSheetsPage"/>-->
+            <class name="Search.Homepage_DragDropTest"/>
         </classes>
     </test>
 

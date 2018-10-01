@@ -10,10 +10,10 @@
     <modules>
         <module>Generic</module>
         <module>Airbnb</module>
-        <module>SantanderBank</module>
         <module>Geico</module>
         <module>HomeDepot</module>
         <module>CUNY</module>
+        <module>SantanderBank</module>
     </modules>
     <dependencyManagement>
         <dependencies>

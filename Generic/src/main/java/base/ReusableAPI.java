@@ -56,7 +56,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get(url);
+        driver.navigate().to(url);
         driver.manage().window().maximize();
     }
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
@@ -111,32 +111,6 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         }
         return driver;
     }
-//   @Parameters({"os", "url"})
-//   @BeforeMethod
-//    public void setDriver(String os, String url) {
-//        setDriverForOS(os);
-//        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        //driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-////       driver.manage().window().fullscreen();
-//       driver.navigate().to(url);
-//    }
-//    public void setDriverForOS(String os){
-//        if(os.equalsIgnoreCase("Windows")){
-//          System.setProperty("webdriver.chrome.driver", "..\\Generic\\DriversForBrowser\\chromedriver.exe");
-//          driver = new ChromeDriver();
-//        }
-//        else if(os.equalsIgnoreCase("Mac")){
-//           System.setProperty("webdriver.chrome.driver", "../Generic/DriversForBrowser/chromedriver");
-//            driver = new ChromeDriver();
-//        }
-//    }
-
-/*
-    @AfterMethod(alwaysRun = true)
-    public void closeTest(){
-        driver.quit();
-    }*/
-
     //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
@@ -214,6 +188,22 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
     public void DragDrop1(WebElement element,String value){
         Select select=new Select(element);
         select.selectByVisibleText(value);
+    }
+    //add valuein web element
+    public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
+        webElement.sendKeys(value + Keys.ENTER);
+    }
+    // for therede sleep
+    public void sleepFor(int sec)throws InterruptedException{
+        Thread.sleep(sec * 1000);
+    }
+    //clear input box
+    public void clearInputBox(WebElement webElement){
+        webElement.clear();
+    }
+    public String getTextByWebElement(WebElement webElement){
+        String text = webElement.getText();
+        return text;
     }
 
 }

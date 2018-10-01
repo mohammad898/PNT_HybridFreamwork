@@ -13,7 +13,7 @@ public class ATMBranchPageTest extends ATMBranchPage {
         driver.get("https://locations.santanderbank.com/search.html");
     }
     @Test
-    public void TextInput_Test(){TextInput();}
+    public void TextInput_Test(){atmBranchPageTest.TextInput();}
     @Test
-    public void BrowseByState_Test(){BrowseByState();}
+    public void BrowseByState_Test(){atmBranchPageTest.BrowseByState();}
 }

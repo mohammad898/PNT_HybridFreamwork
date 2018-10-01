@@ -1,6 +1,6 @@
 package home;
 
-import base.CollectionApi;
+
 import base.ReusableAPI;
 import base.XlsDataReaderUtil;
 import org.openqa.selenium.Keys;
@@ -13,7 +13,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class LoginPage extends ReusableAPI {
-    //find elements for login page
+
+    //**************   Find elements for login page   ***************
+
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/div/div/p/button")
     public static WebElement Close;
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/span")
@@ -44,22 +46,18 @@ public class LoginPage extends ReusableAPI {
     @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_btnAlternativeUrl")
     public static WebElement ok;
 
-    //xl reader
+    //**************  Read XL file by Data Provider   **********************
    @DataProvider
    public Iterator<Object[]> supplyData(){
        ArrayList<Object[]> testData = XlsDataReaderUtil.getDataFromExcel();
        return testData.iterator();
    }
-
-
-
-    //Define methods for above elements
+    //****************   Define methods for above elements   ***********************
     public void InvalidUsernameInput(String email) {
         LoginPage.click();
         UserInput.sendKeys(email);
         LoginButton.click();
     }
-
     public void ValidUserInput(String email,String passCode) {
         LoginPage.click();
         UserInput.sendKeys(email);
@@ -67,23 +65,16 @@ public class LoginPage extends ReusableAPI {
         PasswordInput.sendKeys(passCode);
         LoginButton2.click();
     }
-
     public void Enrollnow() {
         LoginPage.click();
         FirstTimeUser.click();
     }
-
     public void ForgetId() {
         LoginPage.click();
         ForgetId.click();
         Cancel.click();
         Yes.click();
-
     }
-
-
-
-
 }
 
 

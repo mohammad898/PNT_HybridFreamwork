@@ -11,7 +11,6 @@ public class PersonalTextOptionPageTest extends PersonalTextOptionPage {
         public void initelement() {
         personalTextOptionPage = PageFactory.initElements(driver,PersonalTextOptionPage.class);
     }
-    //Personal Page Elements
     @Test
     public void Banking_Test(){Banking();}
     @Test void Borrowing_Test(){Borrowing();}

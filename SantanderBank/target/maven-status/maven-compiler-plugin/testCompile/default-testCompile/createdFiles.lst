@@ -1,8 +1,10 @@
 Search/LoginPageTest.class
 Search/AboutTextOptionPageTest.class
-Search/BusinessTextOptionPageTest.class
+Search/Homepage_DragDropTest.class
 Search/ATMBranchPageTest.class
+Search/CorporateTextOptionPageTest.class
+Search/TestGoogleSheetsPage.class
+Search/PersonalTextOptionPageTest.class
+Search/BusinessTextOptionPageTest.class
 Search/HomePageTest.class
 Search/PageSearch_option_attempt_Test.class
-Search/CorporateTextOptionPageTest.class
-Search/PersonalTextOptionPageTest.class

@@ -57,6 +57,5 @@ public class HomePageTest extends HomePage {
     public void Privacy_policy_Header_Test(){Privacy_policy_Header();}
     @Test
     public void Contact_us_Header_Test(){Contact_us_Header();}
-    @Test
-    public void DragDrop2() throws InterruptedException {dragDrop();}
+
 }

@@ -1,23 +1,12 @@
 package home;
 
-import base.CollectionApi;
 import base.ReusableAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
-
-
 public class HomePage extends ReusableAPI {
-    //HomePage Elements
+
+    //********************  HomePage Elements  ******************************
+
     @FindBy(xpath = "//*[@id=\"_P001_Header_WAR_P001_Headerportlet__VIEW\"]/div/div/div[1]/p/a/img")
     public static WebElement Header_Taeget;
     @FindBy(css = "#navsup > nav > ul > li:nth-child(1) > a")
@@ -65,11 +54,9 @@ public class HomePage extends ReusableAPI {
     @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_btnAlternativeUrl")
     public static WebElement ok;
 
-    //define functions of above elements
+    //*************  define functions of above elements  ****************
 
-    public void Header_Taeget(){
-        Header_Taeget.click();
-    }
+    public void Header_Taeget(){Header_Taeget.click();}
     public void Personal_Textoption(){Personal_Textoption.click();}
     public void Business_Textoption(){Business_Textoption.click();}
     public void Corporate_Textoption(){Corporate_Textoption.click();}
@@ -89,19 +76,4 @@ public class HomePage extends ReusableAPI {
     public void Terms_of_use_Header(){Terms_of_use_Header.click();}
     public void Privacy_policy_Header(){Privacy_policy_Header.click();}
     public void Contact_us_Header(){Contact_us_Header.click();}
-
-    //drag drop
-    public void dragDrop() throws InterruptedException {
-        Login.click();
-        WebDriverWait wait = new WebDriverWait(driver,10) ;
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.className("selectedBox")));
-        WebElement dropDown = driver.findElement(By.className("selectedText"));
-        dropDown.click();
-        Thread.sleep(2000);
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//ul[@class='selectOptionsList']/li")));
-        List<WebElement> dropDownList = driver.findElements(By.xpath("//ul[@class='selectOptionsList']/li"));
-        List<String> listText= new LinkedList<String>();
-        dropDownList.get(1).click();
-        ok.click();
-    }
 }

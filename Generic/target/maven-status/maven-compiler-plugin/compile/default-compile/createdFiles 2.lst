@@ -1,9 +1,0 @@
-base/XlsDataReaderUtil.class
-base/ReusableAPI.class
-base/CommonClass.class
-reporting/ExtentManager.class
-reporting/ExtentTestManager.class
-base/CollectionApi.class
-reporting/TestLogger.class
-base/Xls_Reader.class
-base/GoogleSheetReader.class

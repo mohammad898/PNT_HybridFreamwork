@@ -8,9 +8,9 @@ import org.openqa.selenium.support.FindBy;
 public class ATMBranchPage extends ReusableAPI {
     //find elements for ATM/Branch location
     @FindBy(xpath = "//*[@id=\"q\"]")
-    public static WebElement TextInput;
+     WebElement TextInput;
     @FindBy(xpath ="//*[@id=\"main\"]/div/div/div[1]/div/div/div/div/form/button")
-    public static WebElement GoSearchButton;
+     WebElement GoSearchButton;
     @FindBy(xpath = "//*[@id=\"main\"]/div/div/div[1]/div/div/div/div/form/div/div[1]/a")////main[@id="main"]//div/form//div[1]/a
     public static WebElement BrowseByState;
     @FindBy (xpath = "//*[@id=\"q\"]")
