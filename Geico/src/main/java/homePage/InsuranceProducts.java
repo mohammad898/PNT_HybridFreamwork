@@ -1,10 +1,10 @@
 package homePage;
 
 import base.CommonClass;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 public class InsuranceProducts extends CommonClass {
     @FindBy(how = How.CSS, using = "#submitButton")
@@ -13,6 +13,10 @@ public class InsuranceProducts extends CommonClass {
     public static WebElement zipCodeTextBox;
     @FindBy(how = How.CLASS_NAME, using = "icon-chevron-right")
     public static WebElement rightArrow;
+    @FindBy(css = ".chevron.icon-chevron-right.highlighted")
+    public static WebElement rightArrow2;
+    @FindBy(css=".chevron.icon-chevron-right.highlighted")
+    public static WebElement rightArrow3;
 
     @FindBy(css = "#home > div > span")
     public static WebElement homeOwnersInsuranceIcon;
@@ -29,8 +33,9 @@ public class InsuranceProducts extends CommonClass {
     @FindBy(css = ".icon-rv-ins")
     public static WebElement rvInsuranceIcon;
     @FindBy(css = ".icon-auto-collector-ins")
+
     public static WebElement collectorAutoIcon;
-    @FindBy(css = ".icon-mobile-home-ins")
+    @FindBy(css = ".icon.icon-mobile-home-ins")
     public static WebElement mobileHomeIcon;
     @FindBy(css = ".icon-flood-ins")
     public static WebElement floodIcon;
@@ -42,72 +47,104 @@ public class InsuranceProducts extends CommonClass {
     public static WebElement professionalLiability;
     @FindBy(css = "#businessowners > div > span")
     public static WebElement businessOwnersIcon;
+    @FindBy(xpath = "//div[@id='workerscompensation']//span")
+    public static WebElement workersCompensationIcon;
 
-    public void clickOnHomeOwnersInsuranceIcon(){
-        homeOwnersInsuranceIcon.click();
-        sendZipCodeKeys("11435");
+    @FindBy(className = "icon icon-life-ins")
+    public static WebElement lifeInsuranceIcon;
+    @FindBy(css = ".icon.icon-car-sharing")
+    public static WebElement rideSharingIcon;
+    @FindBy(css = ".icon.icon-travel")
+    public static WebElement travelIsuranceIcon;
+    @FindBy(css = ".icon.icon-overseas-ins")
+    public static WebElement overseasIsuranceIcon;
+    @FindBy(css = ".icon.icon-id-protection-ins")
+    public static WebElement identityProtectionIcon;
+    @FindBy(css = ".icon.icon-pet-ins")
+    public static WebElement petInsuranceIcon;
+    @FindBy(css = ".icon.icon-collectibles-ins")
+    public static WebElement jewelryInsuranceIcon;
+    @FindBy(css = "#landlord>.circle>.icon.icon-homeowner-ins")
+    public static WebElement landlordInsuranceIcon;
+    @FindBy(css = "#mexicoAuto>.circle>.icon.icon-vehicle")
+    public static WebElement mexicoAutoIcon;
+
+    public String clickOnIconwithZipCode(WebElement element) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        element.click();
+        return sendZipCodeKeys("11435");
     }
-    public void clickOnRentersInsuranceIcon(){
-        rentersInsuranceIcon.click();
-        sendZipCodeKeys("11435");
+    public String clickOnIconWithoutZipCode(WebElement element) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        element.click();
+        return clickStartQuote();
+    }
+    public String clickOnIconwithZipCode2(WebElement element) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goRight();
+        element.click();
+        return sendZipCodeKeys("11435");
+    }
+    public String clickOnIconWithoutZipCode2(WebElement element)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goRight();
+        element.click();
+        return clickStartQuote();
+    }
+    public String clickOnIconwithZipCode3(WebElement element) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goDoubleRight();
+        element.click();
+        return sendZipCodeKeys("11435");
+    }
+    public String clickOnIconWithoutZipCode3(WebElement element)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goDoubleRight();
+        element.click();
+        return clickStartQuote();
+    }
+    public String clickOnIconWithoutZipCode4(WebElement element)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goTripleRight();
+        element.click();
+        return clickStartQuote();
     }
 
-    public void clickOnCondoInsurance(){
-        condoInsuranceIcon.click();
-        sendZipCodeKeys("11435");
-    }
-    public void clickOnMotorCycleInsurance(){
-        motorCycleInsuranceIcon.click();
-        sendZipCodeKeys("11435");
-    }
-    public void clickOnBoatInsurance(){
-        boatInsuranceIcon.click();
-        sendZipCodeKeys("11435");
-    }
-    public void clickOnUmbrellaInsurance()throws NullPointerException{
-        boatInsuranceIcon.click();
-        submitButton.click();
-    }
-    public void clickOnRVInsurance(){
-        rvInsuranceIcon.click();
-        submitButton.click();
-    }
-    public void clickOnCollectorAutoIcon(){
-        collectorAutoIcon.click();
-        submitButton.click();
-    }
-    public void clickOnMobileHomeIcon(){
-        mobileHomeIcon.click();
-        submitButton.click();
-    }
-    public void clickOnFloodIcon(){
-        floodIcon.click();
-        submitButton.click();
-    }
-    public void clickOnCommercialAutoIcon(){
-        commercialAutoIcon.click();
-        sendZipCodeKeys("11435");
-    }
-    public void clickOnGeneralLiabilityIcon(){
-        generalLiabilityIcon.click();
-        submitButton.click();
-    }
-    public void clickOnProfessionalLiabilityIcon(){
-        professionalLiability.click();
-        submitButton.click();
-    }
-    public void clickOnBusinessOwnersIcon(){
-        businessOwnersIcon.click();
-        submitButton.click();
-    }
-
-    public void goRight(){
+    public void goRight() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         rightArrow.click();
+        Thread.sleep(1500);
     }
-
-    public void sendZipCodeKeys(String zipCode){
+    public void goDoubleRight()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goRight();
+        rightArrow2.click();
+        Thread.sleep(1500);
+    }
+    public void goTripleRight()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goDoubleRight();
+        rightArrow3.click();
+        Thread.sleep(1500);
+    }
+    public String clickStartQuote() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        submitButton.click();
+        Thread.sleep(2000);
+        String url = driver.getCurrentUrl();
+        return url;
+    }
+    public String sendZipCodeKeys(String zipCode) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         zipCodeTextBox.sendKeys(zipCode);
         submitButton.click();
+        Thread.sleep(2000);
+        String url = driver.getCurrentUrl();
+        return url;
     }
-
+    public String breakString(String url){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String[] arr = url.split("S");
+        return arr[0];
+    }
 }

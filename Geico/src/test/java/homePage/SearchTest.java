@@ -3,6 +3,7 @@ package homePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class SearchTest extends Search{
     public String keys = "motorcycle";
@@ -13,10 +14,12 @@ public class SearchTest extends Search{
     }
     @Test
     public void testSearchWithoutButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchWithENTER(keys);
     }
     @Test
     public void testSearchWithButton(){
-       searchUsingButton(keys);
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchUsingButton(keys);
     }
 }

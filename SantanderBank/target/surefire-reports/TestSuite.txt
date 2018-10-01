@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 227, Failures: 7, Errors: 0, Skipped: 220, Time elapsed: 0.798 s <<< FAILURE! - in TestSuite
+setUp(Search.PageSearch_option_attempt_Test)  Time elapsed: 0.49 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+
+setUp(Search.BusinessTextOptionPageTest)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+
+setUp(Search.ATMBranchPageTest)  Time elapsed: 0.505 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+
+setUp(Search.AboutTextOptionPageTest)  Time elapsed: 0.507 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+
+setUp(Search.PersonalTextOptionPageTest)  Time elapsed: 0.511 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+
+setUp(Search.CorporateTextOptionPageTest)  Time elapsed: 0.517 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+
+setUp(Search.HomePageTest)  Time elapsed: 0.52 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+

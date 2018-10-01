@@ -3,21 +3,41 @@
 
 <suite name="Geico API Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Mac"/>
-    <parameter name="os_version" value="macOS(10.13)"/>
+    <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>
-      <test name = "Geico Services">
+      <test name = "homePage Test">
         <classes>
             <class name="homePage.DropDownTest"/>
-            <class name="DataDrivenTests.InformationAndInsuranceHoverTest"/>
             <class name="homePage.InsuranceProductTest"/>
-            <class name ="homePage.NavigationBar" />
+            <class name ="testNavigationBar.NavigationBarTest" />
             <class name="homePage.SearchTest"/>
         </classes>
     </test>
-
+    <test name="DataDriven Test">
+  <classes>
+      <class name="testNavigationBar.InformationAndInsuranceHoverTest"/>
+      <class name="homePage.TestLoginExcelSheet"/>
+      <class name="homePage.TestLoginGoogleSheets"/>
+  </classes>
+    </test>
+   <test name="popUp test">
+        <classes>
+            <class name="autoInsuranceTest.testGetQuotePopUp"/>
+        </classes>
+    </test>
+    <test name ="screenShot test">
+        <classes>
+            <class name="screenShot.testScreenShot"/>
+        </classes>
+    </test>
+    <test name="homeOwners Insurance Test">
+        <classes>
+            <class name="homeOwnersPackage.CustomerInfoTest"/>
+        </classes>
+    </test>
 </suite>

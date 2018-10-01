@@ -5,6 +5,7 @@
       <list>
         <ServerConfiguration>
           <option name="label" value="ahmed" />
+          <option name="label" value="server" />
           <option name="serverUrls">
             <list>
               <option value="localhost:27017" />

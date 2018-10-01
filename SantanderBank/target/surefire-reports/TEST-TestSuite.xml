@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.798" tests="227" errors="0" skipped="220" failures="7">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/test-classes:/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/classes:/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/target/classes:/Users/afia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/afia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/afia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/afia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/afia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/afia/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/afia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/afia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/afia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/afia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/afia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/afia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/afia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/afia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/afia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/afia/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/afia/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/afia/.m2/repository/com/aventstack/extentreports/3.1.3/extentreports-3.1.3.jar:/Users/afia/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/afia/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/afia/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/afia/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/afia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/afia/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/afia/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/afia/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/afia/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-server/3.14.0/selenium-server-3.14.0.jar:/Users/afia/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/afia/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/afia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/afia/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.0.0/htmlunit-cssparser-1.0.0.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.30/neko-htmlunit-2.30.jar:/Users/afia/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.8.v20180619/jetty-repacked-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-client/9.4.8.v20180619/jetty-client-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20180619/jetty-http-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20180619/jetty-io-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20180619/jetty-util-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.8.v20180619/jetty-xml-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.30.0/htmlunit-driver-2.30.0.jar:/Users/afia/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/afia/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.8.v20180619/websocket-api-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.8.v20180619/websocket-client-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.8.v20180619/websocket-common-9.4.8.v20180619.jar:/Users/afia/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/afia/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/afia/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/afia/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/afia/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/afia/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/afia/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/afia/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/afia/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/afia/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/afia/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/afia/.m2/repository/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar:/Users/afia/.m2/repository/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.jar:/Users/afia/.m2/repository/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar:/Users/afia/.m2/repository/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.jar:/Users/afia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/afia/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/afia/.m2/repository/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar:/Users/afia/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar:/Users/afia/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/afia/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/afia/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/afia/.m2/repository/com/google/apis/google-api-services-sheets/v4-rev498-1.23.0/google-api-services-sheets-v4-rev498-1.23.0.jar:/Users/afia/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/afia/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/surefire/surefirebooter6598355457813041366.jar /Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/surefire 2018-09-29T11-07-21_610-jvmRun1 surefire3302270492290895572tmp surefire_11663124955087050126tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/test-classes:/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/classes:/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/target/classes:/Users/afia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/afia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/afia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/Users/afia/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/afia/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/afia/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/afia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/afia/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/afia/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/afia/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/afia/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/afia/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/afia/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/afia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/afia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/afia/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/afia/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/afia/.m2/repository/com/aventstack/extentreports/3.1.3/extentreports-3.1.3.jar:/Users/afia/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/afia/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/afia/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/afia/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/afia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/afia/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/afia/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/Users/afia/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/afia/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/selenium-server/3.14.0/selenium-server-3.14.0.jar:/Users/afia/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/afia/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/afia/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/afia/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.0.0/htmlunit-cssparser-1.0.0.jar:/Users/afia/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.30/neko-htmlunit-2.30.jar:/Users/afia/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.8.v20180619/jetty-repacked-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-client/9.4.8.v20180619/jetty-client-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-http/9.4.8.v20180619/jetty-http-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-io/9.4.8.v20180619/jetty-io-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-util/9.4.8.v20180619/jetty-util-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.8.v20180619/jetty-xml-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.30.0/htmlunit-driver-2.30.0.jar:/Users/afia/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/afia/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.8.v20180619/websocket-api-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.8.v20180619/websocket-client-9.4.8.v20180619.jar:/Users/afia/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.8.v20180619/websocket-common-9.4.8.v20180619.jar:/Users/afia/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/afia/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/afia/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/afia/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/afia/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/afia/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar:/Users/afia/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/afia/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/afia/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/afia/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/afia/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/afia/.m2/repository/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar:/Users/afia/.m2/repository/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.jar:/Users/afia/.m2/repository/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar:/Users/afia/.m2/repository/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.jar:/Users/afia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/afia/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/afia/.m2/repository/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar:/Users/afia/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar:/Users/afia/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/afia/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/afia/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/afia/.m2/repository/com/google/apis/google-api-services-sheets/v4-rev498-1.23.0/google-api-services-sheets-v4-rev498-1.23.0.jar:/Users/afia/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/afia/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/afia"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/target/surefire/surefirebooter6598355457813041366.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="afia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/afia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/n7/srrsdckn1453j8by2vtdc_gc0000gn/T/"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/afia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="/Users/afia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0.49">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="init" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ClassBody" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Hovermenu" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="SearchPage" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="TermsofUse" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="aTMLocation" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="business" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="contactus" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="findATM" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="mortgageLending" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="privacypolicy" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="Search.BusinessTextOptionPageTest" time="0.501">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Banking_Test" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Borrowing_Test" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="BusinessFirst_Test" classname="Search.BusinessTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="Search.ATMBranchPageTest" time="0.505">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="BrowseByState_Test" classname="Search.ATMBranchPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.ATMBranchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TextInput_Test" classname="Search.ATMBranchPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="Search.AboutTextOptionPageTest" time="0.507">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SantanderBankUni_Test" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="WhoWeAre_Test" classname="Search.AboutTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PersonalTextOptionPageTest" time="0.511">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Banking_Test" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Borrowing_Test" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="CreditCard_Test" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="InvestmentandProtections_Test" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="ProsperandThrives_Test" classname="Search.PersonalTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="Search.CorporateTextOptionPageTest" time="0.517">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initelement" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="CorporateCapabilities_Test" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="StanderderPrespectives_Test" classname="Search.CorporateTextOptionPageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0.52">
+    <failure message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initializing" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ATM_BranchLocation_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="Search.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="About_Textoption_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Business_Textoption_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Contact_us_Header_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Corporate_Textoption_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="DIGI_BANKING_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="DragDrop2" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Find_location_near_you_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Header_Taeget_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Home_Header_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="How_to_Overcome_Anxiety_article_link_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Login_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Personal_Textoption_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Privacy_policy_Header_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="STU_VALUE_CHEK_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="Terms_of_use_Header_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="The_ABCs_of_the_HELOC_article_link_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="ULT_cash_back_creditcard_grouplink_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="top_10_credit_tips_article_link_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="top_5_text_email_mobile_alert_article_link_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="top_9_Ways_to_Save_Serious_$_article_link_Test" classname="Search.HomePageTest" time="0">
+    <skipped message="The driver executable does not exist: /Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver"/>
+  </testcase>
+  <testcase name="signIn" classname="Search.LoginPageTest" time="0">
+    <skipped message="java.lang.NullPointerException"/>
+    <system-err><![CDATA[java.io.FileNotFoundException: /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/page/ahmed.xls (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at base.Xls_Reader.<init>(Xls_Reader.java:21)
+	at base.XlsDataReaderUtil.getDataFromExcel(XlsDataReaderUtil.java:16)
+	at home.LoginPage.supplyData(LoginPage.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+[Utils] [ERROR] [Error] java.lang.NullPointerException
+	at base.Xls_Reader.getRowCount(Xls_Reader.java:33)
+	at base.XlsDataReaderUtil.getDataFromExcel(XlsDataReaderUtil.java:22)
+	at home.LoginPage.supplyData(LoginPage.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+]]></system-err>
+  </testcase>
+  <testcase name="generateReport" classname="Search.PageSearch_option_attempt_Test" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

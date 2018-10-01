@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="Search.AboutTextOptionPageTest">
+        <methods>
+          <include name="WhoWeAre_Test"/>
+          <include name="SantanderBankUni_Test"/>
+          <include name="initelement"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.AboutTextOptionPageTest -->
+      <class name="Search.ATMBranchPageTest">
+        <methods>
+          <include name="initelement"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="TextInput_Test"/>
+          <include name="setUp"/>
+          <include name="BrowseByState_Test"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.ATMBranchPageTest -->
+      <class name="Search.CorporateTextOptionPageTest">
+        <methods>
+          <include name="CorporateCapabilities_Test"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="initelement"/>
+          <include name="StanderderPrespectives_Test"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.CorporateTextOptionPageTest -->
+      <class name="Search.BusinessTextOptionPageTest">
+        <methods>
+          <include name="Banking_Test"/>
+          <include name="Borrowing_Test"/>
+          <include name="initelement"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="BusinessFirst_Test"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.BusinessTextOptionPageTest -->
+      <class name="Search.HomePageTest">
+        <methods>
+          <include name="STU_VALUE_CHEK_Test"/>
+          <include name="About_Textoption_Test"/>
+          <include name="Find_location_near_you_Test"/>
+          <include name="setUp"/>
+          <include name="DIGI_BANKING_Test"/>
+          <include name="Header_Taeget_Test"/>
+          <include name="top_10_credit_tips_article_link_Test"/>
+          <include name="afterEachTestMethod"/>
+          <include name="The_ABCs_of_the_HELOC_article_link_Test"/>
+          <include name="extentSetup"/>
+          <include name="DragDrop2"/>
+          <include name="Terms_of_use_Header_Test"/>
+          <include name="Corporate_Textoption_Test"/>
+          <include name="Login_Test"/>
+          <include name="Personal_Textoption_Test"/>
+          <include name="ATM_BranchLocation_Test"/>
+          <include name="ULT_cash_back_creditcard_grouplink_Test"/>
+          <include name="generateReport"/>
+          <include name="Contact_us_Header_Test"/>
+          <include name="How_to_Overcome_Anxiety_article_link_Test"/>
+          <include name="Home_Header_Test"/>
+          <include name="Privacy_policy_Header_Test"/>
+          <include name="top_9_Ways_to_Save_Serious_$_article_link_Test"/>
+          <include name="top_5_text_email_mobile_alert_article_link_Test"/>
+          <include name="Business_Textoption_Test"/>
+          <include name="initializing"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.HomePageTest -->
+      <class name="Search.PersonalTextOptionPageTest">
+        <methods>
+          <include name="CreditCard_Test"/>
+          <include name="ProsperandThrives_Test"/>
+          <include name="afterEachTestMethod"/>
+          <include name="InvestmentandProtections_Test"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="Borrowing_Test"/>
+          <include name="Banking_Test"/>
+          <include name="initelement"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.PersonalTextOptionPageTest -->
+      <class name="Search.LoginPageTest">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="signIn"/>
+          <include name="setUp"/>
+          <include name="initelement"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.LoginPageTest -->
+      <class name="Search.PageSearch_option_attempt_Test">
+        <methods>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="contactus"/>
+          <include name="Hovermenu"/>
+          <include name="init"/>
+          <include name="privacypolicy"/>
+          <include name="TermsofUse"/>
+          <include name="business"/>
+          <include name="mortgageLending"/>
+          <include name="SearchPage"/>
+          <include name="findATM"/>
+          <include name="afterEachTestMethod"/>
+          <include name="aTMLocation"/>
+          <include name="extentSetup"/>
+          <include name="ClassBody"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- Search.PageSearch_option_attempt_Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
