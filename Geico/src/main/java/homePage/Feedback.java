@@ -7,21 +7,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 public class Feedback extends CommonClass {
-    @FindBy(id = "oo_tab")
+
+    @FindBy(xpath = "//a[@id='oo_tab']/img")
     public WebElement feedbackTab;
-    /*@FindBy(className = "screen_reader")
-    public WebElement feedbackSpan;*/
-  /*  @FindBy(name = "OnlineOpinion1")
-    public WebElement iframe;*/
-    @FindBy(xpath = "//iframe")
+   @FindBy(name = "OnlineOpinion1")
     public WebElement iframe;
     @FindBy(xpath = "//label[@for='overall_0']")
     public WebElement veryDissatisfied;
     @FindBy(xpath = "//div[@id='foot']/button")
     public static WebElement submitButton;
     public void switchToFrame(){
-        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
+        waitToBeVisible(feedbackTab);
         feedbackTab.click();
+        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
     }
     public void clickVeryDissatisfied(){
         veryDissatisfied.click();

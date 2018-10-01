@@ -32,7 +32,7 @@ public class NavigationBarTest extends NavigationBar {
     @Test
     public void testClickLogin()throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Assert.assertEquals(true,clickLogin());
+        Assert.assertTrue(clickLogin());
     }
     @Test
     public void testClickSearchIcon()throws InterruptedException{

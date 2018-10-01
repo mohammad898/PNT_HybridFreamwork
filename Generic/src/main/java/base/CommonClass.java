@@ -18,6 +18,7 @@ import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 import java.io.File;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
@@ -33,6 +34,42 @@ public class CommonClass{
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait = null ;
+
+    /*public String browserstack_username= "afiafarjana1";
+    public String browserstack_accesskey = "9Z5U2U9zmF6Uq6QUr9pi";
+    //public String saucelabs_username = "";
+    //public String saucelabs_accesskey = "";
+
+    @Parameters({"useCloudEnv","os","os_version","browserName","browserVersion","url"})
+    @BeforeMethod
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+                      @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
+                              String browserVersion, @Optional("https://www.santanderbank.com/us/personal") String url)throws IOException {
+        System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
+        if(useCloudEnv==true){
+                getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
+            }
+        driver.get("https://www.geico.com/");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.get(url);
+        driver.manage().window().maximize();
+    }
+
+    public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
+                                    String browserVersion)throws IOException {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setCapability("browser",browserName);
+        cap.setCapability("browser_version",browserVersion);
+        cap.setCapability("os", os);
+        cap.setCapability("os_version", os_version);
+        cap.setCapability("resolution", "1024x768");
+            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
+                    "@hub-cloud.browserstack.com/wd/hub"), cap);
+
+        return driver;
+    }
+*/
     @BeforeMethod
     public void setup() throws MalformedURLException {
         System.setProperty("webdriver.chrome.driver","/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
@@ -121,7 +158,7 @@ public class CommonClass{
     public void waitToBeVisible(String xpathLocator){
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathLocator)));
     }
-    public void setUpBrowserStack() throws MalformedURLException {
+    /*public void setUpBrowserStack() throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("browser","chrome");
         cap.setCapability("browser_version","68.0");
@@ -130,7 +167,7 @@ public class CommonClass{
         String browserStackUrl = "https://afiafarjana1:9Z5U2U9zmF6Uq6QUr9pi@hub-cloud.browserstack.com/wd/hub";
         URL serverUrl = new URL(browserStackUrl);
         driver = new RemoteWebDriver(serverUrl,cap);
-    }
+    }*/
     public static String convertToString(String st){
         String splitString ;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
