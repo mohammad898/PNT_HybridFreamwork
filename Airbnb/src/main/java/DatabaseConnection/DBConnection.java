@@ -8,9 +8,9 @@ public class DBConnection {
 	public static Connection getConnection() 
 	{
 		try {
-			String userName = "5530u37";
-            String password = "c711r33s";
-            String url = "jdbc:mysql://georgia.eng.utah.edu/5530db37";
+			String userName = "root";
+            String password = "0171";
+            String url = "jdbc:mysql://localhost:3306/nasir";
             Class.forName ("com.mysql.jdbc.Driver").newInstance ();
             System.out.println("Attempting to connect to database");
             Connection con = DriverManager.getConnection (url, userName, password);

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Feedback extends CommonClass {
 
-    @FindBy(xpath = "//a[@id='oo_tab']/img")
+    @FindBy(id="oo_tab")
     public WebElement feedbackTab;
    @FindBy(name = "OnlineOpinion1")
     public WebElement iframe;
@@ -17,9 +17,11 @@ public class Feedback extends CommonClass {
     @FindBy(xpath = "//div[@id='foot']/button")
     public static WebElement submitButton;
     public void switchToFrame(){
-        waitToBeVisible(feedbackTab);
         feedbackTab.click();
-        wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
+        driver.switchTo().frame("OnlineOpinion1");
+        waitToBeVisible(iframe);
+        driver.switchTo().frame("OnlineOpinion1");
+       // wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
     }
     public void clickVeryDissatisfied(){
         veryDissatisfied.click();
