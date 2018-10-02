@@ -1,13 +1,14 @@
 base/XlsDataReaderUtil.class
 base/ReusableAPI.class
 reporting/ExtentTestManager.class
+base/ReusableAPI$1.class
 reporting/TestLogger.class
 databases/ConnectToSqlDB.class
 base/CommonClass.class
 reporting/ExtentManager.class
 databases/ConnectToMongoDB.class
 databases/Student.class
-base/CollectionApi.class
+reporting/ApplicationLog.class
 databases/User.class
 base/Xls_Reader.class
 base/GoogleSheetReader.class

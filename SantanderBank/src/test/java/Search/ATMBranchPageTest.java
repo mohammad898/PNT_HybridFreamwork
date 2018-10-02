@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 public class ATMBranchPageTest extends ATMBranchPage {
     ATMBranchPageTest atmBranchPageTest;
     @BeforeMethod
@@ -13,7 +14,11 @@ public class ATMBranchPageTest extends ATMBranchPage {
         driver.get("https://locations.santanderbank.com/search.html");
     }
     @Test
-    public void TextInput_Test(){atmBranchPageTest.TextInput();}
-    @Test
-    public void BrowseByState_Test(){atmBranchPageTest.BrowseByState();}
+    public void TextInput_Test(){
+       // TestLogger.log(getClass().getSimpleName() + ": " +convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+                //.log(getClass().getSimpleName() + ": " +convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        atmBranchPageTest.TextInput();}
+//    @Test
+//    public void BrowseByState_Test(){atmBranchPageTest.BrowseByState();}
 }

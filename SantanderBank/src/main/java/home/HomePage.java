@@ -76,4 +76,5 @@ public class HomePage extends ReusableAPI {
     public void Terms_of_use_Header(){Terms_of_use_Header.click();}
     public void Privacy_policy_Header(){Privacy_policy_Header.click();}
     public void Contact_us_Header(){Contact_us_Header.click();}
+
 }

@@ -1,25 +1,12 @@
-<<<<<<< HEAD
 /Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/screenShot/testScreenShot.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/autoInsuranceTest/testGetQuotePopUp.java
 /Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/NavigationBar.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/popUp/testPopUp.java
 /Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/SearchTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/base/firstTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/base/BeforeNAfterMethods.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/DataDrivenTests/LoginTest.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/TestLoginGoogleSheets.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/TestLoginExcelSheet.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/FeedbackTest.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/testNavigationBar/InformationAndInsuranceHoverTest.java
+/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/testNavigationBar/NavigationBarTest.java
 /Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/DropDownTest.java
 /Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/InsuranceProductTest.java
-=======
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/SearchTest.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/NavigationBar.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/DataDrivenTests/LoginTest.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/DataDrivenTests/TestGoogleSheetsPage.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/popUp/testPopUp.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/DropDownTest.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/base/BeforeNAfterMethods.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/InsuranceProductTest.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/screenShot/testScreenShot.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/base/firstTest.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java
->>>>>>> 2dbd542a71b6d72000be0954252db5fa0fcc16d1

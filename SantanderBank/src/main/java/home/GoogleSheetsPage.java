@@ -52,7 +52,7 @@ public class GoogleSheetsPage extends ReusableAPI {
             System.out.println(getTextByWebElement(errorMsg));
             //clearInputBox(Textbox);
             clearInputBox(UserInput);
-            clearInputBox(PasswordInput)   ;
+            clearInputBox(PasswordInput);
             Thread.sleep(5000);}
         return actual;
     }

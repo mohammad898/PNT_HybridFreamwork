@@ -1,9 +1,10 @@
 package home;
 
-import base.CollectionApi;
+
 import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class ATMBranchPage extends ReusableAPI {
     //find elements for ATM/Branch location

@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34d90f65-a3f9-4ea9-8125-dd2b1c17dc9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RestAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAPI/src/test/java/jsonServer/PostDeletePutExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAPI/src/test/java/openWeather/GetRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/ConnectByMongoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/MongoDBElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/ConnectByMongoDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/Airbnb-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/Airbnb-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/DBConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/DatabaseConnection/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/FrontPage/SearchForPlaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/UsingGoogleAPI/GoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/UsingGoogleAPI/GoogleSheetsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/classes/util/breakdownMethodToSetUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/classes/util/breakdownMethodToSetUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/Airbnb API Automation Script/Search Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/Airbnb API Automation Script/Search Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/old/Airbnb API Automation Script/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airbnb/target/test-classes/ReadingGoogleAPI/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Airbnb/target/test-classes/ReadingGoogleAPI/TestGoogleSheetsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CUNY/target/CUNY-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CUNY/target/CUNY-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CUNY/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CUNY/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/Geico-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/ConnectToMongoDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/GoogleSheetClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/InformationAndInsuranceHover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/DataDrivenClass/XlsDataReaderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/cloudEnv/browserStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/DropDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/DropDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/InsuranceProducts.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/InsuranceProducts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/NavigationBarOptionMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/homePage/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/homePage/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/popUpHandle/getQuotePopUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/InformationAndInsuranceHoverTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/DataDrivenTests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/base/BeforeNAfterMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/base/firstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/firstTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/DropDownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/DropDownTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InsuranceProductTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/InsuranceProductTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/NavigationBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/homePage/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/homePage/SearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/popUp/testPopUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/screenShot/testScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/screenShot/testScreenShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/ReusableAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/XlsDataReaderUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/Xls_Reader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/HomeDepot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeDepot/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HomeDepot/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/SantanderBank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/SantanderBank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/BrowseByState_Test (09.26.2018-11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/DragDrop (09.26.2018-19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/DragDrop_Test (09.26.2018-16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/DragDrop_Test (09.26.2018-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/SantanderBankUni_Test (09.26.2018-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/WhoWeAre_Test (09.26.2018-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/signIn (09.25.2018-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/screenshots/signIn (09.26.2018-00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/GoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/GoogleSheetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/ATMBranchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/ATMBranchPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/ATMBranchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/ATMBranchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/BusinessTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/BusinessTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/CorporateTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/CorporateTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/home/PersonalTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/home/PersonalTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/Surefire suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.ATMBranchPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.AboutTextOptionPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.BusinessTextOptionPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.CorporateTextOptionPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.HomePageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.LoginPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.PageSearch_option_attempt_Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/junitreports/TEST-Search.PersonalTextOptionPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/old/Surefire suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/ATMBranchPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/ATMBranchPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/Search/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SantanderBank/home/ATMBranchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SantanderBank/home/ATMBranchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SantanderBank/home/BusinessTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SantanderBank/home/BusinessTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SantanderBank/home/CorporateTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SantanderBank/home/CorporateTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SantanderBank/home/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SantanderBank/home/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SantanderBank/home/PersonalTextOptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SantanderBank/home/PersonalTextOptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SantanderBank/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SantanderBank/SantanderBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SantanderBank/Search/ATMBranchPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/SantanderBank/Search/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SantanderBank/Search/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/Airbnb/target/" />
+    <ignored path="$PROJECT_DIR$/Geico/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/SantanderBank/target/" />
+    <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
+    <ignored path="$PROJECT_DIR$/RestAPI/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1349505766">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="2" />
+          <entry key="java" value="53" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="53" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="1372" />
+          <entry key="xml" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1372" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="51" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/jsonServer/PostDeletePutExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/openWeather/GetRequestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/GoogleSheetsPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/MongoDBElements.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/ConnectByMongoDB.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/ConnectByMongoDBTest.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/ATMBranchPageTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/src/main/java/openWeather/GetRequestTest.java" />
+        <option value="$PROJECT_DIR$/RestAPI/src/test/java/openWeather/GetRequestTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="697" />
+    <option name="y" value="23" />
+    <option name="width" value="730" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jsonServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openWeather" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538520658221" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RestAPI/src/test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+    <configuration name="ConnectByMongoDBTest.test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SantanderBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Search" />
+      <option name="MAIN_CLASS_NAME" value="Search.ConnectByMongoDBTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SantanderBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Search" />
+      <option name="MAIN_CLASS_NAME" value="Search.HomePageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SantanderBank" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG./Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.ConnectByMongoDBTest.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+        <item itemvalue="TestNG.ConnectByMongoDBTest.test1" />
+        <item itemvalue="TestNG.HomePageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34d90f65-a3f9-4ea9-8125-dd2b1c17dc9d" name="Default Changelist" comment="" />
+      <created>1538425397571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538425397571</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 18h 54m 42s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 18h 56m 09s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 21h 16m 29s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 21h 47m 38s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 21h 49m 07s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 21h 52m 00s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.01 at 22h 00m 55s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_URMI_Desktop_GroupBlueFrameWork_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2018.10.02 at 12h 42m 49s.xml">
+      <configuration name="/Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="697" y="23" width="730" height="823" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.50581396" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2825485" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32963988" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.22022161" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32963988" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.37811634" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32825485" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/TestGoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/util/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/GoogleSheetsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2831#2832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/AboutTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage_DragDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ConnectByMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/ConnectByMongoDBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/screenshots/ScreenShot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="208" column="5" lean-forward="true" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="103" selection-start-line="30" selection-start-column="103" selection-end-line="30" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/PageSearch_optional_attempt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/ATMBranchPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1538517770259" expanded="true" signature="841:922" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="106" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/MongoDBElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/jsonServer/PostDeletePutExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/openWeather/GetRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RestAPI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:3.1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

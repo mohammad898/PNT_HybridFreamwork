@@ -10,6 +10,7 @@
         <module name="Geico" />
         <module name="Generic" />
         <module name="HomeDepot" />
+        <module name="RestAPI" />
         <module name="SantanderBank" />
       </profile>
     </annotationProcessing>
