@@ -1,5 +1,6 @@
 package homePage;
 
+import base.CommonClass;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -57,10 +58,7 @@ public class InsuranceProductTest extends InsuranceProducts{
     @Test
     public void testMobileHomeInsurance()throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        String url = clickOnIconWithoutZipCode2(mobileHomeIcon);
-        url = breakString(url);
-        String actualUrl = "https://commercial.geico.com/Sales/(S(gitrpomgn30nz300sbxuzckq))/Quote/LandingPage.aspx?Zipcode=11435";
-        Assert.assertTrue(actualUrl.contains(url));
+        Assert.assertEquals("https://www.geico.com/mobile-home-insurance/",clickOnIconWithoutZipCode2(mobileHomeIcon));
     }
     /*@Test popup
     public void testFloodInsurance()throws InterruptedException{
@@ -69,7 +67,7 @@ public class InsuranceProductTest extends InsuranceProducts{
     @Test
     public void testCommercialAutoInsurance()throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Assert.assertEquals("https://commercial.geico.com/Sales/(S(qzn5nfzs4mdkszahrf11yxfv))/Quote/LandingPage.aspx?Zipcode=11435",clickOnIconwithZipCode2(commercialAutoIcon));
+        Assert.assertEquals("https://www.geico.com/mobile-home-insurance/",clickOnIconWithoutZipCode2(mobileHomeIcon));
     }
     /*@Test popup
     public void testGeneralLiabilityInsurance()throws InterruptedException{

@@ -45,7 +45,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os,@Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("https://www.santanderbank.com/us/personal") String url)throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "../Generic/DriversForBrowser/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -63,7 +63,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/DriversForBrowser/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
@@ -72,7 +72,7 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/URMI/Desktop/GroupBlueFrameWork/Generic/DriversForBrowser/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/DriversForBrowser/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
             }
