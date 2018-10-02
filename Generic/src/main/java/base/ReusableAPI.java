@@ -189,7 +189,6 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         Select select=new Select(element);
         select.selectByVisibleText(value);
     }
-<<<<<<< HEAD
     //add valuein web element
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
         webElement.sendKeys(value + Keys.ENTER);
@@ -207,11 +206,9 @@ public class ReusableAPI { //Remember this class is not reading from that TestRu
         return text;
     }
 
-=======
     public static String convertToString(String st){
         String splitString ;
         splitString = org.apache.commons.lang3.StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
->>>>>>> 2dbd542a71b6d72000be0954252db5fa0fcc16d1
 }

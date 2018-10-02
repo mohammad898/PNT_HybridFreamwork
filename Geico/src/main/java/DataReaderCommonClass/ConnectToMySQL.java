@@ -12,7 +12,7 @@ public class ConnectToMySQL {
 
         public static Connection connect = null;
         public static Statement statemeent = null;
-        public static PreparedStatement preStatemeent = null;
+        public static PreparedStatement ps = null;
         public static ResultSet rs = null;
 
         public static Properties LoadProperties() throws IOException {
@@ -24,8 +24,8 @@ public class ConnectToMySQL {
         }
         public static Connection connectToMySQL() throws Exception{
             Properties prop = LoadProperties();
-            String url = prop.getProperty("MYSQLJDBC.url");
             String driverClass = prop.getProperty("MYSQLJDBC.driver");
+            String url = prop.getProperty("MYSQLJDBC.url");
             String username = prop.getProperty("MYSQLJDBC.userName");
             String password = prop.getProperty("MYSQLJDBC.password");
             Class.forName(driverClass);
@@ -33,6 +33,23 @@ public class ConnectToMySQL {
             System.out.println("Database is connected");
             return connect;
         }
+        /*public void createTable (String tableName, String columnName) throws Exception{
+            try {
+                connectToMySQL();
+                String query1 = "drop table "+tableName;
+                ps = connect.prepareStatement(query1);
+                ps.executeUpdate();
+                String query2 = "create table "+tableName+"("+columnName+" varchar(100))";
+                ps = connect.prepareStatement(query2);
+                ps.executeUpdate();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        }*/
         public List<String> readData(String tableName, String columnName) {
             List<String> warning = new ArrayList<>();
             try{

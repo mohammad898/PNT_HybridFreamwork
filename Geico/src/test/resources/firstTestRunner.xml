@@ -11,7 +11,8 @@
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>
       <test name = "homePage Test">
-        <classes>
+          <classes>
+              <class name="homePage.FeedbackTest"/>
             <class name="homePage.DropDownTest"/>
             <class name="homePage.InsuranceProductTest"/>
             <class name ="testNavigationBar.NavigationBarTest" />
