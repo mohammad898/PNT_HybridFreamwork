@@ -1,24 +1,13 @@
-<<<<<<< HEAD
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/XlsDataReaderUtil.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/homePage/Search.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/cloudEnv/browserStack.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/homePage/NavigationBarOptionMethod.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/Login.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/homePage/DropDown.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/homePage/InsuranceProducts.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/main/java/popUpHandle/getQuotePopUp.java
-=======
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/InsuranceProducts.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/Login.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/Search.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/XlsDataReaderUtil.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/popUpHandle/getQuotePopUp.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataDrivenClass/GoogleSheetClass.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/navigationBar/InformationAndInsuranceHover.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataReaderCommonClass/ConnectToMongoDB.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/Feedback.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataReaderCommonClass/GoogleSheetClass.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/Login.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/DropDown.java
-/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/NavigationBarOptionMethod.java
->>>>>>> 2dbd542a71b6d72000be0954252db5fa0fcc16d1
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/navigationBar/NavigationBar.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/autoInsurancePackage/getQuotePopUp.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/InsuranceProducts.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/homePage/Search.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataReaderCommonClass/ConnectToMySQL.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/main/java/DataReaderCommonClass/XlsDataReaderUtil.java
