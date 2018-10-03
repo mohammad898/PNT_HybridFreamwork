@@ -20,9 +20,7 @@ public class InformationAndInsuranceHoverTest extends InformationAndInsuranceHov
     @Test
    public void testInformationMenuItems() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        List<String> spanText = ConnectToMongoDB.readFromMongoDB("infoMenu");
-        List<WebElement> element = getInformationMenuList();
-        System.out.println("\n\n\n");
+        compareInformation();
 
     }
 }

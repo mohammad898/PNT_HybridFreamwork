@@ -1,9 +1,11 @@
 package navigationBar;
 
+import DataReaderCommonClass.ConnectToMongoDB;
 import base.CommonClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 import reporting.TestLogger;
 
 import java.util.List;
@@ -31,5 +33,12 @@ public class InformationAndInsuranceHover extends CommonClass {
         information.click();
         List<WebElement> li = retToGetInformationMenuList(informationDivPath,infoMenuElementsPath);
         return  li;
+    }
+    public void compareInformation(){
+        List<String> actualText = ConnectToMongoDB.readFromMongoDB("infoMenu");
+        List<WebElement> expectedText = getInformationMenuList();
+        for(int i=0;i<6;i++){
+            Assert.assertEquals(actualText.get(i),expectedText.get(i).getText());
+        }
     }
 }
