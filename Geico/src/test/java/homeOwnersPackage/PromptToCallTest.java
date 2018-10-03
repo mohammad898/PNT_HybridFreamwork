@@ -12,9 +12,9 @@ public class PromptToCallTest extends PromptToCall{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         objePTC = PageFactory.initElements(driver,PromptToCall.class);
     }
-    /*@Test
+    @Test
     public void testNavigation(){
        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getErrorHeadline();
-    }*/
+    }
 }

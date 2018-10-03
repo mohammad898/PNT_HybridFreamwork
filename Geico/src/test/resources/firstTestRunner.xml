@@ -36,9 +36,13 @@
             <class name="screenShot.testScreenShot"/>
         </classes>
     </test>
-    <test name="homeOwners Insurance Test">
+    <test name="Insurance Test">
         <classes>
             <class name="homeOwnersPackage.CustomerInfoTest"/>
+            <class name="homeOwnersPackage.PromptToCall"/>
+            <class name="CondoInsuranceTest.CustomerInformationTest"/>
+            <class name="RentersInsuranceTest.PropertySalesTest"/>
+            <class name="RentersInsuranceTest.RentersPropertySalesTest"/>
         </classes>
     </test>
 </suite>
