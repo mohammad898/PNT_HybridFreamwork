@@ -12,7 +12,6 @@
         <module>Airbnb</module>
         <module>Geico</module>
         <module>HomeDepot</module>
-        <module>CUNY</module>
         <module>SantanderBank</module>
         <module>RestAPI</module>
     </modules>

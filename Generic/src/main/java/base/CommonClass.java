@@ -80,7 +80,7 @@ public class CommonClass{
        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.geico.com/");
 
-       // driver.manage().window().fullscreen();
+        driver.manage().window().fullscreen();
     }
 
     public static ExtentReports extent;

@@ -3,15 +3,22 @@
 
 <suite name="Geico API Automation Script " parallel="false">
 
+<<<<<<< HEAD
     <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Mac"/>
+=======
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+>>>>>>> fb6f6704fb1307df989b4453104f7e4a3b43b432
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="68.0"/>
     <parameter name="url" value="https://www.geico.com"/>
       <test name = "homePage Test">
-        <classes>
+          <classes>
+              <class name="homePage.FeedbackTest"/>
             <class name="homePage.DropDownTest"/>
             <class name="homePage.InsuranceProductTest"/>
             <class name ="testNavigationBar.NavigationBarTest" />
