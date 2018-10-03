@@ -23,6 +23,7 @@ homeOwnersPackage/CustomerInfoTest$2.class
 homeOwnersPackage/CustomerInfoTest$5.class
 testNavigationBar/NavigationBarTest$3.class
 homePage/InsuranceProductTest$10.class
+DataDrivenTests/LoginTest.class
 homePage/InsuranceProductTest.class
 homePage/InsuranceProductTest$9.class
 autoInsuranceTest/testGetQuotePopUp$2.class

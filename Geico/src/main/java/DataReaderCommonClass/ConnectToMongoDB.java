@@ -18,6 +18,7 @@ public class ConnectToMongoDB {
         System.out.println("Database Connected");
         return mongoDatabase;
     }
+
     public static String insertToMongoDB(WebElement element,String tableName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         String menu = element.getText();
@@ -28,6 +29,7 @@ public class ConnectToMongoDB {
         collection.insertOne(doc);
         return menu + " added.";
     }
+
     public static List<String> readFromMongoDB(String tableName){
         List<String> list = new ArrayList<>();
         //User user = new User();
