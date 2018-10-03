@@ -1,12 +1,13 @@
 home/BusinessTextOptionPage.class
 home/GoogleSheetsPage.class
 util/GoogleSheetReader.class
+home/HomePage.class
+home/HomePage_DragDrop.class
+home/MongoDBElements.class
+home/ConnectByMongoDB.class
 home/LoginPage.class
 home/PageSearch_optional_attempt.class
 home/PersonalTextOptionPage.class
 home/ATMBranchPage.class
-home/ATMBranchPage$1.class
 home/AboutTextOptionPage.class
 home/CorporateTextOptionPage.class
-home/HomePage.class
-home/HomePage_DragDrop.class

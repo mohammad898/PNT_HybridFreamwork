@@ -22,11 +22,8 @@
             <!--<class name="Search.PageSearch_option_attempt_Test"/>-->
             <!--&lt;!&ndash;<class name="Search.PersonalTextOptionPageTest"/>&ndash;&gt;-->
             <!--<class name="Search.TestGoogleSheetsPage"/>-->
-<<<<<<< HEAD
             <!--<class name="Search.Homepage_DragDropTest"/>-->
-=======
-            <class name="Search.Homepage_DragDropTest"/>
->>>>>>> fb6f6704fb1307df989b4453104f7e4a3b43b432
+            <!--<class name="Search.ConnectByMongoDBTest"/>-->
         </classes>
     </test>
 

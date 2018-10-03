@@ -5,6 +5,7 @@ Search/ATMBranchPageTest.class
 Search/CorporateTextOptionPageTest.class
 Search/TestGoogleSheetsPage.class
 Search/PersonalTextOptionPageTest.class
+Search/ConnectByMongoDBTest.class
 Search/BusinessTextOptionPageTest.class
 Search/HomePageTest.class
 Search/PageSearch_option_attempt_Test.class

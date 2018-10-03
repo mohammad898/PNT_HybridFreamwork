@@ -17,7 +17,7 @@ public class GetRequestTest {
     }
     @Test
     public void testResponseCity(){
-        Jso
+        //Jso
     }
 
 }
