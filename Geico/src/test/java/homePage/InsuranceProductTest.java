@@ -118,4 +118,36 @@ public class InsuranceProductTest extends InsuranceProducts{
     }
       /*@Test popUp
     public void testMexicoAutoInsurance() throws InterruptedException { }*/
+      @Test
+    public void testErrorMessage1(){
+         Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(homeOwnersInsuranceIcon));
+      }
+    @Test
+    public void testErrorMessage2(){
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(rentersInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage3(){
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(condoInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage4(){
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(motorCycleInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage5(){
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(boatInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage6()throws InterruptedException{
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode2(commercialAutoIcon));
+    }
+    @Test
+    public void testErrorMessage7()throws InterruptedException{
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode3(lifeInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage8()throws InterruptedException{
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode3(petInsuranceIcon));
+    }
 }
