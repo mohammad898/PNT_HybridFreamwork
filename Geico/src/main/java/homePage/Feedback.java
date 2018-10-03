@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import reporting.TestLogger;
 
 public class Feedback extends CommonClass {
 
@@ -17,7 +18,7 @@ public class Feedback extends CommonClass {
     @FindBy(xpath = "//div[@id='foot']/button")
     public static WebElement submitButton;
     public void switchToFrame(){
-
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         waitToBeVisible(feedbackTab);
         System.out.println(feedbackTab.getText());
         /*feedbackTab.click();
@@ -26,13 +27,16 @@ public class Feedback extends CommonClass {
        // wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(iframe));
     }
     public void clickVeryDissatisfied(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         veryDissatisfied.click();
     }
     public void clickSubmit(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         submitButton.click();
     }
     public void giveFeedback(){
 
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         switchToFrame();
         /*clickVeryDissatisfied();
         clickSubmit();

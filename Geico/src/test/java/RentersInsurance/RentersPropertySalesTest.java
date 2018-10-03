@@ -3,6 +3,7 @@ package RentersInsurance;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class RentersPropertySalesTest extends RentersPropertySales{
     @BeforeMethod
@@ -12,6 +13,7 @@ public class RentersPropertySalesTest extends RentersPropertySales{
     }
     @Test
     public void testMovingClick(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickOnMoving();
     }
 }

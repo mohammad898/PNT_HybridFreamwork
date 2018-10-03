@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import reporting.TestLogger;
 
 public class PromptToCall extends CommonClass {
     @FindBy(xpath = "//div[@id='home-get-a-quote']//h2")
@@ -13,9 +14,11 @@ public class PromptToCall extends CommonClass {
     WebElement firstPara;
 
     public void navigateTo(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.navigate().to("https://propertysales.geico.com/Error/PromptToCall");
     }
     public void getErrorHeadline(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         navigateTo();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("home-get-a-quote")));
        // System.out.println(errorHeadline.getText());
