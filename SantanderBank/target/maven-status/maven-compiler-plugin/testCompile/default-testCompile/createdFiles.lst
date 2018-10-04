@@ -8,8 +8,11 @@ Search/CorporateTextOptionPageTest.class
 Search/TestGoogleSheetsPage.class
 Search/PersonalTextOptionPageTest.class
 Search/ConnectByMongoDBTest.class
+<<<<<<< HEAD
 Search/LoginPageTest$1.class
 Search/KeyWordLoginTest.class
+=======
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
 Search/BusinessTextOptionPageTest.class
 Search/HomePageTest.class
 Search/PageSearch_option_attempt_Test.class

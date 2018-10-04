@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 /Users/URMI/Desktop/GroupBlueFrameWork/RestAPI/src/test/java/jsonServer/PostDeletePutExamples.java
 /Users/URMI/Desktop/GroupBlueFrameWork/RestAPI/src/test/java/openWeather/GetRequestTest.java
+=======
+/Users/afia/IdeaProjects/GroupBlueFrameWork/RestAPI/src/test/java/openWeather/GetRequestTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/RestAPI/src/test/java/jsonServer/PostDeletePutExamples.java
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc

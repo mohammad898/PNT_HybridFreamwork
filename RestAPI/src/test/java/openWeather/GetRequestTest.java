@@ -18,6 +18,7 @@ public class GetRequestTest {
     }
     @Test
     public void testResponseCity(){
+<<<<<<< HEAD
         JsonPath jsonPathEvaluator=get(url).jsonPath();
         String city=jsonPathEvaluator.get("name");
         Assert.assertEquals(city,"London");
@@ -27,6 +28,9 @@ public class GetRequestTest {
         JsonPath jsonPathEvaluator=get(url).jsonPath();
         int id=jsonPathEvaluator.get("id");
         Assert.assertEquals(id,2643743);
+=======
+        //Jso
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
     }
 
 }

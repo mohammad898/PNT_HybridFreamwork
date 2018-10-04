@@ -1,6 +1,5 @@
 package homeOwnersPackage;
 
-import DataReaderCommonClass.ConnectToMySQL;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -10,7 +9,6 @@ import reporting.TestLogger;
 import java.util.List;
 
 public class CustomerInfoTest extends CustomerInfo{
-    ConnectToMySQL connect = new ConnectToMySQL();
     CustomerInfo object;
     @BeforeMethod
     public void init() {
@@ -34,10 +32,7 @@ public class CustomerInfoTest extends CustomerInfo{
     @Test
     public void testWarning1() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        List<String> warningText = clickContinue1();
-        List<String> actualText = connect.readData("customerInfo1","warning");
-        for (int i=0; i<actualText.size();i++)
-            Assert.assertEquals(actualText.get(i),warningText.get(i));
+        compareWarningMessage();
     }
     @Test
     public void isDivOneVisible() throws InterruptedException {

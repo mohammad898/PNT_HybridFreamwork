@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="eab8abc6-d572-4b81-843d-1561a128b7c7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SantanderBank/Data/keywords.xls" afterDir="false" />
@@ -90,13 +91,27 @@
       <change beforePath="$PROJECT_DIR$/out/test/SantanderBank/Search/ConnectByMongoDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SantanderBank/Search/ConnectByMongoDBTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/SantanderBank/Search/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/SantanderBank/Search/HomePageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+    <list default="true" id="34d90f65-a3f9-4ea9-8125-dd2b1c17dc9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/src/main/java/navigationBar/InformationAndInsuranceHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/src/main/java/navigationBar/InformationAndInsuranceHover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/classes/autoInsurancePackage/AutoInsuranceCustomerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/classes/autoInsurancePackage/AutoInsuranceCustomerInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/target/test-classes/autoInsuranceTest/AutoInsuranceCustomerInfoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Geico/target/test-classes/autoInsuranceTest/AutoInsuranceCustomerInfoTest.class" afterDir="false" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Geico/target/" />
+<<<<<<< HEAD
     <ignored path="$PROJECT_DIR$/Airbnb/target/" />
     <ignored path="$PROJECT_DIR$/SantanderBank/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+=======
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/SantanderBank/target/" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
     <ignored path="$PROJECT_DIR$/HomeDepot/target/" />
     <ignored path="$PROJECT_DIR$/RestAPI/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,20 +146,75 @@
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
+<<<<<<< HEAD
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1146" />
           <entry key="xml" value="6" />
+=======
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1372" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="51" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="98477560">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="33" />
+          <entry key="java" value="5574" />
+          <entry key="json" value="2" />
+          <entry key="properties" value="14" />
+          <entry key="xml" value="58" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="JAVA" value="1146" />
           <entry key="XML" value="6" />
+=======
+          <entry key="JAVA" value="5574" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1141" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1141" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
         </counts>
       </usages-collector>
     </session>
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -188,22 +258,46 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+  <component name="FavoritesManager">
+    <favorites_list name="GroupBlueFrameWork" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/autoInsuranceTest/testGetQuotePopUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/navigationBar/InformationAndInsuranceHover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/testNavigationBar/InformationAndInsuranceHoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2190">
               <caret line="180" column="58" selection-start-line="180" selection-start-column="58" selection-end-line="180" selection-end-column="58" />
             </state>
@@ -215,6 +309,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+=======
+            <state relative-caret-position="270">
+              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,28 +321,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/autoInsurancePackage/getQuotePopUp.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="283">
               <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+=======
+            <state relative-caret-position="60">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="164">
               <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+=======
+        <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/TestLoginExcelSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+=======
+        <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </state>
           </provider>
         </entry>
@@ -264,6 +381,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" />
@@ -283,6 +401,59 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
+=======
+        <option value="$PROJECT_DIR$/Geico/src/secret.properties" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/FeedbackTest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/GoogleSheetReader.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/Search.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/cloudEnv/browserStack.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/popUp/testPopUp.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/popUpHandle/getQuotePopUp.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/XlsDataReaderUtil.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/testNavigationBar/LoginTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/RentersInsurance/ConversationWithVirtualAssisstant.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/RentersInsurance/ConversationOptionsTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/RentersInsurance/ConversationOptions.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/SearchTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homePage/Feedback.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/RentersInsurance/PropertySales.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/RentersInsurance/PropertySalesTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/RentersInsurance/RentersPropertySalesTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/RentersInsurance/RentersPropertySales.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/RentersInsuranceTest/PropertySales.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataReaderCommonClass/ConnectToMySQL.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/DataReaderCommonClass/ConnectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java" />
+        <option value="$PROJECT_DIR$/RestAPI/src/test/java/openWeather/GetRequestTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/CondoInsurance/CustomerInformation.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/CondoInsuranceTest/CustomerInformationTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/motorVehicle/MotorVehicleCustomerInfo.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/MotorVehicleTest/MotorVehicleCustomerInfoTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/testNavigationBar/InformationAndInsuranceHoverTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/PromptToCallTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/PromptToCall.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/autoInsurancePackage/AutoInsuranceCustomerInfo.java" />
+        <option value="$PROJECT_DIR$/Geico/src/test/java/autoInsuranceTest/AutoInsuranceCustomerInfoTest.java" />
+        <option value="$PROJECT_DIR$/Geico/src/main/java/navigationBar/InformationAndInsuranceHover.java" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       </list>
     </option>
   </component>
@@ -298,6 +469,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+<<<<<<< HEAD
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -307,11 +479,36 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+=======
+          <item name="Geico" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Geico" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+<<<<<<< HEAD
           <item name="SantanderBank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+=======
+          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="GroupBlueFrameWork" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
         </path>
       </expand>
       <select />
@@ -321,10 +518,16 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="501" />
     <option name="y" value="99" />
     <option name="width" value="1292" />
     <option name="height" value="814" />
+=======
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -333,7 +536,10 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="AndroidView" />
+=======
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,7 +550,16 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name=".credentials" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
@@ -356,18 +571,20 @@
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -375,7 +592,51 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autoInsurancePackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homeOwnersPackage" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="navigationBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -384,7 +645,11 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -393,69 +658,141 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autoInsuranceTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testNavigationBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+              <item name="Geico" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+            </path>
+            <path>
+              <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="HomeDepot" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openWeather" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="GroupBlueFrameWork" type="462c0819:PsiDirectoryNode" />
               <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -464,6 +801,8 @@
             <path>
               <item name="GroupBlueFrameWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
             </path>
           </expand>
           <select />
@@ -472,6 +811,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538624490468" />
   </component>
   <component name="RecentsManager">
@@ -480,6 +820,22 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SantanderBank/Data" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538614253212" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RestAPI/src/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Geico/src" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,6 +850,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.LoginPageTest.checkinput">
     <configuration name="AboutTextOptionPageTest.SantanderBankUni_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
@@ -506,6 +863,20 @@
       <option name="PACKAGE_NAME" value="Search" />
       <option name="MAIN_CLASS_NAME" value="Search.AboutTextOptionPageTest" />
       <option name="METHOD_NAME" value="SantanderBankUni_Test" />
+=======
+  <component name="RunManager" selected="TestNG.InformationAndInsuranceHoverTest.testInformationMenuItems">
+    <configuration name="AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="autoInsuranceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="autoInsuranceTest" />
+      <option name="MAIN_CLASS_NAME" value="autoInsuranceTest.AutoInsuranceCustomerInfoTest" />
+      <option name="METHOD_NAME" value="testFirstNameErrorMessage" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -513,6 +884,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AboutTextOptionPageTest.WhoWeAre_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
@@ -524,6 +896,19 @@
       <option name="PACKAGE_NAME" value="Search" />
       <option name="MAIN_CLASS_NAME" value="Search.AboutTextOptionPageTest" />
       <option name="METHOD_NAME" value="WhoWeAre_Test" />
+=======
+    <configuration name="InformationAndInsuranceHoverTest.testInformationMenuItems" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNavigationBar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNavigationBar" />
+      <option name="MAIN_CLASS_NAME" value="testNavigationBar.InformationAndInsuranceHoverTest" />
+      <option name="METHOD_NAME" value="testInformationMenuItems" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -531,6 +916,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="HomePageTest.Login_Test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
@@ -542,6 +928,19 @@
       <option name="PACKAGE_NAME" value="Search" />
       <option name="MAIN_CLASS_NAME" value="Search.HomePageTest" />
       <option name="METHOD_NAME" value="Login_Test" />
+=======
+    <configuration name="PromptToCallTest.testLinkToBackHome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeOwnersPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeOwnersPackage" />
+      <option name="MAIN_CLASS_NAME" value="homeOwnersPackage.PromptToCallTest" />
+      <option name="METHOD_NAME" value="testLinkToBackHome" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -549,6 +948,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="KeyWordLoginTest.testLoginByKeyword" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
@@ -560,6 +960,19 @@
       <option name="PACKAGE_NAME" value="Search" />
       <option name="MAIN_CLASS_NAME" value="Search.KeyWordLoginTest" />
       <option name="METHOD_NAME" value="testLoginByKeyword" />
+=======
+    <configuration name="PromptToCallTest.testPara3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeOwnersPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homeOwnersPackage" />
+      <option name="MAIN_CLASS_NAME" value="homeOwnersPackage.PromptToCallTest" />
+      <option name="METHOD_NAME" value="testPara3" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -567,6 +980,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="LoginPageTest.checkinput" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
@@ -579,6 +993,12 @@
       <option name="MAIN_CLASS_NAME" value="Search.LoginPageTest" />
       <option name="METHOD_NAME" value="checkinput" />
       <option name="TEST_OBJECT" value="METHOD" />
+=======
+    <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Geico" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       <properties />
       <listeners />
       <method v="2">
@@ -586,6 +1006,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="TestNG.KeyWordLoginTest.testLoginByKeyword" />
       <item itemvalue="TestNG.HomePageTest.Login_Test" />
       <item itemvalue="TestNG.LoginPageTest.checkinput" />
@@ -599,6 +1020,21 @@
         <item itemvalue="TestNG.AboutTextOptionPageTest.WhoWeAre_Test" />
         <item itemvalue="TestNG.KeyWordLoginTest.testLoginByKeyword" />
         <item itemvalue="TestNG.HomePageTest.Login_Test" />
+=======
+      <item itemvalue="TestNG.PromptToCallTest.testPara3" />
+      <item itemvalue="TestNG.PromptToCallTest.testLinkToBackHome" />
+      <item itemvalue="TestNG.AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" />
+      <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
+      <item itemvalue="TestNG.InformationAndInsuranceHoverTest.testInformationMenuItems" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.InformationAndInsuranceHoverTest.testInformationMenuItems" />
+        <item itemvalue="TestNG./Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" />
+        <item itemvalue="TestNG.AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" />
+        <item itemvalue="TestNG.PromptToCallTest.testLinkToBackHome" />
+        <item itemvalue="TestNG.PromptToCallTest.testPara3" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
       </list>
     </recent_temporary>
   </component>
@@ -607,15 +1043,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="eab8abc6-d572-4b81-843d-1561a128b7c7" name="Default Changelist" comment="" />
       <created>1538607376888</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538607376888</updated>
+=======
+      <changelist id="34d90f65-a3f9-4ea9-8125-dd2b1c17dc9d" name="Default Changelist" comment="" />
+      <created>1538085259911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538085259911</updated>
+      <workItem from="1537311360018" duration="230000" />
+      <workItem from="1537311594203" duration="209000" />
+      <workItem from="1537313181032" duration="3000" />
+      <workItem from="1537313509586" duration="43000" />
+      <workItem from="1537315081146" duration="19000" />
+      <workItem from="1537372151032" duration="965000" />
+      <workItem from="1537373256300" duration="1735000" />
+      <workItem from="1537375080523" duration="172000" />
+      <workItem from="1537375331991" duration="828000" />
+      <workItem from="1537376228407" duration="15000" />
+      <workItem from="1537401229463" duration="45000" />
+      <workItem from="1537423427513" duration="473000" />
+      <workItem from="1537463335647" duration="158000" />
+      <workItem from="1537488942405" duration="94000" />
+      <workItem from="1537490581355" duration="207000" />
+      <workItem from="1537495174617" duration="57000" />
+      <workItem from="1537509998143" duration="672000" />
+      <workItem from="1537585035074" duration="505000" />
+      <workItem from="1537586875200" duration="1727000" />
+      <workItem from="1537937198346" duration="839000" />
+      <workItem from="1537942554350" duration="323000" />
+      <workItem from="1537972764490" duration="1830000" />
+      <workItem from="1537978214067" duration="17000" />
+      <workItem from="1537980635546" duration="652000" />
+      <workItem from="1537981977165" duration="961000" />
+      <workItem from="1537983038555" duration="1227000" />
+      <workItem from="1537991621382" duration="260000" />
+      <workItem from="1538067924403" duration="53000" />
+      <workItem from="1538086941348" duration="1741000" />
+      <workItem from="1538088743230" duration="33000" />
+      <workItem from="1538088802747" duration="1519000" />
+      <workItem from="1538090669473" duration="768000" />
+      <workItem from="1538091495886" duration="906000" />
+      <workItem from="1538115279957" duration="447000" />
+      <workItem from="1538115823229" duration="528000" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="KeyWordLoginTest_testLoginByKeyword - 2018.10.03 at 22h 19m 49s.xml">
       <configuration name="KeyWordLoginTest.testLoginByKeyword" configurationId="TestNG" />
     </history-entry>
@@ -645,12 +1125,53 @@
     </history-entry>
     <history-entry file="KeyWordLoginTest_testLoginByKeyword - 2018.10.03 at 22h 50m 37s.xml">
       <configuration name="KeyWordLoginTest.testLoginByKeyword" configurationId="TestNG" />
+=======
+    <history-entry file="PromptToCallTest_testPara2 - 2018.10.03 at 16h 42m 34s.xml">
+      <configuration name="PromptToCallTest.testPara2" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PromptToCallTest_testPara2 - 2018.10.03 at 16h 44m 06s.xml">
+      <configuration name="PromptToCallTest.testPara2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PromptToCallTest_testPara3 - 2018.10.03 at 16h 48m 43s.xml">
+      <configuration name="PromptToCallTest.testPara3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PromptToCallTest_testPara3 - 2018.10.03 at 16h 50m 03s.xml">
+      <configuration name="PromptToCallTest.testPara3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PromptToCallTest_testLinkToBackHome - 2018.10.03 at 16h 53m 07s.xml">
+      <configuration name="PromptToCallTest.testLinkToBackHome" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PromptToCallTest_testLinkToBackHome - 2018.10.03 at 16h 53m 09s.xml">
+      <configuration name="PromptToCallTest.testLinkToBackHome" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AutoInsuranceCustomerInfoTest_testFirstNameErrorMessage - 2018.10.03 at 17h 07m 22s.xml">
+      <configuration name="AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AutoInsuranceCustomerInfoTest_testFirstNameErrorMessage - 2018.10.03 at 17h 08m 01s.xml">
+      <configuration name="AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AutoInsuranceCustomerInfoTest_testFirstNameErrorMessage - 2018.10.03 at 17h 08m 57s.xml">
+      <configuration name="AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AutoInsuranceCustomerInfoTest_testFirstNameErrorMessage - 2018.10.03 at 17h 10m 26s.xml">
+      <configuration name="AutoInsuranceCustomerInfoTest.testFirstNameErrorMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_afia_IdeaProjects_GroupBlueFrameWork_Geico_src_test_resources_firstTestRunner_xml - 2018.10.03 at 18h 00m 20s.xml">
+      <configuration name="/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/resources/firstTestRunner.xml" configurationId="TestNG" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+    </history-entry>
+    <history-entry file="InformationAndInsuranceHoverTest_testInformationMenuItems - 2018.10.03 at 19h 49m 08s.xml">
+      <configuration name="InformationAndInsuranceHoverTest.testInformationMenuItems" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="501" y="99" width="1292" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -679,11 +1200,78 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.3296" />
     </layout>
+=======
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20243205" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.18192771" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.0939759" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.15796179" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" visible="true" weight="0.14306152" />
+      <window_info anchor="right" id="Ant Build" order="5" visible="true" weight="0.15236051" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.102288984" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.01656051" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15159236" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/Xls_Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1342">
@@ -771,16 +1359,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/jsonServer/PostDeletePutExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/HomePage_DragDrop.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/ReusableAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/ConnectToMongoDB.java" />
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataDrivenClass/InformationAndInsuranceHover.java" />
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/DataDrivenTests/InformationAndInsuranceHoverTest.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="1809" column="14" selection-start-line="1809" selection-start-column="14" selection-end-line="1809" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/testNavigationBar/LoginTest.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/FeedbackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/DropDownTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/screenShot/testScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/testNavigationBar/NavigationBarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/InsuranceProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/RentersInsuranceTest/PropertySalesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/RentersInsuranceTest/RentersPropertySales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/RentersInsuranceTest/RentersPropertySalesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/MongoDBElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -841,11 +1517,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+=======
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/RentersInsuranceTest/PropertySales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="39" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataReaderCommonClass/ConnectToMySQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/openWeather/GetRequestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/BusinessTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/CorporateTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/PersonalTextOptionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/ATMBranchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataReaderCommonClass/GoogleSheetClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/DataReaderCommonClass/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/home/KeyWordLogin.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="120">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
@@ -858,6 +1610,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+=======
+        <state relative-caret-position="900">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/resources/firstTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/TestLoginGoogleSheets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/CondoInsurance/CustomerInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
@@ -866,6 +1643,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/SantanderBank/screenshots/ScreenShot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -932,11 +1710,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+=======
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/DropDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/Search.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/InsuranceProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/MotorVehicleTest/MotorVehicleCustomerInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/motorVehicle/MotorVehicleCustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/CustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homeOwnersPackage/PromptToCallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="164">
           <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
         </state>
@@ -946,26 +1797,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+=======
+        <state relative-caret-position="135">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/autoInsuranceTest/AutoInsuranceCustomerInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/autoInsurancePackage/AutoInsuranceCustomerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+=======
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/autoInsurancePackage/getQuotePopUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/homePage/TestLoginExcelSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homePage/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/homeOwnersPackage/PromptToCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/Search/LoginPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+=======
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/CondoInsuranceTest/CustomerInformationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/autoInsuranceTest/testGetQuotePopUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/test/java/testNavigationBar/InformationAndInsuranceHoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geico/src/main/java/navigationBar/InformationAndInsuranceHover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -973,4 +1943,84 @@
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RestAPI</last-edited>
+          <last-edited>Geico</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:3.1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
 </project>

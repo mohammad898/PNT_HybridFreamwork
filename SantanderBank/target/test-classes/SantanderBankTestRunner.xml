@@ -24,7 +24,10 @@
             <!--<class name="Search.TestGoogleSheetsPage"/>-->
             <!--<class name="Search.Homepage_DragDropTest"/>-->
             <!--<class name="Search.ConnectByMongoDBTest"/>-->
+<<<<<<< HEAD
             <class name="Search.KeyWordLoginTest"/>
+=======
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
         </classes>
     </test>
 

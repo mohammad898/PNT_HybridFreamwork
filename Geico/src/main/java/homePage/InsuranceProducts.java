@@ -2,6 +2,7 @@ package homePage;
 
 import base.CommonClass;
 import base.ReusableAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -70,6 +71,29 @@ public class InsuranceProducts extends CommonClass {
     @FindBy(css = "#mexicoAuto>.circle>.icon.icon-vehicle")
     public static WebElement mexicoAutoIcon;
 
+    public String clickWithoutGivingZipCode(WebElement element){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        element.click();
+        submitButton.click();
+        WebElement errorMessage = driver.findElement(By.id("aria-homepage-zip-alert"));
+        return errorMessage.getText();
+    }
+    public String clickWithoutGivingZipCode2(WebElement element) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goRight();
+        element.click();
+        submitButton.click();
+        WebElement errorMessage = driver.findElement(By.id("aria-homepage-zip-alert"));
+        return errorMessage.getText();
+    }
+    public String clickWithoutGivingZipCode3(WebElement element) throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        goDoubleRight();
+        element.click();
+        submitButton.click();
+        WebElement errorMessage = driver.findElement(By.id("aria-homepage-zip-alert"));
+        return errorMessage.getText();
+    }
     public String clickOnIconwithZipCode(WebElement element) throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         element.click();

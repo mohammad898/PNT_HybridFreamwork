@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java
 /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/java/Search/TestGoogleSheetsPage.java
 /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/java/Search/PersonalTextOptionPageTest.java
@@ -10,3 +11,16 @@
 /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/java/Search/CorporateTextOptionPageTest.java
 /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/java/Search/KeyWordLoginTest.java
 /Users/URMI/Desktop/GroupBlueFrameWork/SantanderBank/src/test/java/Search/Homepage_DragDropTest.java
+=======
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/TestGoogleSheetsPage.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/ConnectByMongoDBTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/Homepage_DragDropTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/PersonalTextOptionPageTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/BusinessTextOptionPageTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/PageSearch_option_attempt_Test.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/AboutTextOptionPageTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/ATMBranchPageTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/CorporateTextOptionPageTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/HomePageTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/SantanderBank/src/test/java/Search/LoginPageTest.java
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc

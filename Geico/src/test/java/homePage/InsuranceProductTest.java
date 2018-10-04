@@ -118,4 +118,44 @@ public class InsuranceProductTest extends InsuranceProducts{
     }
       /*@Test popUp
     public void testMexicoAutoInsurance() throws InterruptedException { }*/
+      @Test
+    public void testErrorMessage1(){
+          TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+          Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(homeOwnersInsuranceIcon));
+      }
+    @Test
+    public void testErrorMessage2(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(rentersInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage3(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(condoInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage4(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(motorCycleInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage5(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode(boatInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage6()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode2(commercialAutoIcon));
+    }
+    @Test
+    public void testErrorMessage7()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode3(lifeInsuranceIcon));
+    }
+    @Test
+    public void testErrorMessage8()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        Assert.assertEquals("Please enter a valid ZIP Code.",clickWithoutGivingZipCode3(petInsuranceIcon));
+    }
 }

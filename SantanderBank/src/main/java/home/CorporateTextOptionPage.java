@@ -1,8 +1,11 @@
 package home;
 
 
+<<<<<<< HEAD
 //import base.CollectionApi;
 
+=======
+>>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
 import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
