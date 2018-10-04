@@ -1,23 +1,8 @@
-<<<<<<< HEAD
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/databases/User.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/databases/ConnectToSqlDB.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/ReusableAPI.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/utility/DataReader.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/GoogleSheetReader.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/Xls_Reader.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/reporting/ExtentTestManager.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/databases/ConnectToMongoDB.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/databases/Student.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/reporting/ApplicationLog.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/reporting/TestLogger.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/XlsDataReaderUtil.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/base/CommonClass.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Generic/src/main/java/reporting/ExtentManager.java
-=======
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/databases/User.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/base/XlsDataReaderUtil.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/databases/ConnectToMongoDB.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/reporting/ExtentTestManager.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/utility/DataReader.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/databases/Student.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/base/ReusableAPI.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/reporting/TestLogger.java
@@ -27,4 +12,3 @@
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/base/GoogleSheetReader.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/reporting/ApplicationLog.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Generic/src/main/java/reporting/ExtentManager.java
->>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc

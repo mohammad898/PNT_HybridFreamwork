@@ -4,6 +4,7 @@ testNavigationBar/InformationAndInsuranceHoverTest.class
 RentersInsuranceTest/PropertySalesTest$1.class
 homePage/TestLoginGoogleSheets.class
 homeOwnersPackage/CustomerInfoTest$7.class
+autoInsuranceTest/AutoInsuranceCustomerInfoTest.class
 testNavigationBar/InformationAndInsuranceHoverTest$1.class
 homePage/InsuranceProductTest$15.class
 RentersInsuranceTest/PropertySalesTest.class
@@ -34,6 +35,7 @@ homePage/InsuranceProductTest$23.class
 CondoInsuranceTest/CustomerInformationTest.class
 testNavigationBar/NavigationBarTest$3.class
 homePage/InsuranceProductTest$10.class
+MotorVehicleTest/MotorVehicleCustomerInfoTest.class
 homePage/InsuranceProductTest$20.class
 homePage/InsuranceProductTest.class
 homePage/InsuranceProductTest$9.class
@@ -63,6 +65,7 @@ testNavigationBar/NavigationBarTest$1.class
 homePage/InsuranceProductTest$13.class
 homePage/InsuranceProductTest$1.class
 homePage/DropDownTest.class
+homeOwnersPackage/PromptToCallTest$2.class
 homePage/SearchTest$2.class
 homePage/InsuranceProductTest$7.class
 RentersInsuranceTest/PropertySalesTest$5.class

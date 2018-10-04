@@ -51,6 +51,7 @@ navigationBar/InformationAndInsuranceHover.class
 RentersInsuranceTest/PropertySales$2.class
 homeOwnersPackage/CustomerInfo.class
 homePage/Feedback$3.class
+autoInsurancePackage/AutoInsuranceCustomerInfo.class
 navigationBar/NavigationBar$1.class
 homePage/Login$2.class
 homePage/Login$1.class
@@ -73,4 +74,6 @@ RentersInsuranceTest/PropertySales$1.class
 DataReaderCommonClass/GoogleSheetClass$3.class
 homePage/InsuranceProducts$1.class
 homePage/InsuranceProducts$8.class
+motorVehicle/MotorVehicleCustomerInfo.class
+homeOwnersPackage/PromptToCall$3.class
 RentersInsuranceTest/PropertySales$4.class

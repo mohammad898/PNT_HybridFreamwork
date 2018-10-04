@@ -60,13 +60,12 @@
             <artifactId>json-simple</artifactId>
         </dependency>
         <dependency>
-<<<<<<< HEAD
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-=======
+        </dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
->>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc
         </dependency>
     </dependencies>
 </project>

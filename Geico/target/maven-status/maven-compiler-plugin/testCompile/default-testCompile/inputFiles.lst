@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/screenShot/testScreenShot.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/autoInsuranceTest/testGetQuotePopUp.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/SearchTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/TestLoginGoogleSheets.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/TestLoginExcelSheet.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/FeedbackTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/testNavigationBar/InformationAndInsuranceHoverTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/testNavigationBar/NavigationBarTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/DropDownTest.java
-/Users/URMI/Desktop/GroupBlueFrameWork/Geico/src/test/java/homePage/InsuranceProductTest.java
-=======
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/RentersInsuranceTest/RentersPropertySalesTest.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/autoInsuranceTest/testGetQuotePopUp.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homeOwnersPackage/CustomerInfoTest.java
@@ -22,8 +9,9 @@
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/testNavigationBar/NavigationBarTest.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/SearchTest.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/FeedbackTest.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/MotorVehicleTest/MotorVehicleCustomerInfoTest.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/TestLoginExcelSheet.java
+/Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/autoInsuranceTest/AutoInsuranceCustomerInfoTest.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homePage/TestLoginGoogleSheets.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/homeOwnersPackage/PromptToCallTest.java
 /Users/afia/IdeaProjects/GroupBlueFrameWork/Geico/src/test/java/CondoInsuranceTest/CustomerInformationTest.java
->>>>>>> da037efda82f7e8b723ed7b497116fb4eb9d31cc

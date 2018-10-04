@@ -12,5 +12,4 @@ reporting/ApplicationLog.class
 utility/DataReader.class
 databases/User.class
 base/Xls_Reader.class
-reporting/TestLogger$1.class
 base/GoogleSheetReader.class
