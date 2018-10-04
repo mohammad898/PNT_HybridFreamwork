@@ -21,15 +21,10 @@
     </test>
     <test name="DataDriven Test">
   <classes>
-      <class name="testNavigationBar.InformationAndInsuranceHoverTest"/>
+      <class name="testNavigationBar.NavFirstClickMenuTest"/>
       <class name="homePage.TestLoginExcelSheet"/>
       <class name="homePage.TestLoginGoogleSheets"/>
   </classes>
-    </test>
-   <test name="popUp test">
-        <classes>
-            <class name="autoInsuranceTest.testGetQuotePopUp"/>
-        </classes>
     </test>
     <test name ="screenShot test">
         <classes>
@@ -38,11 +33,14 @@
     </test>
     <test name="Insurance Test">
         <classes>
+            <class name="autoInsurancePackage.AutoInsuranceCustomerInfo"/>
+            <class name="autoInsurancePackage.getQuotePopUp"/>
             <class name="homeOwnersPackage.CustomerInfoTest"/>
             <class name="homeOwnersPackage.PromptToCall"/>
             <class name="CondoInsuranceTest.CustomerInformationTest"/>
             <class name="RentersInsuranceTest.PropertySalesTest"/>
             <class name="RentersInsuranceTest.RentersPropertySalesTest"/>
+            <class name="MotorVehicleTest.MotorVehicleCustomerInfoTest"/>
         </classes>
     </test>
 </suite>

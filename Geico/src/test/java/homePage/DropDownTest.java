@@ -14,11 +14,9 @@ public class DropDownTest extends DropDown{
         object = PageFactory.initElements(driver,DropDown.class);
     }
     @Test
-    public void testDropDownList(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-         List<String> actualText = getDropDownList();
-       // List<String> expectedText = ConnectToMongoDB.readFromMongoDB("dropDown");
-        for(String st: actualText)
-            System.out.println(st);
+    public void testDropDownList() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        compareDropDownData();
     }
 }

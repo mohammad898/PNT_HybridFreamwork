@@ -19,18 +19,18 @@ public class ConnectToMongoDB {
         return mongoDatabase;
     }
 
-    public static String insertToMongoDB(WebElement element,String tableName){
+    public static String insertToMongoDB(String tableName,String columnName, WebElement element){
         MongoDatabase mongoDatabase = connectToMongoDB();
         String menu = element.getText();
         MongoCollection<Document>  collection = mongoDatabase.getCollection(tableName);
         //table names: infoMenu
         //using getCollection(String s) method.
-        Document doc = new Document().append("menuList",menu);
+        Document doc = new Document().append(columnName,menu);
         collection.insertOne(doc);
         return menu + " added.";
     }
 
-    public static List<String> readFromMongoDB(String tableName){
+    public static List<String> readFromMongoDB(String tableName,String columnName){
         List<String> list = new ArrayList<>();
         //User user = new User();
         MongoDatabase mongoDatabase = connectToMongoDB();
@@ -39,9 +39,9 @@ public class ConnectToMongoDB {
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = collection.find(basicDBObject);
         for(Document doc:iterable){
-            String id = "";
-            int idInt = 0;
-            String spanText = (String) doc.get("menuList");
+           /* String id = "";
+            int idInt = 0;*/
+            String spanText = (String) doc.get(columnName);
             list.add(spanText);
         }
         return list;
