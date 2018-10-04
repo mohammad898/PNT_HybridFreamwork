@@ -18,10 +18,6 @@ public class getQuotePopUp extends CommonClass {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         driver.navigate().to("https://auto-buy.geico.com/nb#/sale/customerinformation/gskmsi");
     }
-    public void waitToBeVisible(WebElement element){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        wait.until(ExpectedConditions.visibilityOf(element));
-    }
     public void getQuote(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         navigate();
