@@ -14,7 +14,7 @@
     <test name = "search Test">
         <classes>
             <!--<class name="Search.AboutTextOptionPageTest"/>-->
-            <class name="Search.ATMBranchPageTest"/>
+            <!--<class name="Search.ATMBranchPageTest"/>-->
             <!--<class name="Search.BusinessTextOptionPageTest"/>-->
             <!--<class name="Search.CorporateTextOptionPageTest"/>-->
             <!--<class name="Search.HomePageTest"/>-->
@@ -22,11 +22,9 @@
             <!--<class name="Search.PageSearch_option_attempt_Test"/>-->
             <!--&lt;!&ndash;<class name="Search.PersonalTextOptionPageTest"/>&ndash;&gt;-->
             <!--<class name="Search.TestGoogleSheetsPage"/>-->
-<<<<<<< HEAD
             <!--<class name="Search.Homepage_DragDropTest"/>-->
-=======
-            <class name="Search.Homepage_DragDropTest"/>
->>>>>>> fb6f6704fb1307df989b4453104f7e4a3b43b432
+            <!--<class name="Search.ConnectByMongoDBTest"/>-->
+            <class name="Search.KeyWordLoginTest"/>
         </classes>
     </test>
 

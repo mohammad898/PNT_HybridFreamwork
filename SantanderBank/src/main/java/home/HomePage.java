@@ -23,8 +23,8 @@ public class HomePage extends ReusableAPI {
     public static WebElement Search_input;
     @FindBy(xpath = "//*[@id=\"_P001_Header_WAR_P001_Headerportlet_searchButton\"]")
     public static WebElement Search_button;
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/span")
-    public static WebElement Login;
+    @FindBy(xpath = "//span[contains(text(),'Login')]")
+    public static WebElement login1;
     @FindBy(xpath = "//*[@id=\"_P049_Informations_Cluster_Grouper_WAR_P049_Informations_Clusterportlet_INSTANCE_4KcVbMQeZ1mG__VIEW\"]/div/div/nav/ul/li[1]/a")
     public static WebElement ULT_cash_back_creditcard_grouplink;
     @FindBy(xpath = "//*[@id=\"_P049_Informations_Cluster_Grouper_WAR_P049_Informations_Clusterportlet_INSTANCE_4KcVbMQeZ1mG__VIEW\"]/div/div/nav/ul/li[2]/a")
@@ -62,7 +62,7 @@ public class HomePage extends ReusableAPI {
     public void Corporate_Textoption(){Corporate_Textoption.click();}
     public void About_Textoption(){About_Textoption.click();}
     public void ATM_BranchLocation(){ATM_BranchLocation.click();}
-    public void Login(){Login.click();}
+    public void login(){login1.click();}
     public void ULT_cash_back_creditcard_grouplink(){ULT_cash_back_creditcard_grouplink.click();}
     public void STU_VALUE_CHEK(){STU_VALUE_CHEK.click();}
     public void DIGI_BANKING(){DIGI_BANKING.click();}

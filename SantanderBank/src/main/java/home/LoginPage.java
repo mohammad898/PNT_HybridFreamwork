@@ -21,11 +21,11 @@ public class LoginPage extends ReusableAPI {
     public static WebElement Close;
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/span")
     public static WebElement LoginPage;
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet_entrada.alias\"]")
+    @FindBy(xpath = "//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.alias']")
     public static WebElement UserInput;
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet_loginButton\"]")
+    @FindBy(xpath = "//button[@id='_P002_Menu_WAR_P002_Menuportlet_loginButtonTM']")
     public static WebElement LoginButton;
-    @FindBy(xpath = "//*[@id=\"entrada.pwd\"]")
+    @FindBy(xpath = "//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.pwd']")
     public static WebElement PasswordInput;
     @FindBy(xpath = "//*[@id=\"btnSubmit\"]/span")
     public static WebElement LoginButton2;
@@ -46,6 +46,10 @@ public class LoginPage extends ReusableAPI {
     public static WebElement selectbox;
     @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_btnAlternativeUrl")
     public static WebElement ok;
+    @FindBy(xpath = "//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.pwd']")
+    public static WebElement PassWordInput;
+    @FindBy(xpath = "//span[contains(text(),'Login')]")
+    public static WebElement login1;
 
     //**************  Read XL file by Data Provider   **********************
    @DataProvider
@@ -75,6 +79,13 @@ public class LoginPage extends ReusableAPI {
         ForgetId.click();
         Cancel.click();
         Yes.click();
+    }
+    //**************** Purpose For keyword login *********************
+    public void checkLoginFuction(){
+       UserInput.sendKeys("nasirvi@yahoo.com");
+       PassWordInput.sendKeys("1234");
+       LoginButton.click();
+
     }
 }
 

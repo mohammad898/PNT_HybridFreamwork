@@ -3,6 +3,7 @@ import base.ReusableAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class AboutTextOptionPage extends ReusableAPI {
     //find elements for Who We Are hover option
@@ -21,12 +22,14 @@ public class AboutTextOptionPage extends ReusableAPI {
     public static WebElement UniversityTestimonial;
     //define methods for above elements
     public void WhoWeAre(){
+        //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions actions=new Actions(driver);
         actions.moveToElement(WhoWeAre).perform();
         actions.moveToElement(SantanderBank).perform();
         actions.moveToElement(Cummunity).click().perform();
     }
     public void SantanderBankUni(){
+        //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         Actions actions=new Actions(driver);
         actions.moveToElement(SantanderBankUni).perform();
         actions.moveToElement(ProgramOverView).perform();
