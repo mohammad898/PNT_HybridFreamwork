@@ -38,6 +38,7 @@ public class InformationAndInsuranceHover extends CommonClass {
         List<String> actualText = ConnectToMongoDB.readFromMongoDB("infoMenu");
         List<WebElement> expectedText = getInformationMenuList();
         for(int i=0;i<6;i++){
+            System.out.println(actualText.get(i));
             Assert.assertEquals(actualText.get(i),expectedText.get(i).getText());
         }
     }
